@@ -2,6 +2,9 @@ package br.ufba.activityrecognition.core.weka;
 
 import java.io.Serializable;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class DataActivityModel implements Serializable{
 	
 	private static final long serialVersionUID = -4275680271853705080L;

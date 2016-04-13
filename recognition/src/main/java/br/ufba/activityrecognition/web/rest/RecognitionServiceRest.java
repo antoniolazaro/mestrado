@@ -9,6 +9,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 import br.ufba.activityrecognition.business.evaluator.EvaluatorAb;
 import br.ufba.activityrecognition.business.evaluator.EvaluatorJ48;
@@ -17,21 +18,17 @@ import br.ufba.activityrecognition.business.evaluator.EvaluatorSVM;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
 
-@Path("/recognition")
+@Path("/rest")
 public class RecognitionServiceRest {
-
-	private ResponseRecognitionModel responseRecognitionModel;
-	
-	public RecognitionServiceRest() {
-		this.responseRecognitionModel = new ResponseRecognitionModel();
-	}
-			
+		
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
-	public ResponseRecognitionModel askRecognition(@FormParam("activitiesList")List<DataActivityModel> listaActivities){
+	@Path(value="/all")
+	public Response askRecognition(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
+		
 		try{
-			
+			ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();	
 			StringBuilder retornoFinal = new StringBuilder();
 			
 			System.out.println("Iniciando configuracao para avaliacao no algoritimo J48 "+new Date());
@@ -53,11 +50,59 @@ public class RecognitionServiceRest {
 			retornoFinal.append(responseRecognitionModel.getMensagem()).append("\n\n");
 			
 			responseRecognitionModel.setMensagem(retornoFinal.toString());
+			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
 		}catch(Exception ex){
-			responseRecognitionModel.setCodigoRetorno(-1);
-			responseRecognitionModel.setMensagem("Erro -> "+ex.getMessage());
+			return Response.status(500).entity(ex.getMessage()).build();
 		}
-		return responseRecognitionModel;
+		
+	}
+	
+	protected ResponseRecognitionModel callEvaluator(List<DataActivityModel> listaActivities,EvaluatorAb evaluator) throws Exception{
+		System.out.println("Iniciando avaliacao no algoritimo "+ evaluator.getClass()+" "+new Date());
+		return evaluator.evaluate(listaActivities);
+	}
+	
+	
+	@POST
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Path(value="/j48")
+	public Response askRecognitionJ48(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
+		try{
+			ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();
+			responseRecognitionModel = callEvaluator(listaActivities,new EvaluatorJ48());
+			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
+		}catch(Exception ex){
+			return Response.status(500).entity(ex.getMessage()).build();
+		}
+	}
+
+	@POST
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Path(value="/knn")
+	public Response askRecognitionKNN(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
+		try{
+			ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();
+			responseRecognitionModel = callEvaluator(listaActivities,new EvaluatorKNN());
+			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
+		}catch(Exception ex){
+			return Response.status(500).entity(ex.getMessage()).build();
+		}
+	}
+	
+	@POST
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Path(value="/svm")
+	public Response askRecognitionSVM(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
+		try{
+			ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();
+			responseRecognitionModel = callEvaluator(listaActivities,new EvaluatorSVM());
+			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
+		}catch(Exception ex){
+			return Response.status(500).entity(ex.getMessage()).build();
+		}
 	}
 
 }
