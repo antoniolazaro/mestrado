@@ -1,4 +1,4 @@
-package br.ufba.activityrecognition.business;
+package br.ufba.activityrecognition.business.codetest;
 
 import java.util.List;
 
@@ -38,7 +38,7 @@ public class DistributionCalculator {
 		this.jsonToArffParser = new JsonToArffParser();
 	}
 	
-	public double[] distributionForInstance(Instance instance) throws Exception{
+	private double[] distributionForInstance(Instance instance) throws Exception{
 		
 		classifier.classifyInstance(instance);
 		return classifier.distributionForInstance(instance);

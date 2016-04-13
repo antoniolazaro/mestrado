@@ -1,4 +1,4 @@
-package br.ufba.activityrecognition.business;
+package br.ufba.activityrecognition.business.codetest;
 
 import weka.classifiers.AbstractClassifier;
 import weka.core.Capabilities;

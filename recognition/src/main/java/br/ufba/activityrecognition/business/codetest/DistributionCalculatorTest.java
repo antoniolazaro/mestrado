@@ -1,4 +1,4 @@
-package br.ufba.activityrecognition.business;
+package br.ufba.activityrecognition.business.codetest;
 
 import br.ufba.activityrecognition.business.parser.XlsxToArffParser;
 import weka.classifiers.Classifier;

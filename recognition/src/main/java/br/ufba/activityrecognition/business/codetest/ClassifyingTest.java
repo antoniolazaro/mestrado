@@ -1,14 +1,11 @@
-package br.ufba.activityrecognition.business;
+package br.ufba.activityrecognition.business.codetest;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.util.List;
 
 import br.ufba.activityrecognition.business.parser.XlsxToArffParser;
-import br.ufba.activityrecognition.core.weka.DataActivityModel;
-import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.J48;

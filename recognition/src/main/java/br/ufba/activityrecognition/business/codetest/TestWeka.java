@@ -1,4 +1,4 @@
-package br.ufba.activityrecognition.business;
+package br.ufba.activityrecognition.business.codetest;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileOutputStream;
