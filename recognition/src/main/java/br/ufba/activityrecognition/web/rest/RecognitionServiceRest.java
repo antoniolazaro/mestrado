@@ -28,38 +28,32 @@ public class RecognitionServiceRest {
 	public Response askRecognition(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
 		
 		try{
-			ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();	
 			StringBuilder retornoFinal = new StringBuilder();
 			
-			System.out.println("Iniciando configuracao para avaliacao no algoritimo J48 "+new Date());
-			EvaluatorAb evaluator = new EvaluatorJ48();
-			System.out.println("Iniciando avaliacao no algoritimo J48 "+new Date());
-			responseRecognitionModel = evaluator.evaluate(listaActivities);
-			retornoFinal.append(responseRecognitionModel.getMensagem()).append("\n\n");
+			Response response = callEvaluator(listaActivities, new EvaluatorJ48());
+			retornoFinal.append(response.getEntity().toString()).append("\n\n");
 			
-			System.out.println("Iniciando configuracao para avaliacao no algoritimo KNN "+new Date()); 
-			evaluator = new EvaluatorKNN();
-			System.out.println("Iniciando avaliacao no algoritimo KNN "+new Date());
-			responseRecognitionModel = evaluator.evaluate(listaActivities);
-			retornoFinal.append(responseRecognitionModel.getMensagem()).append("\n\n");
+			response = callEvaluator(listaActivities, new EvaluatorKNN());
+			retornoFinal.append(response.getEntity().toString()).append("\n\n");
 			
-			System.out.println("Iniciando configuracao para avaliacao no algoritimo SVM "+new Date());
-			evaluator = new EvaluatorSVM();
-			System.out.println("Iniciando avaliacao no algoritimo SVM "+new Date());
-			responseRecognitionModel = evaluator.evaluate(listaActivities);
-			retornoFinal.append(responseRecognitionModel.getMensagem()).append("\n\n");
+			response = callEvaluator(listaActivities, new EvaluatorSVM());
+			retornoFinal.append(response.getEntity().toString()).append("\n\n");
 			
-			responseRecognitionModel.setMensagem(retornoFinal.toString());
-			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
+			return Response.status(200).entity(retornoFinal.toString()).build();
 		}catch(Exception ex){
 			return Response.status(500).entity(ex.getMessage()).build();
 		}
 		
 	}
 	
-	protected ResponseRecognitionModel callEvaluator(List<DataActivityModel> listaActivities,EvaluatorAb evaluator) throws Exception{
-		System.out.println("Iniciando avaliacao no algoritimo "+ evaluator.getClass()+" "+new Date());
-		return evaluator.evaluate(listaActivities);
+	protected Response callEvaluator(List<DataActivityModel> listaActivities,EvaluatorAb evaluator){
+		try{
+			System.out.println("Iniciando avaliacao no algoritimo "+ evaluator.getClass()+" "+new Date());
+			ResponseRecognitionModel responseRecognitionModel = evaluator.evaluate(listaActivities);
+			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
+		}catch(Exception ex){
+			return Response.status(500).entity(ex.getMessage()).build();
+		}
 	}
 	
 	
@@ -69,9 +63,7 @@ public class RecognitionServiceRest {
 	@Path(value="/j48")
 	public Response askRecognitionJ48(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
 		try{
-			ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();
-			responseRecognitionModel = callEvaluator(listaActivities,new EvaluatorJ48());
-			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
+			return callEvaluator(listaActivities,new EvaluatorJ48());
 		}catch(Exception ex){
 			return Response.status(500).entity(ex.getMessage()).build();
 		}
@@ -83,9 +75,7 @@ public class RecognitionServiceRest {
 	@Path(value="/knn")
 	public Response askRecognitionKNN(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
 		try{
-			ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();
-			responseRecognitionModel = callEvaluator(listaActivities,new EvaluatorKNN());
-			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
+			return callEvaluator(listaActivities,new EvaluatorKNN());
 		}catch(Exception ex){
 			return Response.status(500).entity(ex.getMessage()).build();
 		}
@@ -97,9 +87,7 @@ public class RecognitionServiceRest {
 	@Path(value="/svm")
 	public Response askRecognitionSVM(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
 		try{
-			ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();
-			responseRecognitionModel = callEvaluator(listaActivities,new EvaluatorSVM());
-			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
+			return callEvaluator(listaActivities,new EvaluatorSVM());
 		}catch(Exception ex){
 			return Response.status(500).entity(ex.getMessage()).build();
 		}

@@ -1,15 +1,5 @@
 package br.ufba.activityrecognition.business.codetest;
 
-import java.io.ByteArrayInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-
-import br.ufba.activityrecognition.business.parser.XlsxToArffParser;
-import weka.classifiers.Classifier;
-import weka.classifiers.trees.J48;
-import weka.core.Instances;
-import weka.core.converters.ConverterUtils.DataSource;
-
 public class TestWeka {
 	
 	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Documents/Current/Mestrado/Projeto Prático/Activity_Recognition_DataSet/";

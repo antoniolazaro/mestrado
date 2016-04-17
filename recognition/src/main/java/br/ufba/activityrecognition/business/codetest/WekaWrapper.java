@@ -9,6 +9,11 @@ import weka.core.RevisionUtils;
 public class WekaWrapper extends AbstractClassifier {
 
   /**
+	 * 
+	 */
+	private static final long serialVersionUID = -8463949524680188354L;
+
+/**
    * Returns only the toString() method.
    *
    * @return a string describing the classifier

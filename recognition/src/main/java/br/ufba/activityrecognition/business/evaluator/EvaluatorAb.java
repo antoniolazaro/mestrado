@@ -15,7 +15,7 @@ public abstract class EvaluatorAb {
 	private ClassifierAb classifier;
 	private JsonToArffParser jsonToArffParser;
 	
-	public EvaluatorAb(ClassifierAb classifier) throws Exception {
+	public EvaluatorAb(ClassifierAb classifier){
 		this.classifier = classifier;
 		this.jsonToArffParser = new JsonToArffParser();
 	}
