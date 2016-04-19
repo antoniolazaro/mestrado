@@ -5,7 +5,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("helloworld")
+@Path("/helloworld")
 public class TestRest {
 	/**
 	 * Method handling HTTP GET requests. The returned object will be sent to

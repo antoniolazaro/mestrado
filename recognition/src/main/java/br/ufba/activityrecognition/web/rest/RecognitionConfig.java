@@ -1,14 +1,14 @@
-package br.ufba.activityrecognition.web.configuration;
+package br.ufba.activityrecognition.web.rest;
 
 import javax.ws.rs.ApplicationPath;
 
 import org.glassfish.jersey.server.ResourceConfig;
 
-//@ApplicationPath("rest")
+@ApplicationPath("/rest")
 public class RecognitionConfig extends ResourceConfig {
 	
 	public RecognitionConfig() {
-//		packages("br.ufba.activityrecognition.web");
+		packages("br.ufba.activityrecognition.web.rest");
     }
 
 }
