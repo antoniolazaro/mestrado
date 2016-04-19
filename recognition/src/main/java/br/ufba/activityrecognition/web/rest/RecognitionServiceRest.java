@@ -1,95 +1,120 @@
 package br.ufba.activityrecognition.web.rest;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import javax.ws.rs.Consumes;
-import javax.ws.rs.FormParam;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+import javax.servlet.ServletContext;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.ufba.activityrecognition.business.classifier.J48Classifier;
+import br.ufba.activityrecognition.business.classifier.KNNClassifier;
+import br.ufba.activityrecognition.business.classifier.SVMClassifier;
 import br.ufba.activityrecognition.business.evaluator.EvaluatorAb;
 import br.ufba.activityrecognition.business.evaluator.J48Evaluator;
 import br.ufba.activityrecognition.business.evaluator.KNNEvaluator;
 import br.ufba.activityrecognition.business.evaluator.SVMEvaluator;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
+import br.ufba.activityrecognition.web.listener.ClassifiersListener;
 
-@Path("/v1")
+@RestController
 public class RecognitionServiceRest {
-		
-	@POST
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Path(value="/all")
-	public Response askRecognition(List<DataActivityModel> listaActivities){
-		
-		try{
-			StringBuilder retornoFinal = new StringBuilder();
-			
-			Response response = callEvaluator(listaActivities, new J48Evaluator());
-			retornoFinal.append(response.getEntity().toString()).append("\n\n");
-			
-			response = callEvaluator(listaActivities, new KNNEvaluator());
-			retornoFinal.append(response.getEntity().toString()).append("\n\n");
-			
-			response = callEvaluator(listaActivities, new SVMEvaluator());
-			retornoFinal.append(response.getEntity().toString()).append("\n\n");
-			
-			return Response.status(200).entity(retornoFinal.toString()).build();
-		}catch(Exception ex){
-			return Response.status(500).entity(ex.getMessage()).build();
-		}
-		
+
+	@Autowired private ServletContext servletContext;
+
+	private static final Logger logger = LoggerFactory.getLogger(RecognitionServiceRest.class);
+
+	protected ResponseRecognitionModel tratarExcecao(Exception ex) {
+		ResponseRecognitionModel response = new ResponseRecognitionModel();
+		response.setCodigoRetorno(0);
+		response.setMensagem(ex.getMessage());
+		return response;
 	}
-	
-	protected Response callEvaluator(List<DataActivityModel> listaActivities,EvaluatorAb evaluator){
+
+	protected ResponseRecognitionModel callEvaluator(List<DataActivityModel> listaActivities,EvaluatorAb evaluator){
 		try{
 			System.out.println("Iniciando avaliacao no algoritimo "+ evaluator.getClass()+" "+new Date());
-			ResponseRecognitionModel responseRecognitionModel = evaluator.evaluate(listaActivities);
-			return Response.status(200).entity(responseRecognitionModel.getMensagem()).build();
+			return evaluator.evaluate(listaActivities);
 		}catch(Exception ex){
-			return Response.status(500).entity(ex.getMessage()).build();
-		}
-	}
-	
-	
-	@POST
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Path(value="/j48")
-	public Response askRecognitionJ48(List<DataActivityModel> listaActivities){
-		try{
-			return callEvaluator(listaActivities,new J48Evaluator());
-		}catch(Exception ex){
-			return Response.status(500).entity(ex.getMessage()).build();
+			return tratarExcecao(ex);
 		}
 	}
 
-	@POST
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Path(value="/knn")
-	public Response askRecognitionKNN(List<DataActivityModel> listaActivities){
+	private Object getServletContextAttribute(String attributeName){
+		return servletContext.getAttribute(attributeName);
+	}
+
+	private J48Evaluator getEvaluatorJ48(){
+		J48Classifier j48Classifier = (J48Classifier) getServletContextAttribute(ClassifiersListener.CLASSIFIER_J48_ATTRIBUTE_NAME);
+		return new J48Evaluator(j48Classifier);
+	}
+
+	private KNNEvaluator getEvaluatorKNN(){
+		KNNClassifier kNNClassifier = (KNNClassifier) getServletContextAttribute(ClassifiersListener.CLASSIFIER_KNN_ATTRIBUTE_NAME);
+		return new KNNEvaluator(kNNClassifier);
+	}
+
+	private SVMEvaluator getEvaluatorSVM(){
+		SVMClassifier sVMClassifier = (SVMClassifier) getServletContextAttribute(ClassifiersListener.CLASSIFIER_SVM_ATTRIBUTE_NAME);
+		return new SVMEvaluator(sVMClassifier);
+	}
+
+	@RequestMapping(value = "/service/all", method = RequestMethod.POST)
+	public @ResponseBody ResponseRecognitionModel askRecognition(ArrayList<DataActivityModel> listaActivities){
+
+		ResponseRecognitionModel response = new ResponseRecognitionModel();
 		try{
-			return callEvaluator(listaActivities,new KNNEvaluator());
+			StringBuilder retornoFinal = new StringBuilder();
+
+			response = callEvaluator(listaActivities, getEvaluatorJ48());
+			retornoFinal.append(response.getMensagem()).append("\n\n");
+
+			response = callEvaluator(listaActivities, getEvaluatorKNN());
+			retornoFinal.append(response.getMensagem().toString()).append("\n\n");
+
+			response = callEvaluator(listaActivities, getEvaluatorSVM());
+			retornoFinal.append(response.getMensagem().toString()).append("\n\n");
+
+			response.setMensagem(retornoFinal.toString());
+
+			return response;
 		}catch(Exception ex){
-			return Response.status(500).entity(ex.getMessage()).build();
+			return tratarExcecao(ex);
 		}
 	}
-	
-	@POST
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Path(value="/svm")
-	public Response askRecognitionSVM(List<DataActivityModel> listaActivities){
+
+	@RequestMapping(value = "/service/j48", method = RequestMethod.POST)
+	public @ResponseBody ResponseRecognitionModel askRecognitionJ48(ArrayList<DataActivityModel> listaActivities){
 		try{
-			return callEvaluator(listaActivities,new SVMEvaluator());
+			return callEvaluator(listaActivities,getEvaluatorJ48());
 		}catch(Exception ex){
-			return Response.status(500).entity(ex.getMessage()).build();
+			return tratarExcecao(ex);
+		}
+	}
+
+	@RequestMapping(value = "/service/knn", method = RequestMethod.POST)
+	public @ResponseBody ResponseRecognitionModel askRecognitionKNN(ArrayList<DataActivityModel> listaActivities){
+		try{
+			return callEvaluator(listaActivities,getEvaluatorKNN());
+		}catch(Exception ex){
+			return tratarExcecao(ex);
+		}
+	}
+
+	@RequestMapping(value = "/service/svm", method = RequestMethod.POST)
+	public @ResponseBody ResponseRecognitionModel askRecognitionSVM(ArrayList<DataActivityModel> listaActivities){
+		try{
+			return callEvaluator(listaActivities,getEvaluatorSVM());
+		}catch(Exception ex){
+			return tratarExcecao(ex);
 		}
 	}
 
