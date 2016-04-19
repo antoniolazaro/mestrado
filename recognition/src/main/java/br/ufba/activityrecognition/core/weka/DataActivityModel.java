@@ -2,24 +2,40 @@ package br.ufba.activityrecognition.core.weka;
 
 import java.io.Serializable;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
+@XmlRootElement(name="dataActivity")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class DataActivityModel implements Serializable{
 	
 	private static final long serialVersionUID = -4275680271853705080L;
 	
+	@XmlElement
 	private Double accelerometerX;
+	@XmlElement
 	private Double accelerometerY;
+	@XmlElement
 	private Double accelerometerZ;
+	@XmlElement
 	private Double gyroscopeX;
+	@XmlElement
 	private Double gyroscopeY;
+	@XmlElement
 	private Double gyroscopeZ;
+	@XmlElement
 	private Double magnetometerX;
+	@XmlElement
 	private Double magnetometerY;
+	@XmlElement
 	private Double magnetometerZ;
+	@XmlElement
 	private String activity;
+	@XmlElement
 	private String sourceCollection;
+	
 	
 	public DataActivityModel() {
 		this.activity = "?";

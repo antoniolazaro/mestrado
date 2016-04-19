@@ -25,7 +25,7 @@ public class RecognitionServiceRest {
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Path(value="/all")
-	public Response askRecognition(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
+	public Response askRecognition(List<DataActivityModel> listaActivities){
 		
 		try{
 			StringBuilder retornoFinal = new StringBuilder();
@@ -61,7 +61,7 @@ public class RecognitionServiceRest {
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Path(value="/j48")
-	public Response askRecognitionJ48(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
+	public Response askRecognitionJ48(List<DataActivityModel> listaActivities){
 		try{
 			return callEvaluator(listaActivities,new EvaluatorJ48());
 		}catch(Exception ex){
@@ -73,7 +73,7 @@ public class RecognitionServiceRest {
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Path(value="/knn")
-	public Response askRecognitionKNN(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
+	public Response askRecognitionKNN(List<DataActivityModel> listaActivities){
 		try{
 			return callEvaluator(listaActivities,new EvaluatorKNN());
 		}catch(Exception ex){
@@ -85,7 +85,7 @@ public class RecognitionServiceRest {
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Path(value="/svm")
-	public Response askRecognitionSVM(@FormParam("activitiesList") List<DataActivityModel> listaActivities){
+	public Response askRecognitionSVM(List<DataActivityModel> listaActivities){
 		try{
 			return callEvaluator(listaActivities,new EvaluatorSVM());
 		}catch(Exception ex){
