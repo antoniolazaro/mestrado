@@ -3,9 +3,9 @@ package br.ufba.activityrecognition.business.evaluator;
 import br.ufba.activityrecognition.business.classifier.KNNClassifier;
 
 
-public class EvaluatorKNN extends EvaluatorAb {
+public class KNNEvaluator extends EvaluatorAb {
 	
-	public EvaluatorKNN() throws Exception {
+	public KNNEvaluator() throws Exception {
 		super(new KNNClassifier());
 	}
 

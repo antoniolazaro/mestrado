@@ -3,9 +3,9 @@ package br.ufba.activityrecognition.business.evaluator;
 import br.ufba.activityrecognition.business.classifier.SVMClassifier;
 
 
-public class EvaluatorSVM extends EvaluatorAb {
+public class SVMEvaluator extends EvaluatorAb {
 	
-	public EvaluatorSVM() throws Exception {
+	public SVMEvaluator() throws Exception {
 		super(new SVMClassifier());
 	}
 	

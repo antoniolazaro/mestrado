@@ -12,9 +12,9 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import br.ufba.activityrecognition.business.evaluator.EvaluatorAb;
-import br.ufba.activityrecognition.business.evaluator.EvaluatorJ48;
-import br.ufba.activityrecognition.business.evaluator.EvaluatorKNN;
-import br.ufba.activityrecognition.business.evaluator.EvaluatorSVM;
+import br.ufba.activityrecognition.business.evaluator.J48Evaluator;
+import br.ufba.activityrecognition.business.evaluator.KNNEvaluator;
+import br.ufba.activityrecognition.business.evaluator.SVMEvaluator;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
 
@@ -30,13 +30,13 @@ public class RecognitionServiceRest {
 		try{
 			StringBuilder retornoFinal = new StringBuilder();
 			
-			Response response = callEvaluator(listaActivities, new EvaluatorJ48());
+			Response response = callEvaluator(listaActivities, new J48Evaluator());
 			retornoFinal.append(response.getEntity().toString()).append("\n\n");
 			
-			response = callEvaluator(listaActivities, new EvaluatorKNN());
+			response = callEvaluator(listaActivities, new KNNEvaluator());
 			retornoFinal.append(response.getEntity().toString()).append("\n\n");
 			
-			response = callEvaluator(listaActivities, new EvaluatorSVM());
+			response = callEvaluator(listaActivities, new SVMEvaluator());
 			retornoFinal.append(response.getEntity().toString()).append("\n\n");
 			
 			return Response.status(200).entity(retornoFinal.toString()).build();
@@ -63,7 +63,7 @@ public class RecognitionServiceRest {
 	@Path(value="/j48")
 	public Response askRecognitionJ48(List<DataActivityModel> listaActivities){
 		try{
-			return callEvaluator(listaActivities,new EvaluatorJ48());
+			return callEvaluator(listaActivities,new J48Evaluator());
 		}catch(Exception ex){
 			return Response.status(500).entity(ex.getMessage()).build();
 		}
@@ -75,7 +75,7 @@ public class RecognitionServiceRest {
 	@Path(value="/knn")
 	public Response askRecognitionKNN(List<DataActivityModel> listaActivities){
 		try{
-			return callEvaluator(listaActivities,new EvaluatorKNN());
+			return callEvaluator(listaActivities,new KNNEvaluator());
 		}catch(Exception ex){
 			return Response.status(500).entity(ex.getMessage()).build();
 		}
@@ -87,7 +87,7 @@ public class RecognitionServiceRest {
 	@Path(value="/svm")
 	public Response askRecognitionSVM(List<DataActivityModel> listaActivities){
 		try{
-			return callEvaluator(listaActivities,new EvaluatorSVM());
+			return callEvaluator(listaActivities,new SVMEvaluator());
 		}catch(Exception ex){
 			return Response.status(500).entity(ex.getMessage()).build();
 		}

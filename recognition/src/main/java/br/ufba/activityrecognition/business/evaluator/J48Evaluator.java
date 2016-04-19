@@ -3,9 +3,9 @@ package br.ufba.activityrecognition.business.evaluator;
 import br.ufba.activityrecognition.business.classifier.J48Classifier;
 
 
-public class EvaluatorJ48 extends EvaluatorAb {
+public class J48Evaluator extends EvaluatorAb {
 	
-	public EvaluatorJ48() throws Exception {
+	public J48Evaluator() throws Exception {
 		super(new J48Classifier());
 	}
 
