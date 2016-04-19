@@ -30,7 +30,7 @@ public class RecognitionServiceRestTest {
  
         Client client = ClientBuilder.newBuilder().register(RecognitionServiceRest.class).build();
  
-        WebTarget target = client.target("http://localhost:8080/recognition/rest/all");
+        WebTarget target = client.target("http://localhost:8081/recognition/rest/v1/all");
  
         Response response = target
                 .request(MediaType.APPLICATION_JSON)

@@ -18,7 +18,7 @@ import br.ufba.activityrecognition.business.evaluator.EvaluatorSVM;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
 
-@Path("/rest")
+@Path("/v1")
 public class RecognitionServiceRest {
 		
 	@POST
