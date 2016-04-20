@@ -67,7 +67,7 @@ public class RecognitionServiceRest {
 		return new SVMEvaluator(sVMClassifier);
 	}
 
-	@RequestMapping(value = "/service/all", method = RequestMethod.POST)
+	@RequestMapping(value = "/rest/all", method = RequestMethod.POST)
 	public @ResponseBody ResponseRecognitionModel askRecognition(ArrayList<DataActivityModel> listaActivities){
 
 		ResponseRecognitionModel response = new ResponseRecognitionModel();
@@ -91,7 +91,7 @@ public class RecognitionServiceRest {
 		}
 	}
 
-	@RequestMapping(value = "/service/j48", method = RequestMethod.POST)
+	@RequestMapping(value = "/rest/j48", method = RequestMethod.POST)
 	public @ResponseBody ResponseRecognitionModel askRecognitionJ48(ArrayList<DataActivityModel> listaActivities){
 		try{
 			return callEvaluator(listaActivities,getEvaluatorJ48());
@@ -100,7 +100,7 @@ public class RecognitionServiceRest {
 		}
 	}
 
-	@RequestMapping(value = "/service/knn", method = RequestMethod.POST)
+	@RequestMapping(value = "/rest/knn", method = RequestMethod.POST)
 	public @ResponseBody ResponseRecognitionModel askRecognitionKNN(ArrayList<DataActivityModel> listaActivities){
 		try{
 			return callEvaluator(listaActivities,getEvaluatorKNN());
@@ -109,7 +109,7 @@ public class RecognitionServiceRest {
 		}
 	}
 
-	@RequestMapping(value = "/service/svm", method = RequestMethod.POST)
+	@RequestMapping(value = "/rest/svm", method = RequestMethod.POST)
 	public @ResponseBody ResponseRecognitionModel askRecognitionSVM(ArrayList<DataActivityModel> listaActivities){
 		try{
 			return callEvaluator(listaActivities,getEvaluatorSVM());

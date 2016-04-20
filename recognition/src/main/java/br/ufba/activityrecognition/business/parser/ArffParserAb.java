@@ -36,29 +36,33 @@ public abstract class ArffParserAb {
 		StringBuilder contentArffFile = new StringBuilder(this.getArffFileHeaderContent());
 		
 		try{
-			ByteArrayOutputStream baos = new ByteArrayOutputStream();
-			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(baos),CSVToArffParser.BUFFER_SIZE);
-			bw.write(contentArffFile.toString());
-			
-			for(DataActivityModel dataActivity: listaDados){
-				contentArffFile = new StringBuilder();
-				contentArffFile.append(dataActivity.getAccelerometerX()).append(",").
-				append(dataActivity.getAccelerometerY()).append(",").
-				append(dataActivity.getAccelerometerZ()).append(",").
-				append(dataActivity.getGyroscopeX()).append(",").
-				append(dataActivity.getGyroscopeY()).append(",").
-				append(dataActivity.getGyroscopeZ()).append(",").
-				append(dataActivity.getMagnetometerX()).append(",").
-				append(dataActivity.getMagnetometerY()).append(",").
-				append(dataActivity.getMagnetometerZ()).append(",").
-				append(dataActivity.getActivity()).append("\n");
+			if(listaDados != null && listaDados.size() > 0){
+				ByteArrayOutputStream baos = new ByteArrayOutputStream();
+				BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(baos),CSVToArffParser.BUFFER_SIZE);
 				bw.write(contentArffFile.toString());
+				
+				for(DataActivityModel dataActivity: listaDados){
+					contentArffFile = new StringBuilder();
+					contentArffFile.append(dataActivity.getAccelerometerX()).append(",").
+					append(dataActivity.getAccelerometerY()).append(",").
+					append(dataActivity.getAccelerometerZ()).append(",").
+					append(dataActivity.getGyroscopeX()).append(",").
+					append(dataActivity.getGyroscopeY()).append(",").
+					append(dataActivity.getGyroscopeZ()).append(",").
+					append(dataActivity.getMagnetometerX()).append(",").
+					append(dataActivity.getMagnetometerY()).append(",").
+					append(dataActivity.getMagnetometerZ()).append(",").
+					append(dataActivity.getActivity()).append("\n");
+					bw.write(contentArffFile.toString());
+				}
+				bw.close();
+				InputStream is = new ByteArrayInputStream(baos.toByteArray());
+				DataSource source = new DataSource(is);
+				is.close();
+				return source.getDataSet();
+			}else{
+				throw new Exception("Necessário passar uma lista com pelo menos um registro.");
 			}
-			bw.close();
-			InputStream is = new ByteArrayInputStream(baos.toByteArray());
-			DataSource source = new DataSource(is);
-			is.close();
-			return source.getDataSet();
 		}catch(Exception ex){
 			throw new EnvironmentException(ex);
 		}
