@@ -1,8 +1,11 @@
 package br.ufba.activityrecognition.business.parser;
 
+import java.io.BufferedWriter;
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.InputStream;
-import java.io.UnsupportedEncodingException;
+import java.io.OutputStreamWriter;
 import java.util.List;
 
 import br.ufba.activityrecognition.business.exception.EnvironmentException;
@@ -11,14 +14,34 @@ import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
-public class ArffParserAb {
+public abstract class ArffParserAb {
+	
+	public Instances parserToArff(String fileName) throws Exception{
+		return parserToArff(new File(fileName));
+	}
+	
+	public Instances parserToArff(File file) throws Exception{
+		try{
+			List<DataActivityModel> listaDados = convertContentFileToDataActivityModel(file);
+			return getArrFileAsInstances(listaDados);
+		}catch(Exception ex){
+			throw ex;
+		}
+	}
+	
+	protected abstract List<DataActivityModel> convertContentFileToDataActivityModel(File file) throws Exception;
 	
 	protected Instances getArrFileAsInstances(List<DataActivityModel> listaDados){
 		
 		StringBuilder contentArffFile = new StringBuilder(this.getArffFileHeaderContent());
 		
 		try{
+			ByteArrayOutputStream baos = new ByteArrayOutputStream();
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(baos),CSVToArffParser.BUFFER_SIZE);
+			bw.write(contentArffFile.toString());
+			
 			for(DataActivityModel dataActivity: listaDados){
+				contentArffFile = new StringBuilder();
 				contentArffFile.append(dataActivity.getAccelerometerX()).append(",").
 				append(dataActivity.getAccelerometerY()).append(",").
 				append(dataActivity.getAccelerometerZ()).append(",").
@@ -29,14 +52,13 @@ public class ArffParserAb {
 				append(dataActivity.getMagnetometerY()).append(",").
 				append(dataActivity.getMagnetometerZ()).append(",").
 				append(dataActivity.getActivity()).append("\n");
+				bw.write(contentArffFile.toString());
 			}
-			
-			byte[] contentData = contentArffFile.toString().getBytes("UTF-8");
-			InputStream is = new ByteArrayInputStream(contentData);
+			bw.close();
+			InputStream is = new ByteArrayInputStream(baos.toByteArray());
 			DataSource source = new DataSource(is);
+			is.close();
 			return source.getDataSet();
-		}catch(UnsupportedEncodingException ex){
-			throw new EnvironmentException(ex);
 		}catch(Exception ex){
 			throw new EnvironmentException(ex);
 		}

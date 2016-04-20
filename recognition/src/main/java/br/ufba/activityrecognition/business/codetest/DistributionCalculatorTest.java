@@ -1,6 +1,7 @@
 package br.ufba.activityrecognition.business.codetest;
 
-import br.ufba.activityrecognition.business.parser.XlsxToArffParser;
+import br.ufba.activityrecognition.business.parser.ArffParserAb;
+import br.ufba.activityrecognition.business.parser.CSVToArffParser;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.J48;
@@ -9,12 +10,13 @@ import weka.core.Instances;
 
 public class DistributionCalculatorTest {
 	
-	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Documents/Current/Mestrado/Projeto Prático/Activity_Recognition_DataSet/";
-	public static String fileName = pathFile+"Belt.xlsx";
+	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Desenvolvimento/workspace/mestrado/Activity_Recognition_DataSet/";
+//	private static String pathFile = "D:\\Antonio\\Desenvolvimento\\Vivo\\WORKSPACE_VIVO\\GITHUB\\mestrado\\Activity_Recognition_DataSet\\";
+	public static String fileName = pathFile+"Wrist.csv";
 	
 	public static void main(String[] args) throws Exception{
 	
-		XlsxToArffParser xlsxToArffParser = new XlsxToArffParser();
+		ArffParserAb xlsxToArffParser = new CSVToArffParser();
 		Instances instanceTraining = xlsxToArffParser.parserToArff(fileName);
 		instanceTraining.setClassIndex(instanceTraining.numAttributes() - 1);
 		

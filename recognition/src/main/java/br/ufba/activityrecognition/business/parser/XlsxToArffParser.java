@@ -15,24 +15,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import br.ufba.activityrecognition.business.exception.ApplicationException;
 import br.ufba.activityrecognition.business.exception.EnvironmentException;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
-import weka.core.Instances;
 
 public class XlsxToArffParser extends ArffParserAb {
 	
-	public Instances parserToArff(String fileName) throws ApplicationException{
-		return parserToArff(new File(fileName));
-	}
-	
-	public Instances parserToArff(File file) throws ApplicationException{
-		try{
-			List<DataActivityModel> listaDados = convertXlsxToDataActivityModel(file);
-			return getArrFileAsInstances(listaDados);
-		}catch(ApplicationException ex){
-			throw ex;
-		}
-	}
-	
-	private List<DataActivityModel> convertXlsxToDataActivityModel(File file) throws ApplicationException {
+	@Override
+	protected List<DataActivityModel> convertContentFileToDataActivityModel(File file) throws Exception {
 		List<DataActivityModel> listaDados = new ArrayList<DataActivityModel>();
 		try{
 			XSSFWorkbook workbook = new XSSFWorkbook (file);

@@ -14,11 +14,7 @@ id="WebApp_ID" version="3.0">
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
-    <listener>
-        <listener-class>br.ufba.activityrecognition.web.listener.ClassifiersListener</listener-class>
-    </listener>
-
-    <servlet>
+      <!-- servlet>
         <servlet-name>ClassifiersServlet</servlet-name>
         <servlet-class>br.ufba.activityrecognition.web.listener.ClassifiersServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
@@ -27,7 +23,7 @@ id="WebApp_ID" version="3.0">
     <servlet-mapping>
         <servlet-name>ClassifiersServlet</servlet-name>
         <url-pattern>/classifiersServlet</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping-->
 
     <!-- Processes application requests -->
     <servlet>

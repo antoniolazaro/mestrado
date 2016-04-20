@@ -1,5 +1,6 @@
 package br.ufba.activityrecognition.business.parser;
 
+import java.io.File;
 import java.util.List;
 
 import br.ufba.activityrecognition.business.exception.ApplicationException;
@@ -8,20 +9,9 @@ import weka.core.Instances;
 
 public class JsonToArffParser extends ArffParserAb {
 	
-//	public Instances parserToArff(String jsonContent) throws ApplicationException{
-//		try{
-//			List<DataActivityModel> listaDados = convertJsonToDataActivityModel(jsonContent);
-//			return getArrFileAsInstances(listaDados);
-//		}catch(ApplicationException ex){
-//			throw ex;
-//		}
-//	}
-//	
-//	private List<DataActivityModel> convertJsonToDataActivityModel(String jsonContent) throws ApplicationException {
-//		Type listOfTestObject = new TypeToken<List<DataActivityModel>>(){}.getType();
-//		Gson gson = new Gson();
-//		return gson.fromJson(jsonContent, listOfTestObject);
-//	}
+	protected List<DataActivityModel> convertContentFileToDataActivityModel(File file) throws Exception{
+		return null;
+	}
 	
 	public Instances parserToArff(List<DataActivityModel> dataActvitieList) throws ApplicationException{
 		return getArrFileAsInstances(dataActvitieList);

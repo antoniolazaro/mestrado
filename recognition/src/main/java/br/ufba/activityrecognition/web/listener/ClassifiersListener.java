@@ -4,6 +4,7 @@ import java.util.Date;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
+import javax.servlet.annotation.WebListener;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +14,7 @@ import br.ufba.activityrecognition.business.classifier.J48Classifier;
 import br.ufba.activityrecognition.business.classifier.KNNClassifier;
 import br.ufba.activityrecognition.business.classifier.SVMClassifier;
 
-
+@WebListener
 public class ClassifiersListener implements ServletContextListener {
 
 	private static final Logger logger = LoggerFactory.getLogger(ClassifiersListener.class);
