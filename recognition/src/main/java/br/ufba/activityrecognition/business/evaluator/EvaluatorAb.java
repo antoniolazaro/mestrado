@@ -22,8 +22,12 @@ public abstract class EvaluatorAb {
 	
 	public ResponseRecognitionModel evaluate(List<DataActivityModel> listaActivities) throws Exception{
 		Instances testInstance = jsonToArffParser.parserToArff(listaActivities);
-		this.classifier.getEvalutationTest().evaluateModel(classifier.getClassifier(), testInstance);
-
+		return evaluate(testInstance);
+	}
+	
+	public ResponseRecognitionModel evaluate(Instances testInstance) throws Exception{
+		
+		testInstance.setClassIndex(testInstance.numAttributes() - 1);
 		Instances labeled = new Instances(testInstance);
 		ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();
 		int quantidadeTotalRegistros = testInstance.numInstances();

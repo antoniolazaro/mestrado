@@ -8,5 +8,8 @@ public class SVMClassifier extends ClassifierAb {
 		super(new SMO());
 	}
 
+	public SVMClassifier(String fileName) throws Exception {
+		super(new SMO(),fileName);
+	}
 
 }

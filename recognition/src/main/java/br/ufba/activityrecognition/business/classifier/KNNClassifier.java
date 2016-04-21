@@ -8,5 +8,8 @@ public class KNNClassifier extends ClassifierAb {
 		super(new IBk());
 	}
 
+	public KNNClassifier(String fileName) throws Exception {
+		super(new IBk(),fileName);
+	}
 
 }

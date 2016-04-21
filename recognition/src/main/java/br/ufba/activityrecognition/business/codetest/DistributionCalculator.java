@@ -67,6 +67,8 @@ public class DistributionCalculator {
 				responseRecognitionModel.addTotalUpstairs();
 			}else if(ActivitiesEnum.WALKING.getNome().equals(valor)){
 				responseRecognitionModel.addTotalWalking();
+			}else{
+				responseRecognitionModel.addTotalNaoReconhecido();
 			}
 			responseRecognitionModel.addQuantidadeTotal();
 		}

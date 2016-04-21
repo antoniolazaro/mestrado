@@ -1,7 +1,6 @@
 package br.ufba.activityrecognition.core.weka;
 
 import java.io.Serializable;
-import java.math.BigDecimal;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -19,32 +18,35 @@ public class ResponseRecognitionModel implements Serializable{
 	@XmlElement
 	private String mensagem;
 	@XmlElement
-	private BigDecimal totalDownstairs;
+	private Integer totalDownstairs;
 	@XmlElement
-	private BigDecimal totalRunning;
+	private Integer totalRunning;
 	@XmlElement
-	private BigDecimal totalSitting;
+	private Integer totalSitting;
 	@XmlElement
-	private BigDecimal totalStanding;
+	private Integer totalStanding;
 	@XmlElement
-	private BigDecimal totalUpstairs;
+	private Integer totalUpstairs;
 	@XmlElement
-	private BigDecimal totalWalking;
+	private Integer totalWalking;
 	@XmlElement
-	private BigDecimal quantidadeTotal;
+	private Integer totalNaoReconhecido;
+	@XmlElement
+	private Integer quantidadeTotal;
 	@XmlElement
 	private String retornoFormatado;
 
 	public ResponseRecognitionModel() {
 		this.codigoRetorno = 1;
 		this.mensagem = "OK.";
-		this.totalDownstairs = new BigDecimal(0);
-		this.totalRunning = new BigDecimal(0);
-		this.totalSitting = new BigDecimal(0);
-		this.totalStanding = new BigDecimal(0);
-		this.totalUpstairs = new BigDecimal(0);
-		this.totalWalking = new BigDecimal(0);
-		this.quantidadeTotal = new BigDecimal(0);
+		this.totalDownstairs = Integer.valueOf(0);
+		this.totalRunning = Integer.valueOf(0);
+		this.totalSitting = Integer.valueOf(0);
+		this.totalStanding = Integer.valueOf(0);
+		this.totalUpstairs = Integer.valueOf(0);
+		this.totalWalking = Integer.valueOf(0);
+		this.totalNaoReconhecido = Integer.valueOf(0);
+		this.quantidadeTotal = Integer.valueOf(0);
 	}
 
 	public Integer getCodigoRetorno() {
@@ -63,130 +65,92 @@ public class ResponseRecognitionModel implements Serializable{
 		this.mensagem = mensagem;
 	}
 
-	public BigDecimal getTotalDownstairs() {
-		return totalDownstairs;
-	}
-
-	public void setTotalDownstairs(BigDecimal totalDownstairs) {
-		this.totalDownstairs = totalDownstairs;
-	}
-
-	public BigDecimal getTotalRunning() {
-		return totalRunning;
-	}
-
-	public void setTotalRunning(BigDecimal totalRunning) {
-		this.totalRunning = totalRunning;
-	}
-
-	public BigDecimal getTotalSitting() {
-		return totalSitting;
-	}
-
-	public void setTotalSitting(BigDecimal totalSitting) {
-		this.totalSitting = totalSitting;
-	}
-
-	public BigDecimal getTotalStanding() {
-		return totalStanding;
-	}
-
-	public void setTotalStanding(BigDecimal totalStanding) {
-		this.totalStanding = totalStanding;
-	}
-
-	public BigDecimal getTotalUpstairs() {
-		return totalUpstairs;
-	}
-
-	public void setTotalUpstairs(BigDecimal totalUpstairs) {
-		this.totalUpstairs = totalUpstairs;
-	}
-
-	public BigDecimal getTotalWalking() {
-		return totalWalking;
-	}
-
-	public void setTotalWalking(BigDecimal totalWalking) {
-		this.totalWalking = totalWalking;
-	}
-
-	public BigDecimal getQuantidadeTotal() {
-		return quantidadeTotal;
-	}
-
-	public void setQuantidadeTotal(BigDecimal quantidadeTotal) {
-		this.quantidadeTotal = quantidadeTotal;
-	}
-
 	public void addTotalDownstairs() {
-		this.totalDownstairs.add(new BigDecimal(1));
+		this.totalDownstairs = this.totalDownstairs+1;
 	}
 
 	public void addTotalRunning() {
-		this.totalRunning.add(new BigDecimal(1));
+		this.totalRunning = this.totalRunning+1;
 	}
 
 	public void addTotalSitting() {
-		this.totalSitting.add(new BigDecimal(1));
+		this.totalSitting = this.totalSitting+1;
 	}
 
 	public void addTotalStanding() {
-		this.totalStanding.add(new BigDecimal(1));
+		this.totalStanding = this.totalStanding+1;
 	}
 
 	public void addTotalUpstairs() {
-		this.totalUpstairs.add(new BigDecimal(1));
+		this.totalUpstairs = this.totalUpstairs+1;
 	}
 
 	public void addTotalWalking() {
-		this.totalWalking.add(new BigDecimal(1));
+		this.totalWalking = this.totalWalking+1;
+	}
+	
+	public void addTotalNaoReconhecido() {
+		this.totalNaoReconhecido = this.totalNaoReconhecido+1;
 	}
 
 	public void addQuantidadeTotal() {
-		this.quantidadeTotal.add(new BigDecimal(1));
+		this.quantidadeTotal = this.quantidadeTotal+1;
 	}
 
-	public BigDecimal getTotalDownstairsPercentual() {
+	public Double getTotalDownstairsPercentual() {
 		if(getQuantidadeTotal().intValue() > 0){
-			new BigDecimal(getTotalDownstairs().intValue()).divide(getQuantidadeTotal()).multiply(new BigDecimal(100));
+			Double temp = (getTotalDownstairs().doubleValue()/getQuantidadeTotal().doubleValue());
+			return temp * 100;
 		}
-		return new BigDecimal(0);
+		return 0.0;
 	}
 
-	public BigDecimal getTotalRunningPercentual() {
+	public Double getTotalRunningPercentual() {
 		if(getQuantidadeTotal().intValue() > 0){
-			new BigDecimal(getTotalRunning().intValue()).divide(getQuantidadeTotal()).multiply(new BigDecimal(100));
+			Double temp = (getTotalRunning().doubleValue()/getQuantidadeTotal().doubleValue());
+			return temp * 100;
 		}
-		return new BigDecimal(0);
+		return 0.0;
 	}
 
-	public BigDecimal getTotalSittingPercentual() {
+	public Double getTotalSittingPercentual() {
 		if(getQuantidadeTotal().intValue() > 0){
-			new BigDecimal(getTotalSitting().intValue()).divide(getQuantidadeTotal()).multiply(new BigDecimal(100));
+			Double temp = (getTotalSitting().doubleValue()/getQuantidadeTotal().doubleValue());
+			return temp * 100;
 		}
-		return new BigDecimal(0);
+		return 0.0;
 	}
 
-	public BigDecimal getTotalStandingPercentual() {
+	public Double getTotalStandingPercentual() {
 		if(getQuantidadeTotal().intValue() > 0){
-			new BigDecimal(getTotalStanding().intValue()).divide(getQuantidadeTotal()).multiply(new BigDecimal(100));
+			Double temp = (getTotalStanding().doubleValue()/getQuantidadeTotal().doubleValue());
+			return temp * 100;
 		}
-		return new BigDecimal(0);
+		return 0.0;
 	}
 
-	public BigDecimal getTotalUpstairsPercentual() {
+	public Double getTotalUpstairsPercentual() {
 		if(getQuantidadeTotal().intValue() > 0){
-			new BigDecimal(getTotalUpstairs().intValue()).divide(getQuantidadeTotal()).multiply(new BigDecimal(100));
+			Double temp = (getTotalUpstairs().doubleValue()/getQuantidadeTotal().doubleValue());
+			return temp * 100;
 		}
-		return new BigDecimal(0);
+		return 0.0;
 	}
 
-	public BigDecimal getTotalWalkingPercentual() {
+	public Double getTotalWalkingPercentual() {
 		if(getQuantidadeTotal().intValue() > 0){
-			new BigDecimal(getTotalWalking().intValue()).divide(getQuantidadeTotal()).multiply(new BigDecimal(100));
+			Double temp = (getTotalWalking().doubleValue()/getQuantidadeTotal().doubleValue());
+			return temp * 100;
 		}
-		return new BigDecimal(0);
+		return 0.0;
+	}
+	
+	public Double getTotalNaoReconhecidoPercentual() {
+		if(getQuantidadeTotal().intValue() > 0){
+			Double temp = (getTotalNaoReconhecido().doubleValue()/getQuantidadeTotal().doubleValue());
+			return temp * 100;
+		}
+		return 0.0;
 	}
 
 	public void setRetornoFormatado(String retornoFormatado) {
@@ -195,13 +159,46 @@ public class ResponseRecognitionModel implements Serializable{
 
 	public String getRetornoFormatado(){
 		StringBuilder builder = new StringBuilder().
-		append("Downstairs: ").append(getTotalDownstairsPercentual()).append(" %.\n").
-		append("Running: ").append(getTotalRunningPercentual()).append(" %.\n").
-		append("Sitting: ").append(getTotalSittingPercentual()).append(" %.\n").
-		append("Standing ").append(getTotalStandingPercentual()).append(" %.\n").
-		append("Upstairs: ").append(getTotalUpstairsPercentual()).append(" %.\n").
-		append("Walking: ").append(getTotalWalkingPercentual()).append(" %.\n").
+		append("Downstairs: ").append(getTotalDownstairs()).append(". (Percentual = ").append(getTotalDownstairsPercentual()).append(" %).\n").
+		append("Running: ").append(getTotalRunning()).append(". (Percentual = ").append(getTotalRunningPercentual()).append(" %).\n").
+		append("Sitting: ").append(getTotalSitting()).append(". (Percentual = ").append(getTotalSittingPercentual()).append(" %).\n").
+		append("Standing ").append(getTotalStanding()).append(". (Percentual = ").append(getTotalStandingPercentual()).append(" %).\n").
+		append("Upstairs: ").append(getTotalUpstairs()).append(". (Percentual = ").append(getTotalUpstairsPercentual()).append(" %).\n").
+		append("Walking: ").append(getTotalWalking()).append(". (Percentual = ").append(getTotalWalkingPercentual()).append(" %).\n").
+		append("Não reconhecido: ").append(getTotalNaoReconhecido()).append(". (Percentual = ").append(getTotalNaoReconhecidoPercentual()).append(" %).\n").
 		append("Total: ").append(getQuantidadeTotal()).append("\n");
 		return builder.toString();
+	}
+
+	public Integer getTotalDownstairs() {
+		return totalDownstairs;
+	}
+
+	public Integer getTotalRunning() {
+		return totalRunning;
+	}
+
+	public Integer getTotalSitting() {
+		return totalSitting;
+	}
+
+	public Integer getTotalStanding() {
+		return totalStanding;
+	}
+
+	public Integer getTotalUpstairs() {
+		return totalUpstairs;
+	}
+
+	public Integer getTotalWalking() {
+		return totalWalking;
+	}
+
+	public Integer getQuantidadeTotal() {
+		return quantidadeTotal;
+	}
+	
+	public Integer getTotalNaoReconhecido() {
+		return totalNaoReconhecido;
 	}
 }
