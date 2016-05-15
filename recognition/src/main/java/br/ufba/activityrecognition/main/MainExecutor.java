@@ -7,10 +7,16 @@ import org.slf4j.LoggerFactory;
 
 import br.ufba.activityrecognition.business.classifier.J48Classifier;
 import br.ufba.activityrecognition.business.classifier.KNNClassifier;
+import br.ufba.activityrecognition.business.classifier.MultiLayerPerceptronMLPClassifier;
+import br.ufba.activityrecognition.business.classifier.NaiveBayesClassifier;
+import br.ufba.activityrecognition.business.classifier.RandomForrestClassifier;
 import br.ufba.activityrecognition.business.classifier.SVMClassifier;
 import br.ufba.activityrecognition.business.evaluator.EvaluatorAb;
 import br.ufba.activityrecognition.business.evaluator.J48Evaluator;
 import br.ufba.activityrecognition.business.evaluator.KNNEvaluator;
+import br.ufba.activityrecognition.business.evaluator.MultiLayerPerceptronMLPEvaluator;
+import br.ufba.activityrecognition.business.evaluator.NaiveBayesEvaluator;
+import br.ufba.activityrecognition.business.evaluator.RandomForrestEvaluator;
 import br.ufba.activityrecognition.business.evaluator.SVMEvaluator;
 import br.ufba.activityrecognition.business.parser.ArffParserAb;
 import br.ufba.activityrecognition.business.parser.CSVToArffParser;
@@ -45,10 +51,22 @@ public class MainExecutor {
 		case 3:
 			runSVM();
 			break;
+		case 4:
+			runMultiLayerPerceptronMLP();
+			break;
+		case 5:
+			runNaiveBayes();
+			break;
+		case 6:
+			runRandomForrest();
+			break;
 		default:
 			runJ48();
 			runKnn();
 			runSVM();
+			runMultiLayerPerceptronMLP();
+			runNaiveBayes();
+			runRandomForrest();
 			break;
 		}
 	}
@@ -85,6 +103,30 @@ public class MainExecutor {
 		classifierJ48.classifierTrainingInstances();
 		System.out.println("FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR J48."+new Date());
 		EvaluatorAb evaluator = new J48Evaluator(classifierJ48);
+		runRecognitionProcess(evaluator);
+	}
+	
+	protected static void runMultiLayerPerceptronMLP() throws Exception {
+		MultiLayerPerceptronMLPClassifier classifier = new MultiLayerPerceptronMLPClassifier(trainingFileName);
+		classifier.classifierTrainingInstances();
+		System.out.println("FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR MLP."+new Date());
+		EvaluatorAb evaluator = new MultiLayerPerceptronMLPEvaluator(classifier);
+		runRecognitionProcess(evaluator);
+	}
+	
+	protected static void runNaiveBayes() throws Exception {
+		NaiveBayesClassifier classifierJ48 = new NaiveBayesClassifier(trainingFileName);
+		classifierJ48.classifierTrainingInstances();
+		System.out.println("FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR NaiveBayes (NB)."+new Date());
+		EvaluatorAb evaluator = new NaiveBayesEvaluator(classifierJ48);
+		runRecognitionProcess(evaluator);
+	}
+	
+	protected static void runRandomForrest() throws Exception {
+		RandomForrestClassifier classifierJ48 = new RandomForrestClassifier(trainingFileName);
+		classifierJ48.classifierTrainingInstances();
+		System.out.println("FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR RandomForrest (RF)."+new Date());
+		EvaluatorAb evaluator = new RandomForrestEvaluator(classifierJ48);
 		runRecognitionProcess(evaluator);
 	}
 }
