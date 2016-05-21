@@ -5,25 +5,25 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-import br.ufba.activityrecognition.business.parser.XlsxToArffParser;
+import br.ufba.activityrecognition.business.parser.ArffParserAb;
+import br.ufba.activityrecognition.business.parser.CSVToArffParser;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.J48;
 import weka.core.Instances;
 
 
-public class ClassifyingTest {
+public class ClassifyingTestCSV {
 	
-//	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Documents/Current/Mestrado/Projeto Prático/Activity_Recognition_DataSet/";
-	private static String pathFile = "/Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/Activity_Recognition_DataSet/";
-	public static String fileName = pathFile+"Belt.xlsx";
+	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/DataSet/";
+	public static String fileName = pathFile+"Teste1_AllSensorsAndar.csv";
 	
-	public static String fileNameUnlabel = pathFile+"belt_unlabel.arff";
+	public static String fileNameUnlabel = "/Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Teste1_AllSensors.csv";
 	
 	public static void main(String[] args) throws Exception{
 	
-		XlsxToArffParser xlsxToArffParser = new XlsxToArffParser();
-		Instances instanceTraining = xlsxToArffParser.parserToArff(fileName);
+		ArffParserAb arffParser = new CSVToArffParser();
+		Instances instanceTraining = arffParser.parserToArff(fileName);
 		instanceTraining.setClassIndex(instanceTraining.numAttributes() - 1);
 		
 		Classifier classifier = new J48();

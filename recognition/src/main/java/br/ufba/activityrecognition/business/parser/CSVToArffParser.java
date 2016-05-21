@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
+
 import br.ufba.activityrecognition.business.exception.ApplicationException;
 import br.ufba.activityrecognition.business.exception.EnvironmentException;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
@@ -32,19 +34,22 @@ public class CSVToArffParser extends ArffParserAb {
 	        		line = br.readLine();
 	        	}
 	        	i++;
-	            String[] content = line.split(cvsSplitBy);
-	            DataActivityModel dataActivity = new DataActivityModel();
-			    dataActivity.setAccelerometerX(Double.valueOf(content[1].replaceAll(",",".")));
-			    dataActivity.setAccelerometerY(Double.valueOf(content[2].replaceAll(",",".")));
-			    dataActivity.setAccelerometerZ(Double.valueOf(content[3].replaceAll(",",".")));
-			    dataActivity.setGyroscopeX(Double.valueOf(content[4].replaceAll(",",".")));
-			    dataActivity.setGyroscopeY(Double.valueOf(content[5].replaceAll(",",".")));
-			    dataActivity.setGyroscopeZ(Double.valueOf(content[6].replaceAll(",",".")));
-			    dataActivity.setMagnetometerX(Double.valueOf(content[7].replaceAll(",",".")));
-			    dataActivity.setMagnetometerY(Double.valueOf(content[8].replaceAll(",",".")));
-			    dataActivity.setMagnetometerZ(Double.valueOf(content[9].replaceAll(",",".")));
-			    dataActivity.setActivity(content[10]);	
-			    listaDados.add(dataActivity);			   
+	        	if(StringUtils.isNotEmpty(line.trim())){
+		        	line = line.replaceAll(",",";");
+		            String[] content = line.split(cvsSplitBy);
+		            DataActivityModel dataActivity = new DataActivityModel();
+				    dataActivity.setAccelerometerX(Double.valueOf(content[0]));
+				    dataActivity.setAccelerometerY(Double.valueOf(content[1]));
+				    dataActivity.setAccelerometerZ(Double.valueOf(content[2]));
+				    dataActivity.setGyroscopeX(Double.valueOf(content[3]));
+				    dataActivity.setGyroscopeY(Double.valueOf(content[4]));
+				    dataActivity.setGyroscopeZ(Double.valueOf(content[5]));
+				    dataActivity.setMagnetometerX(Double.valueOf(content[6]));
+				    dataActivity.setMagnetometerY(Double.valueOf(content[7]));
+				    dataActivity.setMagnetometerZ(Double.valueOf(content[8]));
+				    dataActivity.setActivity(content[9]);	
+				    listaDados.add(dataActivity);	
+	        	}
 	        }
 	        br.close();
 		}catch(IOException ex){

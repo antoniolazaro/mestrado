@@ -1,0 +1,355 @@
+******************************************************************************************************************************************************
+CELULAR
+*******************************************************************************************************************************************************
+Usuário: Igor Lopes
+Atividade: Andar
+Dispositivo: Celular
+Tempo de atividade dataset: 2 minutos
+Tempo de atividade experimento: 1 minuto
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR J48.Sat May 21 00:35:27 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Teste1_AllSensors.csv Sat May 21 00:35:27 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:35:27 BRT 2016
+Algoritimo selecionado: J48
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 1. (Percentual = 0.3058103975535168 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 326. (Percentual = 99.69418960244649 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 327
+
+VAI INICIAR CARGA DO CLASSIFICADOR KNN.Sat May 21 00:35:27 BRT 2016
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR KNN.Sat May 21 00:35:27 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Teste1_AllSensors.csv Sat May 21 00:35:27 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:35:27 BRT 2016
+Algoritimo selecionado: KNN
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 0. (Percentual = 0.0 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 327. (Percentual = 100.0 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 327
+
+VAI INICIAR CARGA DO CLASSIFICADOR SVM.Sat May 21 00:35:28 BRT 2016
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR SVM.Sat May 21 00:35:28 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Teste1_AllSensors.csv Sat May 21 00:35:28 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:35:28 BRT 2016
+Algoritimo selecionado: SVM
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 0. (Percentual = 0.0 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 327. (Percentual = 100.0 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 327
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR MLP.Sat May 21 00:35:28 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Teste1_AllSensors.csv Sat May 21 00:35:28 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:35:28 BRT 2016
+Algoritimo selecionado: Multi-layer perceptron (MLP)
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 0. (Percentual = 0.0 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 327. (Percentual = 100.0 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 327
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR NaiveBayes (NB).Sat May 21 00:35:31 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Teste1_AllSensors.csv Sat May 21 00:35:31 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:35:31 BRT 2016
+Algoritimo selecionado: Naive Bayes (NB)
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 0. (Percentual = 0.0 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 327. (Percentual = 100.0 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 327
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR RandomForrest (RF).Sat May 21 00:35:31 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Teste1_AllSensors.csv Sat May 21 00:35:31 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:35:31 BRT 2016
+Algoritimo selecionado: Random Forrest
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 0. (Percentual = 0.0 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 327. (Percentual = 100.0 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 327
+
+*******************************************************************************************************************************************************
+Usuário: Igor Lopes
+Atividade: Correr
+Dispositivo: Celular
+Tempo de atividade dataset: 2 minutos
+Tempo de atividade experimento: 1 minuto
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR J48.Sat May 21 00:39:02 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Testes1.1_AllSensors.csv Sat May 21 00:39:02 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:39:02 BRT 2016
+Algoritimo selecionado: J48
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 299. (Percentual = 97.7124183006536 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 7. (Percentual = 2.287581699346405 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 306
+
+VAI INICIAR CARGA DO CLASSIFICADOR KNN.Sat May 21 00:39:02 BRT 2016
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR KNN.Sat May 21 00:39:02 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Testes1.1_AllSensors.csv Sat May 21 00:39:02 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:39:02 BRT 2016
+Algoritimo selecionado: KNN
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 306. (Percentual = 100.0 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 0. (Percentual = 0.0 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 306
+
+VAI INICIAR CARGA DO CLASSIFICADOR SVM.Sat May 21 00:39:02 BRT 2016
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR SVM.Sat May 21 00:39:02 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Testes1.1_AllSensors.csv Sat May 21 00:39:02 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:39:02 BRT 2016
+Algoritimo selecionado: SVM
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 303. (Percentual = 99.01960784313727 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 3. (Percentual = 0.9803921568627451 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 306
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR MLP.Sat May 21 00:39:03 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Testes1.1_AllSensors.csv Sat May 21 00:39:03 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:39:03 BRT 2016
+Algoritimo selecionado: Multi-layer perceptron (MLP)
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 304. (Percentual = 99.34640522875817 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 2. (Percentual = 0.6535947712418301 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 306
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR NaiveBayes (NB).Sat May 21 00:39:05 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Testes1.1_AllSensors.csv Sat May 21 00:39:05 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:39:05 BRT 2016
+Algoritimo selecionado: Naive Bayes (NB)
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 297. (Percentual = 97.05882352941177 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 9. (Percentual = 2.941176470588235 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 306
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR RandomForrest (RF).Sat May 21 00:39:05 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/Testes1.1_AllSensors.csv Sat May 21 00:39:05 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:39:05 BRT 2016
+Algoritimo selecionado: Random Forrest
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 297. (Percentual = 97.05882352941177 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 9. (Percentual = 2.941176470588235 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 306
+
+******************************************************************************************************************************************************
+RELOGIO
+*******************************************************************************************************************************************************
+Usuário: Igor Lopes
+Atividade: Andar
+Dispositivo: Relógio
+Tempo de atividade dataset: 2 minutos
+Tempo de atividade experimento: 1 minuto
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR J48.Sat May 21 00:46:51 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1_AllSensors.csv Sat May 21 00:46:51 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:46:51 BRT 2016
+Algoritimo selecionado: J48
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 6. (Percentual = 1.8018018018018018 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 327. (Percentual = 98.1981981981982 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 333
+
+VAI INICIAR CARGA DO CLASSIFICADOR KNN.Sat May 21 00:46:51 BRT 2016
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR KNN.Sat May 21 00:46:51 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1_AllSensors.csv Sat May 21 00:46:51 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:46:51 BRT 2016
+Algoritimo selecionado: KNN
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 0. (Percentual = 0.0 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 333. (Percentual = 100.0 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 333
+
+VAI INICIAR CARGA DO CLASSIFICADOR SVM.Sat May 21 00:46:52 BRT 2016
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR SVM.Sat May 21 00:46:52 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1_AllSensors.csv Sat May 21 00:46:52 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:46:52 BRT 2016
+Algoritimo selecionado: SVM
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 15. (Percentual = 4.504504504504505 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 318. (Percentual = 95.4954954954955 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 333
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR MLP.Sat May 21 00:46:52 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1_AllSensors.csv Sat May 21 00:46:52 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:46:52 BRT 2016
+Algoritimo selecionado: Multi-layer perceptron (MLP)
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 5. (Percentual = 1.5015015015015014 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 328. (Percentual = 98.49849849849849 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 333
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR NaiveBayes (NB).Sat May 21 00:46:55 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1_AllSensors.csv Sat May 21 00:46:55 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:46:55 BRT 2016
+Algoritimo selecionado: Naive Bayes (NB)
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 13. (Percentual = 3.903903903903904 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 320. (Percentual = 96.09609609609609 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 333
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR RandomForrest (RF).Sat May 21 00:46:55 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1_AllSensors.csv Sat May 21 00:46:55 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:46:55 BRT 2016
+Algoritimo selecionado: Random Forrest
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 1. (Percentual = 0.3003003003003003 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 332. (Percentual = 99.69969969969969 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 333
+
+*******************************************************************************************************************************************************
+Usuário: Igor Lopes
+Atividade: Correr
+Dispositivo: Relógio
+Tempo de atividade dataset: 2 minutos
+Tempo de atividade experimento: 1 minuto
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR J48.Sat May 21 00:49:07 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1.1_AllSensors.csv Sat May 21 00:49:07 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:49:07 BRT 2016
+Algoritimo selecionado: J48
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 294. (Percentual = 97.35099337748345 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 8. (Percentual = 2.6490066225165565 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 302
+
+VAI INICIAR CARGA DO CLASSIFICADOR KNN.Sat May 21 00:49:07 BRT 2016
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR KNN.Sat May 21 00:49:07 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1.1_AllSensors.csv Sat May 21 00:49:07 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:49:07 BRT 2016
+Algoritimo selecionado: KNN
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 301. (Percentual = 99.66887417218543 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 1. (Percentual = 0.33112582781456956 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 302
+
+VAI INICIAR CARGA DO CLASSIFICADOR SVM.Sat May 21 00:49:08 BRT 2016
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR SVM.Sat May 21 00:49:08 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1.1_AllSensors.csv Sat May 21 00:49:08 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:49:08 BRT 2016
+Algoritimo selecionado: SVM
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 301. (Percentual = 99.66887417218543 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 1. (Percentual = 0.33112582781456956 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 302
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR MLP.Sat May 21 00:49:08 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1.1_AllSensors.csv Sat May 21 00:49:08 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:49:08 BRT 2016
+Algoritimo selecionado: Multi-layer perceptron (MLP)
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 302. (Percentual = 100.0 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 0. (Percentual = 0.0 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 302
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR NaiveBayes (NB).Sat May 21 00:49:11 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1.1_AllSensors.csv Sat May 21 00:49:11 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:49:11 BRT 2016
+Algoritimo selecionado: Naive Bayes (NB)
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 297. (Percentual = 98.34437086092716 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 5. (Percentual = 1.6556291390728477 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 302
+
+FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR RandomForrest (RF).Sat May 21 00:49:11 BRT 2016
+INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/ExperimentoIgorWatch/teste 1.1_AllSensors.csv Sat May 21 00:49:11 BRT 2016
+INICIANDO AVALIACAO DO ARQUIVO DE RECONHECIMENTO -> Sat May 21 00:49:11 BRT 2016
+Algoritimo selecionado: Random Forrest
+Downstairs: 0. (Percentual = 0.0 %).
+Running: 299. (Percentual = 99.00662251655629 %).
+Sitting: 0. (Percentual = 0.0 %).
+Standing 0. (Percentual = 0.0 %).
+Upstairs: 0. (Percentual = 0.0 %).
+Walking: 3. (Percentual = 0.9933774834437087 %).
+Não reconhecido: 0. (Percentual = 0.0 %).
+Total: 302
+
+
+
+

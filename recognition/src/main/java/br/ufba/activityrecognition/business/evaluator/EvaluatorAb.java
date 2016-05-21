@@ -7,6 +7,7 @@ import br.ufba.activityrecognition.business.parser.JsonToArffParser;
 import br.ufba.activityrecognition.core.enuns.ActivitiesEnum;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
+import weka.classifiers.Evaluation;
 import weka.core.Instances;
 
 
@@ -26,15 +27,15 @@ public abstract class EvaluatorAb {
 	}
 	
 	public ResponseRecognitionModel evaluate(Instances testInstance) throws Exception{
-		
+		classifier.classifierTrainingInstances();
 		testInstance.setClassIndex(testInstance.numAttributes() - 1);
-		Instances labeled = new Instances(testInstance);
+		Instances unLabeled = new Instances(testInstance);
 		ResponseRecognitionModel responseRecognitionModel = new ResponseRecognitionModel();
 		int quantidadeTotalRegistros = testInstance.numInstances();
 		for (int i = 0; i < quantidadeTotalRegistros; i++) {
 			double clsLabel = classifier.getClassifier().classifyInstance(testInstance.instance(i));
-			labeled.instance(i).setClassValue(clsLabel);
-			String valor = labeled.instance(i).stringValue(9);
+			unLabeled.instance(i).setClassValue(clsLabel);
+			String valor = unLabeled.instance(i).stringValue(9);
 			if(ActivitiesEnum.DOWNSTAIRS.getNome().equals(valor)){
 				responseRecognitionModel.addTotalDownstairs();
 			}else if(ActivitiesEnum.RUNNING.getNome().equals(valor)){

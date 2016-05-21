@@ -39,10 +39,8 @@ public abstract class ArffParserAb {
 			if(listaDados != null && listaDados.size() > 0){
 				ByteArrayOutputStream baos = new ByteArrayOutputStream();
 				BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(baos),CSVToArffParser.BUFFER_SIZE);
-				bw.write(contentArffFile.toString());
 				
 				for(DataActivityModel dataActivity: listaDados){
-					contentArffFile = new StringBuilder();
 					contentArffFile.append(dataActivity.getAccelerometerX()).append(",").
 					append(dataActivity.getAccelerometerY()).append(",").
 					append(dataActivity.getAccelerometerZ()).append(",").
@@ -53,8 +51,8 @@ public abstract class ArffParserAb {
 					append(dataActivity.getMagnetometerY()).append(",").
 					append(dataActivity.getMagnetometerZ()).append(",").
 					append(dataActivity.getActivity()).append("\n");
-					bw.write(contentArffFile.toString());
 				}
+				bw.write(contentArffFile.toString());
 				bw.close();
 				InputStream is = new ByteArrayInputStream(baos.toByteArray());
 				DataSource source = new DataSource(is);
