@@ -29,11 +29,12 @@ public class MainExecutor {
 	
 //	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Desenvolvimento/workspace/mestrado/Activity_Recognition_DataSet/";
 //	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/DataSet/";
-	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/wearable/DataSet/";
+//	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/wearable/DataSet/";
+	private static String pathFile = "/Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/DatasetPetalaWatch/";
 //	private static String pathFile = "D:\\Antonio\\Desenvolvimento\\Vivo\\WORKSPACE_VIVO\\GITHUB\\mestrado\\Activity_Recognition_DataSet\\";
-	public static String trainingFileName = pathFile+"Teste3_dataset_all_sensors_unified.csv";
+	public static String trainingFileName = pathFile+"teste 4_AllSensors_unified.csv";
 //	public static String recognitonFileName = pathFile+"Teste1_AllSensors.csv";
-	public static String recognitonFileName = "/Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/mobile/Experiment/teste3.1_AllSensors.csv";
+	public static String recognitonFileName = "/Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4.1_AllSensors.csv";
 //	public static String recognitonFileName = "/Users/antoniolazarocarvalhoborges/Downloads/ExcerciseRecognition/wearable/Experimento/teste2.1_AllSensors.csv";
 	
 	public static void main(String[] args) throws Exception{
