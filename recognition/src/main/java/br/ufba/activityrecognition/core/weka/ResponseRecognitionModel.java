@@ -158,15 +158,29 @@ public class ResponseRecognitionModel implements Serializable{
 	}
 
 	public String getRetornoFormatado(){
-		StringBuilder builder = new StringBuilder().
-		append("Downstairs: ").append(getTotalDownstairs()).append(". (Percentual = ").append(getTotalDownstairsPercentual()).append(" %).\n").
-		append("Running: ").append(getTotalRunning()).append(". (Percentual = ").append(getTotalRunningPercentual()).append(" %).\n").
-		append("Sitting: ").append(getTotalSitting()).append(". (Percentual = ").append(getTotalSittingPercentual()).append(" %).\n").
-		append("Standing ").append(getTotalStanding()).append(". (Percentual = ").append(getTotalStandingPercentual()).append(" %).\n").
-		append("Upstairs: ").append(getTotalUpstairs()).append(". (Percentual = ").append(getTotalUpstairsPercentual()).append(" %).\n").
-		append("Walking: ").append(getTotalWalking()).append(". (Percentual = ").append(getTotalWalkingPercentual()).append(" %).\n").
-		append("Não reconhecido: ").append(getTotalNaoReconhecido()).append(". (Percentual = ").append(getTotalNaoReconhecidoPercentual()).append(" %).\n").
-		append("Total: ").append(getQuantidadeTotal()).append("\n");
+		StringBuilder builder = new StringBuilder();
+		if(getTotalDownstairs() > 0){
+			builder.append("Downstairs: ").append(getTotalDownstairs()).append(". (Percentual = ").append(getTotalDownstairsPercentual()).append(" %).\n");	
+		}
+		if(getTotalRunning() > 0){
+			builder.append("Running: ").append(getTotalRunning()).append(". (Percentual = ").append(getTotalRunningPercentual()).append(" %).\n");	
+		}
+		if(getTotalSitting() > 0){
+			builder.append("Sitting: ").append(getTotalSitting()).append(". (Percentual = ").append(getTotalSittingPercentual()).append(" %).\n");	
+		}
+		if(getTotalStanding() > 0){
+			builder.append("Standing ").append(getTotalStanding()).append(". (Percentual = ").append(getTotalStandingPercentual()).append(" %).\n");	
+		}
+		if(getTotalUpstairs() > 0){
+			builder.append("Upstairs: ").append(getTotalUpstairs()).append(". (Percentual = ").append(getTotalUpstairsPercentual()).append(" %).\n");	
+		}
+		if(getTotalWalking() > 0){
+			builder.append("Walking: ").append(getTotalWalking()).append(". (Percentual = ").append(getTotalWalkingPercentual()).append(" %).\n");	
+		}
+		if(getTotalNaoReconhecido() > 0){
+			builder.append("Não reconhecido: ").append(getTotalNaoReconhecido()).append(". (Percentual = ").append(getTotalNaoReconhecidoPercentual()).append(" %).\n");	
+		}
+		builder.append("Total: ").append(getQuantidadeTotal()).append("\n");
 		return builder.toString();
 	}
 

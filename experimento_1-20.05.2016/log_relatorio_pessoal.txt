@@ -1,0 +1,445 @@
+16/05/23 02:25:48 INFO main.MainExecutorPessoal: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ BLOCO SMARTPHONE...
+%16/05/23 02:25:48 INFO main.MainExecutorPessoal: ############################################# USUARIO 1..
+%16/05/23 02:25:48 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 2. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_smartphone_pessoal_igor.csv 
+%16/05/23 02:25:48 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/DataSet/Teste1_AllSensorsAndar.csv
+%16/05/23 02:25:48 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/DataSet/Teste1_AllSensorsCorrer.csv
+%16/05/23 02:25:48 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 02:25:48 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:25:48 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:25:49 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste1_AllSensors.csv%16/05/23 02:25:49 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 1. (Percentual = 0.3058103975535168 %).
+Walking: 326. (Percentual = 99.69418960244649 %).
+Total: 327
+%16/05/23 02:25:49 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste1_AllSensors.csv%16/05/23 02:25:50 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Walking: 327. (Percentual = 100.0 %).
+Total: 327
+%16/05/23 02:25:50 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste1_AllSensors.csv%16/05/23 02:25:50 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Walking: 327. (Percentual = 100.0 %).
+Total: 327
+%16/05/23 02:25:50 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste1_AllSensors.csv%16/05/23 02:25:52 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Walking: 327. (Percentual = 100.0 %).
+Total: 327
+%16/05/23 02:25:53 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste1_AllSensors.csv%16/05/23 02:25:53 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Walking: 327. (Percentual = 100.0 %).
+Total: 327
+%16/05/23 02:25:53 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste1_AllSensors.csv%16/05/23 02:25:53 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Walking: 327. (Percentual = 100.0 %).
+Total: 327
+%16/05/23 02:25:53 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 02:25:53 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:25:53 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:25:53 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes1.1_AllSensors.csv%16/05/23 02:25:53 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 299. (Percentual = 97.7124183006536 %).
+Walking: 7. (Percentual = 2.287581699346405 %).
+Total: 306
+%16/05/23 02:25:53 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes1.1_AllSensors.csv%16/05/23 02:25:54 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 306. (Percentual = 100.0 %).
+Total: 306
+%16/05/23 02:25:54 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes1.1_AllSensors.csv%16/05/23 02:25:54 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 303. (Percentual = 99.01960784313727 %).
+Walking: 3. (Percentual = 0.9803921568627451 %).
+Total: 306
+%16/05/23 02:25:54 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes1.1_AllSensors.csv%16/05/23 02:25:57 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 304. (Percentual = 99.34640522875817 %).
+Walking: 2. (Percentual = 0.6535947712418301 %).
+Total: 306
+%16/05/23 02:25:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes1.1_AllSensors.csv%16/05/23 02:25:57 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 297. (Percentual = 97.05882352941177 %).
+Walking: 9. (Percentual = 2.941176470588235 %).
+Total: 306
+%16/05/23 02:25:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes1.1_AllSensors.csv%16/05/23 02:25:57 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 297. (Percentual = 97.05882352941177 %).
+Walking: 9. (Percentual = 2.941176470588235 %).
+Total: 306
+%16/05/23 02:25:57 INFO main.MainExecutorPessoal: ############################################# USUARIO 2..
+%16/05/23 02:25:57 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 2. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_smartphone_pessoal_geane.csv 
+%16/05/23 02:25:57 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/DataSet/Teste2_AllSensorsCorrer.csv
+%16/05/23 02:25:57 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/DataSet/Testes2_AllSensorsAndar.csv
+%16/05/23 02:25:57 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 02:25:57 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:25:57 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:25:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes2_AllSensors.csv%16/05/23 02:25:57 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 4. (Percentual = 0.9153318077803204 %).
+Walking: 433. (Percentual = 99.08466819221968 %).
+Total: 437
+%16/05/23 02:25:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes2_AllSensors.csv%16/05/23 02:25:57 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 6. (Percentual = 1.3729977116704806 %).
+Walking: 431. (Percentual = 98.62700228832952 %).
+Total: 437
+%16/05/23 02:25:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes2_AllSensors.csv%16/05/23 02:25:57 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 12. (Percentual = 2.745995423340961 %).
+Walking: 425. (Percentual = 97.25400457665904 %).
+Total: 437
+%16/05/23 02:25:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes2_AllSensors.csv%16/05/23 02:26:00 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 9. (Percentual = 2.059496567505721 %).
+Walking: 428. (Percentual = 97.94050343249427 %).
+Total: 437
+%16/05/23 02:26:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes2_AllSensors.csv%16/05/23 02:26:00 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 14. (Percentual = 3.203661327231121 %).
+Walking: 423. (Percentual = 96.79633867276888 %).
+Total: 437
+%16/05/23 02:26:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Testes2_AllSensors.csv%16/05/23 02:26:00 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 8. (Percentual = 1.8306636155606408 %).
+Walking: 429. (Percentual = 98.16933638443935 %).
+Total: 437
+%16/05/23 02:26:00 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 02:26:00 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:00 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste2.1_AllSensors.csv%16/05/23 02:26:00 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 310. (Percentual = 97.79179810725552 %).
+Walking: 7. (Percentual = 2.2082018927444795 %).
+Total: 317
+%16/05/23 02:26:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste2.1_AllSensors.csv%16/05/23 02:26:00 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 317. (Percentual = 100.0 %).
+Total: 317
+%16/05/23 02:26:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste2.1_AllSensors.csv%16/05/23 02:26:00 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 317. (Percentual = 100.0 %).
+Total: 317
+%16/05/23 02:26:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste2.1_AllSensors.csv%16/05/23 02:26:03 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 317. (Percentual = 100.0 %).
+Total: 317
+%16/05/23 02:26:03 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste2.1_AllSensors.csv%16/05/23 02:26:03 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 317. (Percentual = 100.0 %).
+Total: 317
+%16/05/23 02:26:03 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste2.1_AllSensors.csv%16/05/23 02:26:03 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 316. (Percentual = 99.6845425867508 %).
+Walking: 1. (Percentual = 0.31545741324921134 %).
+Total: 317
+%16/05/23 02:26:03 INFO main.MainExecutorPessoal: ############################################# USUARIO 3..
+%16/05/23 02:26:03 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 2. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_smartphone_pessoal_antonio.csv 
+%16/05/23 02:26:03 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/DataSet/Teste3_AllSensorsAndar.csv
+%16/05/23 02:26:03 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/DataSet/Teste3_AllSensorsCorrer.csv
+%16/05/23 02:26:03 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 02:26:03 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:03 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:03 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3_AllSensors.csv%16/05/23 02:26:03 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 27. (Percentual = 8.231707317073171 %).
+Walking: 301. (Percentual = 91.76829268292683 %).
+Total: 328
+%16/05/23 02:26:03 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3_AllSensors.csv%16/05/23 02:26:04 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 8. (Percentual = 2.4390243902439024 %).
+Walking: 320. (Percentual = 97.5609756097561 %).
+Total: 328
+%16/05/23 02:26:04 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3_AllSensors.csv%16/05/23 02:26:04 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 9. (Percentual = 2.7439024390243905 %).
+Walking: 319. (Percentual = 97.2560975609756 %).
+Total: 328
+%16/05/23 02:26:04 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3_AllSensors.csv%16/05/23 02:26:06 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 26. (Percentual = 7.926829268292683 %).
+Walking: 302. (Percentual = 92.07317073170732 %).
+Total: 328
+%16/05/23 02:26:06 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3_AllSensors.csv%16/05/23 02:26:06 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 8. (Percentual = 2.4390243902439024 %).
+Walking: 320. (Percentual = 97.5609756097561 %).
+Total: 328
+%16/05/23 02:26:06 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3_AllSensors.csv%16/05/23 02:26:06 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 13. (Percentual = 3.9634146341463414 %).
+Walking: 315. (Percentual = 96.03658536585365 %).
+Total: 328
+%16/05/23 02:26:06 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 02:26:06 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:06 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:06 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3.1_AllSensors.csv%16/05/23 02:26:06 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 5. (Percentual = 1.5974440894568689 %).
+Walking: 308. (Percentual = 98.40255591054313 %).
+Total: 313
+%16/05/23 02:26:06 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3.1_AllSensors.csv%16/05/23 02:26:07 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 70. (Percentual = 22.364217252396166 %).
+Walking: 243. (Percentual = 77.63578274760383 %).
+Total: 313
+%16/05/23 02:26:07 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3.1_AllSensors.csv%16/05/23 02:26:07 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Walking: 313. (Percentual = 100.0 %).
+Total: 313
+%16/05/23 02:26:07 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3.1_AllSensors.csv%16/05/23 02:26:09 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Walking: 313. (Percentual = 100.0 %).
+Total: 313
+%16/05/23 02:26:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3.1_AllSensors.csv%16/05/23 02:26:09 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 270. (Percentual = 86.26198083067092 %).
+Walking: 43. (Percentual = 13.738019169329075 %).
+Total: 313
+%16/05/23 02:26:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/mobile/Experiment/Teste3.1_AllSensors.csv%16/05/23 02:26:10 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 50. (Percentual = 15.974440894568689 %).
+Walking: 263. (Percentual = 84.02555910543131 %).
+Total: 313
+%16/05/23 02:26:10 INFO main.MainExecutorPessoal: ############################################# USUARIO 4..
+%16/05/23 02:26:10 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 2. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_smartphone_pessoal_petala.csv 
+%16/05/23 02:26:10 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/DatasetPetalaPhone/Teste4_AllSensorsAndar.csv
+%16/05/23 02:26:10 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/DatasetPetalaPhone/Teste4_AllSensorsCorrer.csv
+%16/05/23 02:26:10 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 02:26:10 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:10 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:10 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4_AllSensors.csv%16/05/23 02:26:10 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 31. (Percentual = 8.493150684931507 %).
+Walking: 334. (Percentual = 91.5068493150685 %).
+Total: 365
+%16/05/23 02:26:10 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4_AllSensors.csv%16/05/23 02:26:10 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 3. (Percentual = 0.821917808219178 %).
+Walking: 362. (Percentual = 99.17808219178083 %).
+Total: 365
+%16/05/23 02:26:10 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4_AllSensors.csv%16/05/23 02:26:10 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Walking: 365. (Percentual = 100.0 %).
+Total: 365
+%16/05/23 02:26:10 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4_AllSensors.csv%16/05/23 02:26:12 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 24. (Percentual = 6.575342465753424 %).
+Walking: 341. (Percentual = 93.42465753424658 %).
+Total: 365
+%16/05/23 02:26:12 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4_AllSensors.csv%16/05/23 02:26:13 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Walking: 365. (Percentual = 100.0 %).
+Total: 365
+%16/05/23 02:26:13 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4_AllSensors.csv%16/05/23 02:26:13 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 3. (Percentual = 0.821917808219178 %).
+Walking: 362. (Percentual = 99.17808219178083 %).
+Total: 365
+%16/05/23 02:26:13 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 02:26:13 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:13 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:13 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4.1_AllSensors.csv%16/05/23 02:26:13 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 298. (Percentual = 94.90445859872611 %).
+Walking: 16. (Percentual = 5.095541401273886 %).
+Total: 314
+%16/05/23 02:26:13 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4.1_AllSensors.csv%16/05/23 02:26:13 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 297. (Percentual = 94.5859872611465 %).
+Walking: 17. (Percentual = 5.414012738853503 %).
+Total: 314
+%16/05/23 02:26:13 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4.1_AllSensors.csv%16/05/23 02:26:13 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 288. (Percentual = 91.71974522292994 %).
+Walking: 26. (Percentual = 8.280254777070063 %).
+Total: 314
+%16/05/23 02:26:13 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4.1_AllSensors.csv%16/05/23 02:26:16 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 285. (Percentual = 90.76433121019109 %).
+Walking: 29. (Percentual = 9.235668789808917 %).
+Total: 314
+%16/05/23 02:26:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4.1_AllSensors.csv%16/05/23 02:26:16 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 304. (Percentual = 96.81528662420382 %).
+Walking: 10. (Percentual = 3.1847133757961785 %).
+Total: 314
+%16/05/23 02:26:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaPhone/Teste4.1_AllSensors.csv%16/05/23 02:26:16 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 300. (Percentual = 95.54140127388536 %).
+Walking: 14. (Percentual = 4.45859872611465 %).
+Total: 314
+%16/05/23 02:26:16 INFO main.MainExecutorPessoal: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ BLOCO SMARTWATCH...
+%16/05/23 02:26:16 INFO main.MainExecutorPessoal: ############################################# USUARIO 1..
+%16/05/23 02:26:16 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 2. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_smartwatch_pessoal_igor.csv 
+%16/05/23 02:26:16 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/DatasetIgorWatch/teste 1_AllSensorsAndar.csv
+%16/05/23 02:26:16 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/DatasetIgorWatch/teste 1_AllSensorsCorrer.csv
+%16/05/23 02:26:16 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 02:26:16 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:16 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1_AllSensors.csv%16/05/23 02:26:16 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 3. (Percentual = 0.9009009009009009 %).
+Walking: 330. (Percentual = 99.09909909909909 %).
+Total: 333
+%16/05/23 02:26:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1_AllSensors.csv%16/05/23 02:26:16 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Walking: 333. (Percentual = 100.0 %).
+Total: 333
+%16/05/23 02:26:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1_AllSensors.csv%16/05/23 02:26:16 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 15. (Percentual = 4.504504504504505 %).
+Walking: 318. (Percentual = 95.4954954954955 %).
+Total: 333
+%16/05/23 02:26:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1_AllSensors.csv%16/05/23 02:26:19 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 4. (Percentual = 1.2012012012012012 %).
+Walking: 329. (Percentual = 98.7987987987988 %).
+Total: 333
+%16/05/23 02:26:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1_AllSensors.csv%16/05/23 02:26:19 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 13. (Percentual = 3.903903903903904 %).
+Walking: 320. (Percentual = 96.09609609609609 %).
+Total: 333
+%16/05/23 02:26:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1_AllSensors.csv%16/05/23 02:26:19 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 1. (Percentual = 0.3003003003003003 %).
+Walking: 332. (Percentual = 99.69969969969969 %).
+Total: 333
+%16/05/23 02:26:19 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 02:26:19 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:19 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1.1_AllSensors.csv%16/05/23 02:26:19 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 290. (Percentual = 96.02649006622516 %).
+Walking: 12. (Percentual = 3.9735099337748347 %).
+Total: 302
+%16/05/23 02:26:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1.1_AllSensors.csv%16/05/23 02:26:20 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 301. (Percentual = 99.66887417218543 %).
+Walking: 1. (Percentual = 0.33112582781456956 %).
+Total: 302
+%16/05/23 02:26:20 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1.1_AllSensors.csv%16/05/23 02:26:20 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 301. (Percentual = 99.66887417218543 %).
+Walking: 1. (Percentual = 0.33112582781456956 %).
+Total: 302
+%16/05/23 02:26:20 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1.1_AllSensors.csv%16/05/23 02:26:22 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 302. (Percentual = 100.0 %).
+Total: 302
+%16/05/23 02:26:22 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1.1_AllSensors.csv%16/05/23 02:26:22 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 298. (Percentual = 98.67549668874173 %).
+Walking: 4. (Percentual = 1.3245033112582782 %).
+Total: 302
+%16/05/23 02:26:22 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/ExperimentoIgorWatch/teste 1.1_AllSensors.csv%16/05/23 02:26:22 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 297. (Percentual = 98.34437086092716 %).
+Walking: 5. (Percentual = 1.6556291390728477 %).
+Total: 302
+%16/05/23 02:26:22 INFO main.MainExecutorPessoal: ############################################# USUARIO 2..
+%16/05/23 02:26:22 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 2. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_smartwatch_pessoal_geane.csv 
+%16/05/23 02:26:22 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Dataset/teste2_AllSensorsAndar.csv
+%16/05/23 02:26:22 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Dataset/teste2_AllSensorsCorrer.csv
+%16/05/23 02:26:22 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 02:26:22 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:22 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:22 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2_AllSensors.csv%16/05/23 02:26:22 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 46. (Percentual = 12.957746478873238 %).
+Walking: 309. (Percentual = 87.04225352112675 %).
+Total: 355
+%16/05/23 02:26:22 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2_AllSensors.csv%16/05/23 02:26:23 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Walking: 355. (Percentual = 100.0 %).
+Total: 355
+%16/05/23 02:26:23 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2_AllSensors.csv%16/05/23 02:26:23 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 1. (Percentual = 0.28169014084507044 %).
+Walking: 354. (Percentual = 99.71830985915493 %).
+Total: 355
+%16/05/23 02:26:23 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2_AllSensors.csv%16/05/23 02:26:25 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 4. (Percentual = 1.1267605633802817 %).
+Walking: 351. (Percentual = 98.87323943661971 %).
+Total: 355
+%16/05/23 02:26:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2_AllSensors.csv%16/05/23 02:26:25 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 1. (Percentual = 0.28169014084507044 %).
+Walking: 354. (Percentual = 99.71830985915493 %).
+Total: 355
+%16/05/23 02:26:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2_AllSensors.csv%16/05/23 02:26:25 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 21. (Percentual = 5.915492957746479 %).
+Walking: 334. (Percentual = 94.08450704225352 %).
+Total: 355
+%16/05/23 02:26:25 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 02:26:25 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:25 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2.1_AllSensors.csv%16/05/23 02:26:25 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 333. (Percentual = 98.81305637982196 %).
+Walking: 4. (Percentual = 1.1869436201780417 %).
+Total: 337
+%16/05/23 02:26:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2.1_AllSensors.csv%16/05/23 02:26:25 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 337. (Percentual = 100.0 %).
+Total: 337
+%16/05/23 02:26:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2.1_AllSensors.csv%16/05/23 02:26:25 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 331. (Percentual = 98.21958456973294 %).
+Walking: 6. (Percentual = 1.7804154302670623 %).
+Total: 337
+%16/05/23 02:26:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2.1_AllSensors.csv%16/05/23 02:26:27 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 333. (Percentual = 98.81305637982196 %).
+Walking: 4. (Percentual = 1.1869436201780417 %).
+Total: 337
+%16/05/23 02:26:27 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2.1_AllSensors.csv%16/05/23 02:26:27 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 331. (Percentual = 98.21958456973294 %).
+Walking: 6. (Percentual = 1.7804154302670623 %).
+Total: 337
+%16/05/23 02:26:27 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste2.1_AllSensors.csv%16/05/23 02:26:27 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 333. (Percentual = 98.81305637982196 %).
+Walking: 4. (Percentual = 1.1869436201780417 %).
+Total: 337
+%16/05/23 02:26:27 INFO main.MainExecutorPessoal: ############################################# USUARIO 3..
+%16/05/23 02:26:27 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 2. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_smartwatch_pessoal_antonio.csv 
+%16/05/23 02:26:27 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Dataset/teste3_AllSensorsAndar.csv
+%16/05/23 02:26:27 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Dataset/teste3_AllSensorsCorrer.csv
+%16/05/23 02:26:27 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 02:26:27 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:27 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:27 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3_AllSensors.csv%16/05/23 02:26:27 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 19. (Percentual = 6.506849315068493 %).
+Walking: 273. (Percentual = 93.4931506849315 %).
+Total: 292
+%16/05/23 02:26:27 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3_AllSensors.csv%16/05/23 02:26:28 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 5. (Percentual = 1.7123287671232876 %).
+Walking: 287. (Percentual = 98.28767123287672 %).
+Total: 292
+%16/05/23 02:26:28 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3_AllSensors.csv%16/05/23 02:26:28 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 5. (Percentual = 1.7123287671232876 %).
+Walking: 287. (Percentual = 98.28767123287672 %).
+Total: 292
+%16/05/23 02:26:28 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3_AllSensors.csv%16/05/23 02:26:30 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 17. (Percentual = 5.821917808219178 %).
+Walking: 275. (Percentual = 94.17808219178082 %).
+Total: 292
+%16/05/23 02:26:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3_AllSensors.csv%16/05/23 02:26:30 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 7. (Percentual = 2.3972602739726026 %).
+Walking: 285. (Percentual = 97.6027397260274 %).
+Total: 292
+%16/05/23 02:26:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3_AllSensors.csv%16/05/23 02:26:30 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 7. (Percentual = 2.3972602739726026 %).
+Walking: 285. (Percentual = 97.6027397260274 %).
+Total: 292
+%16/05/23 02:26:30 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 02:26:30 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:30 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3.1_AllSensors.csv%16/05/23 02:26:30 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 292. (Percentual = 97.98657718120806 %).
+Walking: 6. (Percentual = 2.013422818791946 %).
+Total: 298
+%16/05/23 02:26:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3.1_AllSensors.csv%16/05/23 02:26:30 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 295. (Percentual = 98.99328859060402 %).
+Walking: 3. (Percentual = 1.006711409395973 %).
+Total: 298
+%16/05/23 02:26:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3.1_AllSensors.csv%16/05/23 02:26:30 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 290. (Percentual = 97.31543624161074 %).
+Walking: 8. (Percentual = 2.684563758389262 %).
+Total: 298
+%16/05/23 02:26:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3.1_AllSensors.csv%16/05/23 02:26:32 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 296. (Percentual = 99.32885906040269 %).
+Walking: 2. (Percentual = 0.6711409395973155 %).
+Total: 298
+%16/05/23 02:26:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3.1_AllSensors.csv%16/05/23 02:26:32 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 290. (Percentual = 97.31543624161074 %).
+Walking: 8. (Percentual = 2.684563758389262 %).
+Total: 298
+%16/05/23 02:26:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/wearable/Experimento/teste3.1_AllSensors.csv%16/05/23 02:26:32 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 293. (Percentual = 98.3221476510067 %).
+Walking: 5. (Percentual = 1.6778523489932886 %).
+Total: 298
+%16/05/23 02:26:32 INFO main.MainExecutorPessoal: ############################################# USUARIO 4..
+%16/05/23 02:26:32 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 2. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_smartwatch_pessoal_petala.csv 
+%16/05/23 02:26:32 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/DatasetPetalaWatch/teste 4_AllSensorsAndar.csv
+%16/05/23 02:26:32 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/DatasetPetalaWatch/teste 4_AllSensorsCorrer.csv
+%16/05/23 02:26:32 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 02:26:32 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:32 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4_AllSensors.csv%16/05/23 02:26:32 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 1. (Percentual = 0.3184713375796179 %).
+Walking: 313. (Percentual = 99.68152866242038 %).
+Total: 314
+%16/05/23 02:26:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4_AllSensors.csv%16/05/23 02:26:32 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Walking: 314. (Percentual = 100.0 %).
+Total: 314
+%16/05/23 02:26:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4_AllSensors.csv%16/05/23 02:26:32 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Walking: 314. (Percentual = 100.0 %).
+Total: 314
+%16/05/23 02:26:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4_AllSensors.csv%16/05/23 02:26:34 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Walking: 314. (Percentual = 100.0 %).
+Total: 314
+%16/05/23 02:26:34 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4_AllSensors.csv%16/05/23 02:26:34 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Walking: 314. (Percentual = 100.0 %).
+Total: 314
+%16/05/23 02:26:34 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4_AllSensors.csv%16/05/23 02:26:34 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 1. (Percentual = 0.3184713375796179 %).
+Walking: 313. (Percentual = 99.68152866242038 %).
+Total: 314
+%16/05/23 02:26:34 INFO main.MainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 02:26:34 INFO main.MainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 02:26:34 INFO main.MainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 02:26:34 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4.1_AllSensors.csv%16/05/23 02:26:35 INFO util.AlghoritmRunner: Algoritimo selecionado: J48
+Running: 243. (Percentual = 85.86572438162544 %).
+Walking: 40. (Percentual = 14.13427561837456 %).
+Total: 283
+%16/05/23 02:26:35 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4.1_AllSensors.csv%16/05/23 02:26:35 INFO util.AlghoritmRunner: Algoritimo selecionado: KNN
+Running: 241. (Percentual = 85.15901060070671 %).
+Walking: 42. (Percentual = 14.840989399293287 %).
+Total: 283
+%16/05/23 02:26:35 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4.1_AllSensors.csv%16/05/23 02:26:35 INFO util.AlghoritmRunner: Algoritimo selecionado: SVM
+Running: 48. (Percentual = 16.96113074204947 %).
+Walking: 235. (Percentual = 83.03886925795054 %).
+Total: 283
+%16/05/23 02:26:35 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4.1_AllSensors.csv%16/05/23 02:26:37 INFO util.AlghoritmRunner: Algoritimo selecionado: Multi-layer perceptron (MLP)
+Running: 48. (Percentual = 16.96113074204947 %).
+Walking: 235. (Percentual = 83.03886925795054 %).
+Total: 283
+%16/05/23 02:26:37 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4.1_AllSensors.csv%16/05/23 02:26:37 INFO util.AlghoritmRunner: Algoritimo selecionado: Naive Bayes (NB)
+Running: 257. (Percentual = 90.81272084805654 %).
+Walking: 26. (Percentual = 9.187279151943462 %).
+Total: 283
+%16/05/23 02:26:37 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/Petala/ExperimentoPetalaWatch/teste 4.1_AllSensors.csv%16/05/23 02:26:37 INFO util.AlghoritmRunner: Algoritimo selecionado: Random Forrest
+Running: 213. (Percentual = 75.26501766784452 %).
+Walking: 70. (Percentual = 24.73498233215548 %).
+Total: 283
+%
