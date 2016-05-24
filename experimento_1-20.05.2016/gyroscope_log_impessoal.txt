@@ -1,0 +1,421 @@
+16/05/23 23:01:13 INFO main.GyroscopeMainExecutorImpessoal: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ BLOCO SMARTPHONE...
+%16/05/23 23:01:13 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 8. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_gyroscope_smartphone.csv 
+%16/05/23 23:01:13 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste1_GyroscopeAndar.csv
+%16/05/23 23:01:13 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste1_GyroscopeCorrer.csv
+%16/05/23 23:01:13 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Testes2_GyroscopeAndar.csv
+%16/05/23 23:01:13 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste2_GyroscopeCorrer.csv
+%16/05/23 23:01:13 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste3_GyroscopeAndar.csv
+%16/05/23 23:01:13 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste3_GyroscopeCorrer.csv
+%16/05/23 23:01:13 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaPhone/Teste4_GyroscopeAndar.csv
+%16/05/23 23:01:13 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaPhone/Teste4_GyroscopeCorrer.csv
+%16/05/23 23:01:13 INFO main.GyroscopeMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 23:01:13 INFO main.GyroscopeMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:01:13 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:01:14 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Gyroscope.csv%16/05/23 23:01:15 INFO util.AlghoritmRunner: 
+Running: 6.316753127860848 %
+Walking: 93.68324687213915 %
+Total: 3277
+%16/05/23 23:01:15 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Gyroscope.csv%16/05/23 23:01:45 INFO util.AlghoritmRunner: 
+Running: 14.06774488861764 %
+Walking: 85.93225511138236 %
+Total: 3277
+%16/05/23 23:01:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Gyroscope.csv%16/05/23 23:01:46 INFO util.AlghoritmRunner: 
+Walking: 100.0 %
+Total: 3277
+%16/05/23 23:01:47 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Gyroscope.csv%16/05/23 23:02:11 INFO util.AlghoritmRunner: 
+Running: 4.607873054623131 %
+Walking: 95.39212694537686 %
+Total: 3277
+%16/05/23 23:02:11 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Gyroscope.csv%16/05/23 23:02:11 INFO util.AlghoritmRunner: 
+Running: 7.567897467195605 %
+Walking: 92.4321025328044 %
+Total: 3277
+%16/05/23 23:02:11 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Gyroscope.csv%16/05/23 23:02:26 INFO util.AlghoritmRunner: 
+Running: 8.971620384498017 %
+Walking: 91.02837961550199 %
+Total: 3277
+%16/05/23 23:02:26 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:02:26 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Gyroscope.csv%16/05/23 23:02:27 INFO util.AlghoritmRunner: 
+Running: 2.517162471395881 %
+Walking: 97.48283752860412 %
+Total: 437
+%16/05/23 23:02:27 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Gyroscope.csv%16/05/23 23:03:00 INFO util.AlghoritmRunner: 
+Running: 10.526315789473683 %
+Walking: 89.47368421052632 %
+Total: 437
+%16/05/23 23:03:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Gyroscope.csv%16/05/23 23:03:00 INFO util.AlghoritmRunner: 
+Walking: 100.0 %
+Total: 437
+%16/05/23 23:03:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Gyroscope.csv%16/05/23 23:03:22 INFO util.AlghoritmRunner: 
+Running: 2.745995423340961 %
+Walking: 97.25400457665904 %
+Total: 437
+%16/05/23 23:03:22 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Gyroscope.csv%16/05/23 23:03:23 INFO util.AlghoritmRunner: 
+Running: 9.839816933638444 %
+Walking: 90.16018306636155 %
+Total: 437
+%16/05/23 23:03:23 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Gyroscope.csv%16/05/23 23:03:36 INFO util.AlghoritmRunner: 
+Running: 5.034324942791762 %
+Walking: 94.96567505720824 %
+Total: 437
+%16/05/23 23:03:36 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:03:36 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Gyroscope.csv%16/05/23 23:03:37 INFO util.AlghoritmRunner: 
+Running: 3.9634146341463414 %
+Walking: 96.03658536585365 %
+Total: 328
+%16/05/23 23:03:37 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Gyroscope.csv%16/05/23 23:04:09 INFO util.AlghoritmRunner: 
+Running: 14.329268292682926 %
+Walking: 85.67073170731707 %
+Total: 328
+%16/05/23 23:04:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Gyroscope.csv%16/05/23 23:04:09 INFO util.AlghoritmRunner: 
+Walking: 100.0 %
+Total: 328
+%16/05/23 23:04:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Gyroscope.csv%16/05/23 23:04:32 INFO util.AlghoritmRunner: 
+Running: 2.1341463414634148 %
+Walking: 97.86585365853658 %
+Total: 328
+%16/05/23 23:04:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Gyroscope.csv%16/05/23 23:04:32 INFO util.AlghoritmRunner: 
+Running: 9.451219512195122 %
+Walking: 90.54878048780488 %
+Total: 328
+%16/05/23 23:04:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Gyroscope.csv%16/05/23 23:04:45 INFO util.AlghoritmRunner: 
+Running: 7.01219512195122 %
+Walking: 92.98780487804879 %
+Total: 328
+%16/05/23 23:04:45 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:04:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Gyroscope.csv%16/05/23 23:04:45 INFO util.AlghoritmRunner: 
+Running: 3.3962264150943398 %
+Walking: 96.60377358490567 %
+Total: 530
+%16/05/23 23:04:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Gyroscope.csv%16/05/23 23:05:20 INFO util.AlghoritmRunner: 
+Running: 19.622641509433965 %
+Walking: 80.37735849056604 %
+Total: 530
+%16/05/23 23:05:20 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Gyroscope.csv%16/05/23 23:05:20 INFO util.AlghoritmRunner: 
+Walking: 100.0 %
+Total: 530
+%16/05/23 23:05:21 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Gyroscope.csv%16/05/23 23:05:43 INFO util.AlghoritmRunner: 
+Running: 1.8867924528301887 %
+Walking: 98.11320754716981 %
+Total: 530
+%16/05/23 23:05:43 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Gyroscope.csv%16/05/23 23:05:43 INFO util.AlghoritmRunner: 
+Running: 0.7547169811320755 %
+Walking: 99.24528301886792 %
+Total: 530
+%16/05/23 23:05:43 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Gyroscope.csv%16/05/23 23:05:56 INFO util.AlghoritmRunner: 
+Running: 8.867924528301886 %
+Walking: 91.13207547169812 %
+Total: 530
+%16/05/23 23:05:56 INFO main.GyroscopeMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 23:05:56 INFO main.GyroscopeMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:05:56 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:05:56 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Gyroscope.csv%16/05/23 23:05:56 INFO util.AlghoritmRunner: 
+Running: 52.806788511749346 %
+Walking: 47.193211488250654 %
+Total: 3064
+%16/05/23 23:05:56 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Gyroscope.csv%16/05/23 23:06:32 INFO util.AlghoritmRunner: 
+Running: 59.46475195822454 %
+Walking: 40.53524804177545 %
+Total: 3064
+%16/05/23 23:06:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Gyroscope.csv%16/05/23 23:06:33 INFO util.AlghoritmRunner: 
+Walking: 100.0 %
+Total: 3064
+%16/05/23 23:06:33 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Gyroscope.csv%16/05/23 23:06:55 INFO util.AlghoritmRunner: 
+Running: 49.64099216710183 %
+Walking: 50.35900783289817 %
+Total: 3064
+%16/05/23 23:06:55 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Gyroscope.csv%16/05/23 23:06:55 INFO util.AlghoritmRunner: 
+Running: 43.89686684073107 %
+Walking: 56.10313315926893 %
+Total: 3064
+%16/05/23 23:06:55 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Gyroscope.csv%16/05/23 23:07:08 INFO util.AlghoritmRunner: 
+Running: 56.49477806788512 %
+Walking: 43.505221932114885 %
+Total: 3064
+%16/05/23 23:07:08 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:07:08 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Gyroscope.csv%16/05/23 23:07:09 INFO util.AlghoritmRunner: 
+Running: 73.81703470031546 %
+Walking: 26.18296529968454 %
+Total: 317
+%16/05/23 23:07:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Gyroscope.csv%16/05/23 23:07:42 INFO util.AlghoritmRunner: 
+Running: 82.96529968454259 %
+Walking: 17.034700315457414 %
+Total: 317
+%16/05/23 23:07:42 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Gyroscope.csv%16/05/23 23:07:42 INFO util.AlghoritmRunner: 
+Walking: 100.0 %
+Total: 317
+%16/05/23 23:07:42 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Gyroscope.csv%16/05/23 23:08:05 INFO util.AlghoritmRunner: 
+Running: 75.39432176656152 %
+Walking: 24.605678233438486 %
+Total: 317
+%16/05/23 23:08:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Gyroscope.csv%16/05/23 23:08:06 INFO util.AlghoritmRunner: 
+Running: 54.889589905362776 %
+Walking: 45.110410094637224 %
+Total: 317
+%16/05/23 23:08:06 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Gyroscope.csv%16/05/23 23:08:17 INFO util.AlghoritmRunner: 
+Running: 81.70347003154575 %
+Walking: 18.29652996845426 %
+Total: 317
+%16/05/23 23:08:17 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:08:17 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Gyroscope.csv%16/05/23 23:08:18 INFO util.AlghoritmRunner: 
+Running: 41.97852261633583 %
+Walking: 58.02147738366418 %
+Total: 3073
+%16/05/23 23:08:18 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Gyroscope.csv%16/05/23 23:08:54 INFO util.AlghoritmRunner: 
+Running: 48.421737715587376 %
+Walking: 51.578262284412624 %
+Total: 3073
+%16/05/23 23:08:54 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Gyroscope.csv%16/05/23 23:08:54 INFO util.AlghoritmRunner: 
+Walking: 100.0 %
+Total: 3073
+%16/05/23 23:08:54 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Gyroscope.csv%16/05/23 23:09:16 INFO util.AlghoritmRunner: 
+Running: 37.26000650829808 %
+Walking: 62.73999349170192 %
+Total: 3073
+%16/05/23 23:09:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Gyroscope.csv%16/05/23 23:09:17 INFO util.AlghoritmRunner: 
+Running: 38.33387569150667 %
+Walking: 61.66612430849333 %
+Total: 3073
+%16/05/23 23:09:17 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Gyroscope.csv%16/05/23 23:09:28 INFO util.AlghoritmRunner: 
+Running: 46.30654083957045 %
+Walking: 53.69345916042955 %
+Total: 3073
+%16/05/23 23:09:28 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:09:28 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Gyroscope.csv%16/05/23 23:09:29 INFO util.AlghoritmRunner: 
+Running: 78.343949044586 %
+Walking: 21.656050955414013 %
+Total: 314
+%16/05/23 23:09:29 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Gyroscope.csv%16/05/23 23:10:02 INFO util.AlghoritmRunner: 
+Running: 82.80254777070064 %
+Walking: 17.197452229299362 %
+Total: 314
+%16/05/23 23:10:02 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Gyroscope.csv%16/05/23 23:10:02 INFO util.AlghoritmRunner: 
+Walking: 100.0 %
+Total: 314
+%16/05/23 23:10:02 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Gyroscope.csv%16/05/23 23:10:24 INFO util.AlghoritmRunner: 
+Running: 78.02547770700637 %
+Walking: 21.97452229299363 %
+Total: 314
+%16/05/23 23:10:24 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Gyroscope.csv%16/05/23 23:10:25 INFO util.AlghoritmRunner: 
+Running: 67.51592356687898 %
+Walking: 32.48407643312102 %
+Total: 314
+%16/05/23 23:10:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Gyroscope.csv%16/05/23 23:10:37 INFO util.AlghoritmRunner: 
+Running: 82.80254777070064 %
+Walking: 17.197452229299362 %
+Total: 314
+%16/05/23 23:10:37 INFO main.GyroscopeMainExecutorImpessoal: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ BLOCO SMARTWATCH...
+%16/05/23 23:10:37 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 8. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_gyroscope_smartwatch.csv 
+%16/05/23 23:10:37 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/DatasetIgorWatch/teste 1_GyroscopeAndar.csv
+%16/05/23 23:10:37 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/DatasetIgorWatch/teste 1_GyroscopeCorrer.csv
+%16/05/23 23:10:37 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste2_GyroscopeAndar.csv
+%16/05/23 23:10:37 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste2_GyroscopeCorrer.csv
+%16/05/23 23:10:37 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste3_GyroscopeAndar.csv
+%16/05/23 23:10:37 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste3_GyroscopeCorrer.csv
+%16/05/23 23:10:37 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaWatch/teste 4_GyroscopeAndar.csv
+%16/05/23 23:10:37 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaWatch/teste 4_GyroscopeCorrer.csv
+%16/05/23 23:10:37 INFO main.GyroscopeMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 23:10:37 INFO main.GyroscopeMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:10:37 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:10:37 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Gyroscope.csv%16/05/23 23:10:37 INFO util.AlghoritmRunner: 
+Running: 3.003003003003003 %
+Walking: 96.996996996997 %
+Total: 333
+%16/05/23 23:10:37 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Gyroscope.csv%16/05/23 23:10:38 INFO util.AlghoritmRunner: 
+Running: 8.108108108108109 %
+Walking: 91.8918918918919 %
+Total: 333
+%16/05/23 23:10:38 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Gyroscope.csv%16/05/23 23:10:38 INFO util.AlghoritmRunner: 
+Running: 6.906906906906906 %
+Walking: 93.09309309309309 %
+Total: 333
+%16/05/23 23:10:38 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Gyroscope.csv%16/05/23 23:10:42 INFO util.AlghoritmRunner: 
+Running: 1.5015015015015014 %
+Walking: 98.49849849849849 %
+Total: 333
+%16/05/23 23:10:42 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Gyroscope.csv%16/05/23 23:10:42 INFO util.AlghoritmRunner: 
+Running: 1.5015015015015014 %
+Walking: 98.49849849849849 %
+Total: 333
+%16/05/23 23:10:42 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Gyroscope.csv%16/05/23 23:10:44 INFO util.AlghoritmRunner: 
+Running: 3.6036036036036037 %
+Walking: 96.3963963963964 %
+Total: 333
+%16/05/23 23:10:44 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:10:44 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Gyroscope.csv%16/05/23 23:10:44 INFO util.AlghoritmRunner: 
+Running: 5.633802816901409 %
+Walking: 94.36619718309859 %
+Total: 355
+%16/05/23 23:10:44 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Gyroscope.csv%16/05/23 23:10:45 INFO util.AlghoritmRunner: 
+Running: 8.450704225352112 %
+Walking: 91.54929577464789 %
+Total: 355
+%16/05/23 23:10:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Gyroscope.csv%16/05/23 23:10:45 INFO util.AlghoritmRunner: 
+Running: 18.87323943661972 %
+Walking: 81.12676056338029 %
+Total: 355
+%16/05/23 23:10:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Gyroscope.csv%16/05/23 23:10:49 INFO util.AlghoritmRunner: 
+Running: 1.6901408450704223 %
+Walking: 98.30985915492958 %
+Total: 355
+%16/05/23 23:10:49 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Gyroscope.csv%16/05/23 23:10:49 INFO util.AlghoritmRunner: 
+Running: 4.225352112676056 %
+Walking: 95.77464788732394 %
+Total: 355
+%16/05/23 23:10:49 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Gyroscope.csv%16/05/23 23:10:51 INFO util.AlghoritmRunner: 
+Running: 2.535211267605634 %
+Walking: 97.46478873239437 %
+Total: 355
+%16/05/23 23:10:51 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:10:51 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Gyroscope.csv%16/05/23 23:10:51 INFO util.AlghoritmRunner: 
+Running: 24.315068493150687 %
+Walking: 75.68493150684932 %
+Total: 292
+%16/05/23 23:10:51 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Gyroscope.csv%16/05/23 23:10:52 INFO util.AlghoritmRunner: 
+Running: 32.87671232876712 %
+Walking: 67.12328767123287 %
+Total: 292
+%16/05/23 23:10:52 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Gyroscope.csv%16/05/23 23:10:52 INFO util.AlghoritmRunner: 
+Running: 22.945205479452056 %
+Walking: 77.05479452054794 %
+Total: 292
+%16/05/23 23:10:52 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Gyroscope.csv%16/05/23 23:10:56 INFO util.AlghoritmRunner: 
+Running: 36.986301369863014 %
+Walking: 63.013698630136986 %
+Total: 292
+%16/05/23 23:10:56 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Gyroscope.csv%16/05/23 23:10:56 INFO util.AlghoritmRunner: 
+Running: 52.73972602739726 %
+Walking: 47.26027397260274 %
+Total: 292
+%16/05/23 23:10:56 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Gyroscope.csv%16/05/23 23:10:57 INFO util.AlghoritmRunner: 
+Running: 30.82191780821918 %
+Walking: 69.17808219178082 %
+Total: 292
+%16/05/23 23:10:57 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:10:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Gyroscope.csv%16/05/23 23:10:58 INFO util.AlghoritmRunner: 
+Running: 2.8213166144200628 %
+Walking: 97.17868338557993 %
+Total: 319
+%16/05/23 23:10:58 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Gyroscope.csv%16/05/23 23:10:58 INFO util.AlghoritmRunner: 
+Running: 7.836990595611286 %
+Walking: 92.16300940438872 %
+Total: 319
+%16/05/23 23:10:58 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Gyroscope.csv%16/05/23 23:10:59 INFO util.AlghoritmRunner: 
+Running: 11.285266457680251 %
+Walking: 88.71473354231975 %
+Total: 319
+%16/05/23 23:10:59 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Gyroscope.csv%16/05/23 23:11:03 INFO util.AlghoritmRunner: 
+Running: 1.5673981191222568 %
+Walking: 98.43260188087774 %
+Total: 319
+%16/05/23 23:11:03 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Gyroscope.csv%16/05/23 23:11:03 INFO util.AlghoritmRunner: 
+Running: 4.38871473354232 %
+Walking: 95.61128526645768 %
+Total: 319
+%16/05/23 23:11:03 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Gyroscope.csv%16/05/23 23:11:04 INFO util.AlghoritmRunner: 
+Running: 2.19435736677116 %
+Walking: 97.80564263322884 %
+Total: 319
+%16/05/23 23:11:04 INFO main.GyroscopeMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 23:11:04 INFO main.GyroscopeMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:11:04 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:11:04 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Gyroscope.csv%16/05/23 23:11:04 INFO util.AlghoritmRunner: 
+Running: 77.15231788079471 %
+Walking: 22.8476821192053 %
+Total: 302
+%16/05/23 23:11:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Gyroscope.csv%16/05/23 23:11:05 INFO util.AlghoritmRunner: 
+Running: 82.78145695364239 %
+Walking: 17.218543046357617 %
+Total: 302
+%16/05/23 23:11:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Gyroscope.csv%16/05/23 23:11:05 INFO util.AlghoritmRunner: 
+Running: 30.79470198675497 %
+Walking: 69.20529801324503 %
+Total: 302
+%16/05/23 23:11:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Gyroscope.csv%16/05/23 23:11:10 INFO util.AlghoritmRunner: 
+Running: 80.13245033112582 %
+Walking: 19.867549668874172 %
+Total: 302
+%16/05/23 23:11:10 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Gyroscope.csv%16/05/23 23:11:10 INFO util.AlghoritmRunner: 
+Running: 48.675496688741724 %
+Walking: 51.324503311258276 %
+Total: 302
+%16/05/23 23:11:10 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Gyroscope.csv%16/05/23 23:11:11 INFO util.AlghoritmRunner: 
+Running: 81.12582781456953 %
+Walking: 18.874172185430464 %
+Total: 302
+%16/05/23 23:11:11 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:11:11 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Gyroscope.csv%16/05/23 23:11:11 INFO util.AlghoritmRunner: 
+Running: 69.13946587537092 %
+Walking: 30.86053412462908 %
+Total: 337
+%16/05/23 23:11:11 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Gyroscope.csv%16/05/23 23:11:12 INFO util.AlghoritmRunner: 
+Running: 79.22848664688428 %
+Walking: 20.77151335311573 %
+Total: 337
+%16/05/23 23:11:12 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Gyroscope.csv%16/05/23 23:11:12 INFO util.AlghoritmRunner: 
+Running: 50.14836795252226 %
+Walking: 49.85163204747774 %
+Total: 337
+%16/05/23 23:11:12 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Gyroscope.csv%16/05/23 23:11:17 INFO util.AlghoritmRunner: 
+Running: 71.81008902077151 %
+Walking: 28.18991097922849 %
+Total: 337
+%16/05/23 23:11:17 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Gyroscope.csv%16/05/23 23:11:17 INFO util.AlghoritmRunner: 
+Running: 81.30563798219585 %
+Walking: 18.694362017804153 %
+Total: 337
+%16/05/23 23:11:17 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Gyroscope.csv%16/05/23 23:11:18 INFO util.AlghoritmRunner: 
+Running: 78.93175074183976 %
+Walking: 21.068249258160236 %
+Total: 337
+%16/05/23 23:11:18 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:11:18 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste 3.1_Gyroscope.csv%16/05/23 23:11:18 INFO util.AlghoritmRunner: 
+Running: 74.16107382550335 %
+Walking: 25.838926174496645 %
+Total: 298
+%16/05/23 23:11:18 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste 3.1_Gyroscope.csv%16/05/23 23:11:19 INFO util.AlghoritmRunner: 
+Running: 76.1744966442953 %
+Walking: 23.825503355704697 %
+Total: 298
+%16/05/23 23:11:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste 3.1_Gyroscope.csv%16/05/23 23:11:19 INFO util.AlghoritmRunner: 
+Running: 29.86577181208054 %
+Walking: 70.13422818791946 %
+Total: 298
+%16/05/23 23:11:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste 3.1_Gyroscope.csv%16/05/23 23:11:23 INFO util.AlghoritmRunner: 
+Running: 75.16778523489933 %
+Walking: 24.832214765100673 %
+Total: 298
+%16/05/23 23:11:23 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste 3.1_Gyroscope.csv%16/05/23 23:11:23 INFO util.AlghoritmRunner: 
+Running: 49.664429530201346 %
+Walking: 50.33557046979866 %
+Total: 298
+%16/05/23 23:11:24 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste 3.1_Gyroscope.csv%16/05/23 23:11:25 INFO util.AlghoritmRunner: 
+Running: 77.85234899328859 %
+Walking: 22.14765100671141 %
+Total: 298
+%16/05/23 23:11:25 INFO main.GyroscopeMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:11:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Gyroscope.csv%16/05/23 23:11:25 INFO util.AlghoritmRunner: 
+Running: 78.4452296819788 %
+Walking: 21.554770318021202 %
+Total: 283
+%16/05/23 23:11:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Gyroscope.csv%16/05/23 23:11:26 INFO util.AlghoritmRunner: 
+Running: 80.91872791519434 %
+Walking: 19.081272084805654 %
+Total: 283
+%16/05/23 23:11:26 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Gyroscope.csv%16/05/23 23:11:26 INFO util.AlghoritmRunner: 
+Running: 36.74911660777385 %
+Walking: 63.25088339222616 %
+Total: 283
+%16/05/23 23:11:26 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Gyroscope.csv%16/05/23 23:11:30 INFO util.AlghoritmRunner: 
+Running: 83.3922261484099 %
+Walking: 16.607773851590103 %
+Total: 283
+%16/05/23 23:11:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Gyroscope.csv%16/05/23 23:11:30 INFO util.AlghoritmRunner: 
+Running: 74.55830388692578 %
+Walking: 25.4416961130742 %
+Total: 283
+%16/05/23 23:11:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Gyroscope.csv%16/05/23 23:11:32 INFO util.AlghoritmRunner: 
+Running: 83.3922261484099 %
+Walking: 16.607773851590103 %
+Total: 283
+%

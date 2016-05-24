@@ -1,24 +1,23 @@
-package br.ufba.activityrecognition.business.evaluator;
+package br.ufba.activityrecognition.business.evaluator.allsensors;
 
 import java.util.List;
 
-import br.ufba.activityrecognition.business.classifier.ClassifierAb;
-import br.ufba.activityrecognition.business.parser.JsonToArffParser;
+import br.ufba.activityrecognition.business.classifier.allsensors.ClassifierAb;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsJsonToArffParser;
 import br.ufba.activityrecognition.core.enuns.ActivitiesEnum;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
-import weka.classifiers.Evaluation;
 import weka.core.Instances;
 
 
 public abstract class EvaluatorAb {
 	
 	private ClassifierAb classifier;
-	private JsonToArffParser jsonToArffParser;
+	private AllSensorsJsonToArffParser jsonToArffParser;
 	
 	public EvaluatorAb(ClassifierAb classifier){
 		this.classifier = classifier;
-		this.jsonToArffParser = new JsonToArffParser();
+		this.jsonToArffParser = new AllSensorsJsonToArffParser();
 	}
 	
 	public ResponseRecognitionModel evaluate(List<DataActivityModel> listaActivities) throws Exception{

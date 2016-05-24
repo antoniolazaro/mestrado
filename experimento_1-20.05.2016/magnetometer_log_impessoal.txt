@@ -1,0 +1,510 @@
+16/05/23 23:25:04 INFO main.MagnetometerMainExecutorImpessoal: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ BLOCO SMARTPHONE...
+%16/05/23 23:25:04 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 8. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_magnetometer_smartphone.csv 
+%16/05/23 23:25:04 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste1_MagnetometerAndar.csv
+%16/05/23 23:25:04 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste1_MagnetometerCorrer.csv
+%16/05/23 23:25:04 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Testes2_MagnetometerAndar.csv
+%16/05/23 23:25:04 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste2_MagnetometerCorrer.csv
+%16/05/23 23:25:04 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste3_MagnetometerAndar.csv
+%16/05/23 23:25:04 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste3_MagnetometerCorrer.csv
+%16/05/23 23:25:04 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaPhone/Teste4_MagnetometerAndar.csv
+%16/05/23 23:25:04 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaPhone/Teste4_MagnetometerCorrer.csv
+%16/05/23 23:25:04 INFO main.MagnetometerMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 23:25:04 INFO main.MagnetometerMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:25:04 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:25:04 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Magnetometer.csv%16/05/23 23:25:05 INFO util.AlghoritmRunner: J48
+
+Walking: 100.0 %
+Total: 327
+%16/05/23 23:25:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Magnetometer.csv%16/05/23 23:25:08 INFO util.AlghoritmRunner: KNN
+
+Walking: 100.0 %
+Total: 327
+%16/05/23 23:25:08 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Magnetometer.csv%16/05/23 23:25:09 INFO util.AlghoritmRunner: SVM
+
+Running: 3.669724770642202 %
+Walking: 96.3302752293578 %
+Total: 327
+%16/05/23 23:25:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Magnetometer.csv%16/05/23 23:25:16 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Walking: 100.0 %
+Total: 327
+%16/05/23 23:25:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Magnetometer.csv%16/05/23 23:25:16 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Walking: 100.0 %
+Total: 327
+%16/05/23 23:25:17 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Magnetometer.csv%16/05/23 23:25:18 INFO util.AlghoritmRunner: Random Forrest
+
+Walking: 100.0 %
+Total: 327
+%16/05/23 23:25:18 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:25:18 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Magnetometer.csv%16/05/23 23:25:18 INFO util.AlghoritmRunner: J48
+
+Running: 0.45662100456621 %
+Walking: 99.54337899543378 %
+Total: 438
+%16/05/23 23:25:18 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Magnetometer.csv%16/05/23 23:25:22 INFO util.AlghoritmRunner: KNN
+
+Walking: 100.0 %
+Total: 438
+%16/05/23 23:25:22 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Magnetometer.csv%16/05/23 23:25:23 INFO util.AlghoritmRunner: SVM
+
+Running: 2.054794520547945 %
+Walking: 97.94520547945206 %
+Total: 438
+%16/05/23 23:25:23 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Magnetometer.csv%16/05/23 23:25:29 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 0.91324200913242 %
+Walking: 99.08675799086758 %
+Total: 438
+%16/05/23 23:25:29 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Magnetometer.csv%16/05/23 23:25:30 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Walking: 100.0 %
+Total: 438
+%16/05/23 23:25:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Magnetometer.csv%16/05/23 23:25:30 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 0.45662100456621 %
+Walking: 99.54337899543378 %
+Total: 438
+%16/05/23 23:25:30 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:25:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Magnetometer.csv%16/05/23 23:25:31 INFO util.AlghoritmRunner: J48
+
+Running: 6.990881458966565 %
+Walking: 93.00911854103343 %
+Total: 329
+%16/05/23 23:25:31 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Magnetometer.csv%16/05/23 23:25:33 INFO util.AlghoritmRunner: KNN
+
+Running: 7.90273556231003 %
+Walking: 92.09726443768997 %
+Total: 329
+%16/05/23 23:25:33 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Magnetometer.csv%16/05/23 23:25:34 INFO util.AlghoritmRunner: SVM
+
+Running: 1.21580547112462 %
+Walking: 98.78419452887537 %
+Total: 329
+%16/05/23 23:25:34 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Magnetometer.csv%16/05/23 23:25:41 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 1.82370820668693 %
+Walking: 98.17629179331307 %
+Total: 329
+%16/05/23 23:25:41 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Magnetometer.csv%16/05/23 23:25:41 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 0.911854103343465 %
+Walking: 99.08814589665653 %
+Total: 329
+%16/05/23 23:25:42 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Magnetometer.csv%16/05/23 23:25:43 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 5.775075987841945 %
+Walking: 94.22492401215806 %
+Total: 329
+%16/05/23 23:25:43 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:25:43 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Magnetometer.csv%16/05/23 23:25:43 INFO util.AlghoritmRunner: J48
+
+Running: 13.972602739726028 %
+Walking: 86.02739726027397 %
+Total: 365
+%16/05/23 23:25:43 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Magnetometer.csv%16/05/23 23:25:46 INFO util.AlghoritmRunner: KNN
+
+Running: 33.6986301369863 %
+Walking: 66.3013698630137 %
+Total: 365
+%16/05/23 23:25:46 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Magnetometer.csv%16/05/23 23:25:47 INFO util.AlghoritmRunner: SVM
+
+Running: 100.0 %
+Total: 365
+%16/05/23 23:25:47 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Magnetometer.csv%16/05/23 23:25:54 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 10.684931506849315 %
+Walking: 89.31506849315069 %
+Total: 365
+%16/05/23 23:25:54 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Magnetometer.csv%16/05/23 23:25:54 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Walking: 100.0 %
+Total: 365
+%16/05/23 23:25:54 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Magnetometer.csv%16/05/23 23:25:55 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 2.73972602739726 %
+Walking: 97.26027397260275 %
+Total: 365
+%16/05/23 23:25:55 INFO main.MagnetometerMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 23:25:55 INFO main.MagnetometerMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:25:55 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:25:55 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Magnetometer.csv%16/05/23 23:25:55 INFO util.AlghoritmRunner: J48
+
+Running: 98.69281045751634 %
+Walking: 1.3071895424836601 %
+Total: 306
+%16/05/23 23:25:55 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Magnetometer.csv%16/05/23 23:25:58 INFO util.AlghoritmRunner: KNN
+
+Running: 99.34640522875817 %
+Walking: 0.6535947712418301 %
+Total: 306
+%16/05/23 23:25:58 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Magnetometer.csv%16/05/23 23:25:58 INFO util.AlghoritmRunner: SVM
+
+Running: 100.0 %
+Total: 306
+%16/05/23 23:25:58 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Magnetometer.csv%16/05/23 23:26:05 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 99.34640522875817 %
+Walking: 0.6535947712418301 %
+Total: 306
+%16/05/23 23:26:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Magnetometer.csv%16/05/23 23:26:05 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 97.38562091503267 %
+Walking: 2.6143790849673203 %
+Total: 306
+%16/05/23 23:26:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Magnetometer.csv%16/05/23 23:26:06 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 98.36601307189542 %
+Walking: 1.6339869281045754 %
+Total: 306
+%16/05/23 23:26:06 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:26:06 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Magnetometer.csv%16/05/23 23:26:06 INFO util.AlghoritmRunner: J48
+
+Running: 89.90536277602523 %
+Walking: 10.094637223974763 %
+Total: 317
+%16/05/23 23:26:06 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Magnetometer.csv%16/05/23 23:26:09 INFO util.AlghoritmRunner: KNN
+
+Running: 91.48264984227129 %
+Walking: 8.517350157728707 %
+Total: 317
+%16/05/23 23:26:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Magnetometer.csv%16/05/23 23:26:09 INFO util.AlghoritmRunner: SVM
+
+Running: 98.10725552050474 %
+Walking: 1.8927444794952681 %
+Total: 317
+%16/05/23 23:26:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Magnetometer.csv%16/05/23 23:26:18 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 92.42902208201893 %
+Walking: 7.570977917981073 %
+Total: 317
+%16/05/23 23:26:18 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Magnetometer.csv%16/05/23 23:26:19 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 69.08517350157729 %
+Walking: 30.914826498422716 %
+Total: 317
+%16/05/23 23:26:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Magnetometer.csv%16/05/23 23:26:19 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 95.89905362776025 %
+Walking: 4.100946372239748 %
+Total: 317
+%16/05/23 23:26:19 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:26:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Magnetometer.csv%16/05/23 23:26:19 INFO util.AlghoritmRunner: J48
+
+Running: 96.1661341853035 %
+Walking: 3.8338658146964857 %
+Total: 313
+%16/05/23 23:26:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Magnetometer.csv%16/05/23 23:26:22 INFO util.AlghoritmRunner: KNN
+
+Running: 97.76357827476039 %
+Walking: 2.2364217252396164 %
+Total: 313
+%16/05/23 23:26:22 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Magnetometer.csv%16/05/23 23:26:22 INFO util.AlghoritmRunner: SVM
+
+Running: 100.0 %
+Total: 313
+%16/05/23 23:26:23 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Magnetometer.csv%16/05/23 23:26:31 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 98.08306709265176 %
+Walking: 1.9169329073482428 %
+Total: 313
+%16/05/23 23:26:31 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Magnetometer.csv%16/05/23 23:26:31 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 96.1661341853035 %
+Walking: 3.8338658146964857 %
+Total: 313
+%16/05/23 23:26:31 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Magnetometer.csv%16/05/23 23:26:32 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 98.08306709265176 %
+Walking: 1.9169329073482428 %
+Total: 313
+%16/05/23 23:26:32 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:26:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Magnetometer.csv%16/05/23 23:26:32 INFO util.AlghoritmRunner: J48
+
+Running: 94.6031746031746 %
+Walking: 5.396825396825397 %
+Total: 315
+%16/05/23 23:26:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Magnetometer.csv%16/05/23 23:26:36 INFO util.AlghoritmRunner: KNN
+
+Running: 91.74603174603175 %
+Walking: 8.253968253968253 %
+Total: 315
+%16/05/23 23:26:36 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Magnetometer.csv%16/05/23 23:26:36 INFO util.AlghoritmRunner: SVM
+
+Running: 100.0 %
+Total: 315
+%16/05/23 23:26:36 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Magnetometer.csv%16/05/23 23:26:45 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 83.80952380952381 %
+Walking: 16.19047619047619 %
+Total: 315
+%16/05/23 23:26:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Magnetometer.csv%16/05/23 23:26:45 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 84.12698412698413 %
+Walking: 15.873015873015872 %
+Total: 315
+%16/05/23 23:26:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Magnetometer.csv%16/05/23 23:26:46 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 94.92063492063491 %
+Walking: 5.079365079365079 %
+Total: 315
+%16/05/23 23:26:46 INFO main.MagnetometerMainExecutorImpessoal: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ BLOCO SMARTWATCH...
+%16/05/23 23:26:46 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 8. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_magnetometer_smartwatch.csv 
+%16/05/23 23:26:46 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/DatasetIgorWatch/teste 1_MagnetometerAndar.csv
+%16/05/23 23:26:46 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/DatasetIgorWatch/teste 1_MagnetometerCorrer.csv
+%16/05/23 23:26:46 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste2_MagnetometerAndar.csv
+%16/05/23 23:26:46 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste2_MagnetometerCorrer.csv
+%16/05/23 23:26:46 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste3_MagnetometerAndar.csv
+%16/05/23 23:26:46 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste3_MagnetometerCorrer.csv
+%16/05/23 23:26:46 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaWatch/teste 4_MagnetometerAndar.csv
+%16/05/23 23:26:46 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaWatch/teste 4_MagnetometerCorrer.csv
+%16/05/23 23:26:46 INFO main.MagnetometerMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 23:26:46 INFO main.MagnetometerMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:26:46 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:26:46 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Magnetometer.csv%16/05/23 23:26:46 INFO util.AlghoritmRunner: J48
+
+Running: 0.6006006006006006 %
+Walking: 99.3993993993994 %
+Total: 333
+%16/05/23 23:26:46 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Magnetometer.csv%16/05/23 23:26:48 INFO util.AlghoritmRunner: KNN
+
+Running: 1.2012012012012012 %
+Walking: 98.7987987987988 %
+Total: 333
+%16/05/23 23:26:48 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Magnetometer.csv%16/05/23 23:26:48 INFO util.AlghoritmRunner: SVM
+
+Running: 4.504504504504505 %
+Walking: 95.4954954954955 %
+Total: 333
+%16/05/23 23:26:48 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Magnetometer.csv%16/05/23 23:26:55 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 4.2042042042042045 %
+Walking: 95.7957957957958 %
+Total: 333
+%16/05/23 23:26:55 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Magnetometer.csv%16/05/23 23:26:56 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 5.105105105105105 %
+Walking: 94.8948948948949 %
+Total: 333
+%16/05/23 23:26:56 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Magnetometer.csv%16/05/23 23:26:57 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 0.9009009009009009 %
+Walking: 99.09909909909909 %
+Total: 333
+%16/05/23 23:26:57 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:26:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Magnetometer.csv%16/05/23 23:26:57 INFO util.AlghoritmRunner: J48
+
+Running: 0.5633802816901409 %
+Walking: 99.43661971830986 %
+Total: 355
+%16/05/23 23:26:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Magnetometer.csv%16/05/23 23:26:59 INFO util.AlghoritmRunner: KNN
+
+Running: 2.8169014084507045 %
+Walking: 97.1830985915493 %
+Total: 355
+%16/05/23 23:26:59 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Magnetometer.csv%16/05/23 23:26:59 INFO util.AlghoritmRunner: SVM
+
+Running: 13.239436619718308 %
+Walking: 86.76056338028168 %
+Total: 355
+%16/05/23 23:26:59 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Magnetometer.csv%16/05/23 23:27:05 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 0.5633802816901409 %
+Walking: 99.43661971830986 %
+Total: 355
+%16/05/23 23:27:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Magnetometer.csv%16/05/23 23:27:05 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 50.42253521126761 %
+Walking: 49.57746478873239 %
+Total: 355
+%16/05/23 23:27:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Magnetometer.csv%16/05/23 23:27:07 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 0.5633802816901409 %
+Walking: 99.43661971830986 %
+Total: 355
+%16/05/23 23:27:07 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:27:07 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Magnetometer.csv%16/05/23 23:27:07 INFO util.AlghoritmRunner: J48
+
+Running: 6.832298136645963 %
+Walking: 93.16770186335404 %
+Total: 322
+%16/05/23 23:27:07 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Magnetometer.csv%16/05/23 23:27:09 INFO util.AlghoritmRunner: KNN
+
+Running: 2.7950310559006213 %
+Walking: 97.20496894409938 %
+Total: 322
+%16/05/23 23:27:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Magnetometer.csv%16/05/23 23:27:09 INFO util.AlghoritmRunner: SVM
+
+Running: 0.6211180124223602 %
+Walking: 99.37888198757764 %
+Total: 322
+%16/05/23 23:27:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Magnetometer.csv%16/05/23 23:27:16 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Walking: 100.0 %
+Total: 322
+%16/05/23 23:27:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Magnetometer.csv%16/05/23 23:27:16 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 1.2422360248447204 %
+Walking: 98.75776397515527 %
+Total: 322
+%16/05/23 23:27:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Magnetometer.csv%16/05/23 23:27:18 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 3.1055900621118013 %
+Walking: 96.8944099378882 %
+Total: 322
+%16/05/23 23:27:18 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:27:18 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Magnetometer.csv%16/05/23 23:27:18 INFO util.AlghoritmRunner: J48
+
+Running: 2.8662420382165608 %
+Walking: 97.13375796178345 %
+Total: 314
+%16/05/23 23:27:18 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Magnetometer.csv%16/05/23 23:27:20 INFO util.AlghoritmRunner: KNN
+
+Running: 0.9554140127388535 %
+Walking: 99.04458598726114 %
+Total: 314
+%16/05/23 23:27:20 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Magnetometer.csv%16/05/23 23:27:20 INFO util.AlghoritmRunner: SVM
+
+Running: 1.5923566878980893 %
+Walking: 98.40764331210191 %
+Total: 314
+%16/05/23 23:27:20 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Magnetometer.csv%16/05/23 23:27:27 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 1.2738853503184715 %
+Walking: 98.72611464968153 %
+Total: 314
+%16/05/23 23:27:27 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Magnetometer.csv%16/05/23 23:27:27 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 29.29936305732484 %
+Walking: 70.70063694267516 %
+Total: 314
+%16/05/23 23:27:27 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Magnetometer.csv%16/05/23 23:27:29 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 0.3184713375796179 %
+Walking: 99.68152866242038 %
+Total: 314
+%16/05/23 23:27:29 INFO main.MagnetometerMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 23:27:29 INFO main.MagnetometerMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:27:29 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:27:29 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Magnetometer.csv%16/05/23 23:27:29 INFO util.AlghoritmRunner: J48
+
+Running: 95.03311258278146 %
+Walking: 4.966887417218543 %
+Total: 302
+%16/05/23 23:27:29 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Magnetometer.csv%16/05/23 23:27:31 INFO util.AlghoritmRunner: KNN
+
+Running: 98.01324503311258 %
+Walking: 1.9867549668874174 %
+Total: 302
+%16/05/23 23:27:31 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Magnetometer.csv%16/05/23 23:27:31 INFO util.AlghoritmRunner: SVM
+
+Running: 84.43708609271523 %
+Walking: 15.562913907284766 %
+Total: 302
+%16/05/23 23:27:31 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Magnetometer.csv%16/05/23 23:27:39 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 86.75496688741721 %
+Walking: 13.245033112582782 %
+Total: 302
+%16/05/23 23:27:39 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Magnetometer.csv%16/05/23 23:27:39 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 95.36423841059603 %
+Walking: 4.635761589403973 %
+Total: 302
+%16/05/23 23:27:39 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Magnetometer.csv%16/05/23 23:27:40 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 97.35099337748345 %
+Walking: 2.6490066225165565 %
+Total: 302
+%16/05/23 23:27:40 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:27:40 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Magnetometer.csv%16/05/23 23:27:40 INFO util.AlghoritmRunner: J48
+
+Running: 98.21958456973294 %
+Walking: 1.7804154302670623 %
+Total: 337
+%16/05/23 23:27:41 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Magnetometer.csv%16/05/23 23:27:42 INFO util.AlghoritmRunner: KNN
+
+Running: 99.10979228486647 %
+Walking: 0.8902077151335311 %
+Total: 337
+%16/05/23 23:27:42 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Magnetometer.csv%16/05/23 23:27:42 INFO util.AlghoritmRunner: SVM
+
+Running: 98.21958456973294 %
+Walking: 1.7804154302670623 %
+Total: 337
+%16/05/23 23:27:42 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Magnetometer.csv%16/05/23 23:27:50 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 100.0 %
+Total: 337
+%16/05/23 23:27:50 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Magnetometer.csv%16/05/23 23:27:50 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 98.21958456973294 %
+Walking: 1.7804154302670623 %
+Total: 337
+%16/05/23 23:27:50 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Magnetometer.csv%16/05/23 23:27:51 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 99.10979228486647 %
+Walking: 0.8902077151335311 %
+Total: 337
+%16/05/23 23:27:51 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:27:51 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3.1_Magnetometer.csv%16/05/23 23:27:51 INFO util.AlghoritmRunner: J48
+
+Running: 96.95121951219512 %
+Walking: 3.048780487804878 %
+Total: 328
+%16/05/23 23:27:51 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3.1_Magnetometer.csv%16/05/23 23:27:53 INFO util.AlghoritmRunner: KNN
+
+Running: 93.59756097560977 %
+Walking: 6.402439024390244 %
+Total: 328
+%16/05/23 23:27:53 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3.1_Magnetometer.csv%16/05/23 23:27:53 INFO util.AlghoritmRunner: SVM
+
+Running: 91.46341463414635 %
+Walking: 8.536585365853659 %
+Total: 328
+%16/05/23 23:27:53 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3.1_Magnetometer.csv%16/05/23 23:28:02 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 95.73170731707317 %
+Walking: 4.2682926829268295 %
+Total: 328
+%16/05/23 23:28:02 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3.1_Magnetometer.csv%16/05/23 23:28:02 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 91.76829268292683 %
+Walking: 8.231707317073171 %
+Total: 328
+%16/05/23 23:28:02 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3.1_Magnetometer.csv%16/05/23 23:28:03 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 93.90243902439023 %
+Walking: 6.097560975609756 %
+Total: 328
+%16/05/23 23:28:03 INFO main.MagnetometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:28:03 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Magnetometer.csv%16/05/23 23:28:03 INFO util.AlghoritmRunner: J48
+
+Running: 100.0 %
+Total: 313
+%16/05/23 23:28:03 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Magnetometer.csv%16/05/23 23:28:05 INFO util.AlghoritmRunner: KNN
+
+Running: 97.76357827476039 %
+Walking: 2.2364217252396164 %
+Total: 313
+%16/05/23 23:28:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Magnetometer.csv%16/05/23 23:28:05 INFO util.AlghoritmRunner: SVM
+
+Running: 84.66453674121406 %
+Walking: 15.335463258785943 %
+Total: 313
+%16/05/23 23:28:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Magnetometer.csv%16/05/23 23:28:12 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 80.83067092651757 %
+Walking: 19.169329073482427 %
+Total: 313
+%16/05/23 23:28:12 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Magnetometer.csv%16/05/23 23:28:12 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 92.33226837060703 %
+Walking: 7.667731629392971 %
+Total: 313
+%16/05/23 23:28:12 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Magnetometer.csv%16/05/23 23:28:13 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 99.68051118210862 %
+Walking: 0.3194888178913738 %
+Total: 313
+%

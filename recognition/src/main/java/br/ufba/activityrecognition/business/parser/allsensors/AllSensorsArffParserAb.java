@@ -1,4 +1,4 @@
-package br.ufba.activityrecognition.business.parser;
+package br.ufba.activityrecognition.business.parser.allsensors;
 
 import java.io.BufferedWriter;
 import java.io.ByteArrayInputStream;
@@ -14,7 +14,7 @@ import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
-public abstract class ArffParserAb {
+public abstract class AllSensorsArffParserAb {
 	
 	public Instances parserToArff(String fileName) throws Exception{
 		return parserToArff(new File(fileName));
@@ -38,7 +38,7 @@ public abstract class ArffParserAb {
 		try{
 			if(listaDados != null && listaDados.size() > 0){
 				ByteArrayOutputStream baos = new ByteArrayOutputStream();
-				BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(baos),CSVToArffParser.BUFFER_SIZE);
+				BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(baos),AllSensorsCSVToArffParser.BUFFER_SIZE);
 				
 				for(DataActivityModel dataActivity: listaDados){
 					contentArffFile.append(dataActivity.getAccelerometerX()).append(",").

@@ -5,8 +5,8 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-import br.ufba.activityrecognition.business.parser.ArffParserAb;
-import br.ufba.activityrecognition.business.parser.CSVToArffParser;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsArffParserAb;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsCSVToArffParser;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.J48;
@@ -22,7 +22,7 @@ public class ClassifyingTestCSV {
 	
 	public static void main(String[] args) throws Exception{
 	
-		ArffParserAb arffParser = new CSVToArffParser();
+		AllSensorsArffParserAb arffParser = new AllSensorsCSVToArffParser();
 		Instances instanceTraining = arffParser.parserToArff(fileName);
 		instanceTraining.setClassIndex(instanceTraining.numAttributes() - 1);
 		

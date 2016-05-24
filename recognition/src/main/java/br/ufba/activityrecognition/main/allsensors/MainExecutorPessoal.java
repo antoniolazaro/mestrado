@@ -1,4 +1,4 @@
-package br.ufba.activityrecognition.main;
+package br.ufba.activityrecognition.main.allsensors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

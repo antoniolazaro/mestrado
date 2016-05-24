@@ -1,4 +1,4 @@
-package br.ufba.activityrecognition.business.classifier;
+package br.ufba.activityrecognition.business.classifier.allsensors;
 
 import weka.classifiers.functions.MultilayerPerceptron;
 

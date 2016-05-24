@@ -2,8 +2,8 @@ package br.ufba.activityrecognition.business.codetest;
 
 import java.util.List;
 
-import br.ufba.activityrecognition.business.parser.JsonToArffParser;
-import br.ufba.activityrecognition.business.parser.XlsxToArffParser;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsJsonToArffParser;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsXlsxToArffParser;
 import br.ufba.activityrecognition.core.enuns.ActivitiesEnum;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
@@ -19,15 +19,15 @@ public class DistributionCalculator {
 	private static String pathFile = "/Users/antoniolazarocarvalhoborges/Documents/Current/Mestrado/Projeto Prático/Activity_Recognition_DataSet/";
 	public static String fileName = pathFile+"Wrist.xlsx";
 	
-	private XlsxToArffParser xlsxToArffParser;
-	private JsonToArffParser jsonToArffParser;
+	private AllSensorsXlsxToArffParser xlsxToArffParser;
+	private AllSensorsJsonToArffParser jsonToArffParser;
 	private Instances learningInstances; 
 	private double[][] cmMatrix;
 	private Classifier classifier;
 	private Evaluation evalutationTest;
 	
 	public DistributionCalculator() throws Exception {
-		this.xlsxToArffParser = new XlsxToArffParser();
+		this.xlsxToArffParser = new AllSensorsXlsxToArffParser();
 		this.learningInstances = xlsxToArffParser.parserToArff(fileName);
 		this.learningInstances.setClassIndex(learningInstances.numAttributes() - 1);
 		this.classifier = new J48();
@@ -35,7 +35,7 @@ public class DistributionCalculator {
 		this.evalutationTest = new Evaluation(learningInstances);
 		this.evalutationTest.evaluateModel(classifier, learningInstances);
 		this.cmMatrix = evalutationTest.confusionMatrix();
-		this.jsonToArffParser = new JsonToArffParser();
+		this.jsonToArffParser = new AllSensorsJsonToArffParser();
 	}
 	
 	private double[] distributionForInstance(Instance instance) throws Exception{

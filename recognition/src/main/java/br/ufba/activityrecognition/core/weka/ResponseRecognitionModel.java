@@ -158,7 +158,7 @@ public class ResponseRecognitionModel implements Serializable{
 	}
 
 	public String getRetornoFormatado(){
-		StringBuilder builder = new StringBuilder();
+		StringBuilder builder = new StringBuilder("\n");
 		if(getTotalDownstairs() > 0){
 			builder.append("Downstairs: ").append(getTotalDownstairs()).append(". (Percentual = ").append(getTotalDownstairsPercentual()).append(" %).\n");	
 		}
@@ -179,6 +179,33 @@ public class ResponseRecognitionModel implements Serializable{
 		}
 		if(getTotalNaoReconhecido() > 0){
 			builder.append("Não reconhecido: ").append(getTotalNaoReconhecido()).append(". (Percentual = ").append(getTotalNaoReconhecidoPercentual()).append(" %).\n");	
+		}
+		builder.append("Total: ").append(getQuantidadeTotal()).append("\n");
+		return builder.toString();
+	}
+	
+	public String getRetornoCustomizadoParaExcel(){
+		StringBuilder builder = new StringBuilder("\n");
+		if(getTotalDownstairs() > 0){
+			builder.append("Downstairs: ").append(getTotalDownstairsPercentual()).append(" %\n");	
+		}
+		if(getTotalRunning() > 0){
+			builder.append("Running: ").append(getTotalRunningPercentual()).append(" %\n");	
+		}
+		if(getTotalSitting() > 0){
+			builder.append("Sitting: ").append(getTotalSittingPercentual()).append(" %\n");	
+		}
+		if(getTotalStanding() > 0){
+			builder.append("Standing ").append(getTotalStandingPercentual()).append(" %\n");	
+		}
+		if(getTotalUpstairs() > 0){
+			builder.append("Upstairs: ").append(getTotalUpstairsPercentual()).append(" %\n");	
+		}
+		if(getTotalWalking() > 0){
+			builder.append("Walking: ").append(getTotalWalkingPercentual()).append(" %\n");	
+		}
+		if(getTotalNaoReconhecido() > 0){
+			builder.append("Não reconhecido: ").append(getTotalNaoReconhecidoPercentual()).append(" %\n");	
 		}
 		builder.append("Total: ").append(getQuantidadeTotal()).append("\n");
 		return builder.toString();

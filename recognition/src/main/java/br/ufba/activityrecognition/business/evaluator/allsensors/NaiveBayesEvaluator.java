@@ -1,6 +1,6 @@
-package br.ufba.activityrecognition.business.evaluator;
+package br.ufba.activityrecognition.business.evaluator.allsensors;
 
-import br.ufba.activityrecognition.business.classifier.NaiveBayesClassifier;
+import br.ufba.activityrecognition.business.classifier.allsensors.NaiveBayesClassifier;
 
 
 public class NaiveBayesEvaluator extends EvaluatorAb {

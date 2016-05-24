@@ -1,6 +1,6 @@
-package br.ufba.activityrecognition.business.evaluator;
+package br.ufba.activityrecognition.business.evaluator.allsensors;
 
-import br.ufba.activityrecognition.business.classifier.J48Classifier;
+import br.ufba.activityrecognition.business.classifier.allsensors.J48Classifier;
 
 
 public class J48Evaluator extends EvaluatorAb {

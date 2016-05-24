@@ -3,30 +3,30 @@ package br.ufba.activityrecognition.business.util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import br.ufba.activityrecognition.business.classifier.J48Classifier;
-import br.ufba.activityrecognition.business.classifier.KNNClassifier;
-import br.ufba.activityrecognition.business.classifier.MultiLayerPerceptronMLPClassifier;
-import br.ufba.activityrecognition.business.classifier.NaiveBayesClassifier;
-import br.ufba.activityrecognition.business.classifier.RandomForrestClassifier;
-import br.ufba.activityrecognition.business.classifier.SVMClassifier;
-import br.ufba.activityrecognition.business.evaluator.EvaluatorAb;
-import br.ufba.activityrecognition.business.evaluator.J48Evaluator;
-import br.ufba.activityrecognition.business.evaluator.KNNEvaluator;
-import br.ufba.activityrecognition.business.evaluator.MultiLayerPerceptronMLPEvaluator;
-import br.ufba.activityrecognition.business.evaluator.NaiveBayesEvaluator;
-import br.ufba.activityrecognition.business.evaluator.RandomForrestEvaluator;
-import br.ufba.activityrecognition.business.evaluator.SVMEvaluator;
-import br.ufba.activityrecognition.business.parser.ArffParserAb;
-import br.ufba.activityrecognition.business.parser.CSVToArffParser;
+import br.ufba.activityrecognition.business.classifier.allsensors.J48Classifier;
+import br.ufba.activityrecognition.business.classifier.allsensors.KNNClassifier;
+import br.ufba.activityrecognition.business.classifier.allsensors.MultiLayerPerceptronMLPClassifier;
+import br.ufba.activityrecognition.business.classifier.allsensors.NaiveBayesClassifier;
+import br.ufba.activityrecognition.business.classifier.allsensors.RandomForrestClassifier;
+import br.ufba.activityrecognition.business.classifier.allsensors.SVMClassifier;
+import br.ufba.activityrecognition.business.evaluator.allsensors.EvaluatorAb;
+import br.ufba.activityrecognition.business.evaluator.allsensors.J48Evaluator;
+import br.ufba.activityrecognition.business.evaluator.allsensors.KNNEvaluator;
+import br.ufba.activityrecognition.business.evaluator.allsensors.MultiLayerPerceptronMLPEvaluator;
+import br.ufba.activityrecognition.business.evaluator.allsensors.NaiveBayesEvaluator;
+import br.ufba.activityrecognition.business.evaluator.allsensors.RandomForrestEvaluator;
+import br.ufba.activityrecognition.business.evaluator.allsensors.SVMEvaluator;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsArffParserAb;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsCSVToArffParser;
 import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
 import weka.core.Instances;
 
-public class AlghoritmRunner {
+public class AlghoritmRunnerAllSensors {
 	
-	private static final Logger logger = LoggerFactory.getLogger(AlghoritmRunner.class);
+	private static final Logger logger = LoggerFactory.getLogger(AlghoritmRunnerAllSensors.class);
 	
 	public static void runRecognitionProcess(EvaluatorAb evaluator,String fileName) throws Exception {
-		ArffParserAb arffParser = new CSVToArffParser();
+		AllSensorsArffParserAb arffParser = new AllSensorsCSVToArffParser();
 		logger.info("INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> "+fileName);
 		Instances recognitonInstances = arffParser.parserToArff(fileName);
 		ResponseRecognitionModel response = evaluator.evaluate(recognitonInstances);

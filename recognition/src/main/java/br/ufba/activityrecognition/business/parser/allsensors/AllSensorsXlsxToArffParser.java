@@ -1,4 +1,4 @@
-package br.ufba.activityrecognition.business.parser;
+package br.ufba.activityrecognition.business.parser.allsensors;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,7 +16,7 @@ import br.ufba.activityrecognition.business.exception.ApplicationException;
 import br.ufba.activityrecognition.business.exception.EnvironmentException;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 
-public class XlsxToArffParser extends ArffParserAb {
+public class AllSensorsXlsxToArffParser extends AllSensorsArffParserAb {
 	
 	@Override
 	protected List<DataActivityModel> convertContentFileToDataActivityModel(File file) throws Exception {

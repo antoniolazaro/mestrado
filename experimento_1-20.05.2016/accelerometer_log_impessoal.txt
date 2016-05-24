@@ -1,0 +1,525 @@
+16/05/23 23:16:15 INFO main.AccelerometerMainExecutorImpessoal: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ BLOCO SMARTPHONE...
+%16/05/23 23:16:15 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 8. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_accelerometer_smartphone.csv 
+%16/05/23 23:16:15 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste1_AccelerometerAndar.csv
+%16/05/23 23:16:15 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste1_AccelerometerCorrer.csv
+%16/05/23 23:16:15 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Testes2_AccelerometerAndar.csv
+%16/05/23 23:16:15 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste2_AccelerometerCorrer.csv
+%16/05/23 23:16:15 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste3_AccelerometerAndar.csv
+%16/05/23 23:16:15 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/DataSet/Teste3_AccelerometerCorrer.csv
+%16/05/23 23:16:15 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaPhone/Teste4_AccelerometerAndar.csv
+%16/05/23 23:16:15 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaPhone/Teste4_AccelerometerCorrer.csv
+%16/05/23 23:16:15 INFO main.AccelerometerMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 23:16:15 INFO main.AccelerometerMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:16:15 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:16:16 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Accelerometer.csv%16/05/23 23:16:18 INFO util.AlghoritmRunner: J48
+
+Running: 5.308114704087859 %
+Walking: 94.69188529591214 %
+Total: 3278
+%16/05/23 23:16:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Accelerometer.csv%16/05/23 23:18:53 INFO util.AlghoritmRunner: KNN
+
+Running: 9.914582062233068 %
+Walking: 90.08541793776693 %
+Total: 3278
+%16/05/23 23:18:54 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Accelerometer.csv%16/05/23 23:19:00 INFO util.AlghoritmRunner: SVM
+
+Running: 0.7321537522879805 %
+Walking: 99.26784624771201 %
+Total: 3278
+%16/05/23 23:19:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Accelerometer.csv%16/05/23 23:19:46 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 14.612568639414278 %
+Walking: 85.38743136058572 %
+Total: 3278
+%16/05/23 23:19:46 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Accelerometer.csv%16/05/23 23:19:47 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 4.331909701037217 %
+Walking: 95.66809029896278 %
+Total: 3278
+%16/05/23 23:19:47 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste1_Accelerometer.csv%16/05/23 23:20:04 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 7.13849908480781 %
+Walking: 92.86150091519218 %
+Total: 3278
+%16/05/23 23:20:04 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:20:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Accelerometer.csv%16/05/23 23:20:06 INFO util.AlghoritmRunner: J48
+
+Running: 1.0737948366461045 %
+Walking: 98.9262051633539 %
+Total: 4377
+%16/05/23 23:20:06 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Accelerometer.csv%16/05/23 23:22:25 INFO util.AlghoritmRunner: KNN
+
+Running: 3.655471784327165 %
+Walking: 96.34452821567282 %
+Total: 4377
+%16/05/23 23:22:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Accelerometer.csv%16/05/23 23:22:31 INFO util.AlghoritmRunner: SVM
+
+Running: 0.9824080420379254 %
+Walking: 99.01759195796207 %
+Total: 4377
+%16/05/23 23:22:31 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Accelerometer.csv%16/05/23 23:23:17 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 4.20379255197624 %
+Walking: 95.79620744802376 %
+Total: 4377
+%16/05/23 23:23:17 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Accelerometer.csv%16/05/23 23:23:18 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 1.9419693854238065 %
+Walking: 98.0580306145762 %
+Total: 4377
+%16/05/23 23:23:18 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes2_Accelerometer.csv%16/05/23 23:23:35 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 1.3936486177747316 %
+Walking: 98.60635138222527 %
+Total: 4377
+%16/05/23 23:23:35 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:23:35 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Accelerometer.csv%16/05/23 23:23:37 INFO util.AlghoritmRunner: J48
+
+Running: 7.006369426751593 %
+Walking: 92.99363057324841 %
+Total: 3297
+%16/05/23 23:23:37 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Accelerometer.csv%16/05/23 23:26:30 INFO util.AlghoritmRunner: KNN
+
+Running: 13.315134971185927 %
+Walking: 86.68486502881407 %
+Total: 3297
+%16/05/23 23:26:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Accelerometer.csv%16/05/23 23:26:40 INFO util.AlghoritmRunner: SVM
+
+Running: 0.09099181073703368 %
+Walking: 99.90900818926298 %
+Total: 3297
+%16/05/23 23:26:41 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Accelerometer.csv%16/05/23 23:27:54 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 14.437367303609342 %
+Walking: 85.56263269639066 %
+Total: 3297
+%16/05/23 23:27:54 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Accelerometer.csv%16/05/23 23:27:56 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 10.676372459811951 %
+Walking: 89.32362754018806 %
+Total: 3297
+%16/05/23 23:27:56 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3_Accelerometer.csv%16/05/23 23:28:21 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 8.826205641492265 %
+Walking: 91.17379435850773 %
+Total: 3297
+%16/05/23 23:28:21 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:28:21 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Accelerometer.csv%16/05/23 23:28:22 INFO util.AlghoritmRunner: J48
+
+Running: 0.8525149190110828 %
+Walking: 99.14748508098891 %
+Total: 1173
+%16/05/23 23:28:22 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Accelerometer.csv%16/05/23 23:31:09 INFO util.AlghoritmRunner: KNN
+
+Running: 3.154305200341006 %
+Walking: 96.845694799659 %
+Total: 1173
+%16/05/23 23:31:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Accelerometer.csv%16/05/23 23:31:15 INFO util.AlghoritmRunner: SVM
+
+Running: 0.08525149190110827 %
+Walking: 99.9147485080989 %
+Total: 1173
+%16/05/23 23:31:15 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Accelerometer.csv%16/05/23 23:32:09 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 3.154305200341006 %
+Walking: 96.845694799659 %
+Total: 1173
+%16/05/23 23:32:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Accelerometer.csv%16/05/23 23:32:10 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 0.2557544757033248 %
+Walking: 99.74424552429667 %
+Total: 1173
+%16/05/23 23:32:10 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4_Accelerometer.csv%16/05/23 23:32:30 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 1.278772378516624 %
+Walking: 98.72122762148338 %
+Total: 1173
+%16/05/23 23:32:30 INFO main.AccelerometerMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/23 23:32:30 INFO main.AccelerometerMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:32:30 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:32:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Accelerometer.csv%16/05/23 23:32:32 INFO util.AlghoritmRunner: J48
+
+Running: 94.74714518760196 %
+Walking: 5.252854812398042 %
+Total: 3065
+%16/05/23 23:32:32 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Accelerometer.csv%16/05/23 23:35:17 INFO util.AlghoritmRunner: KNN
+
+Running: 94.61663947797716 %
+Walking: 5.383360522022838 %
+Total: 3065
+%16/05/23 23:35:17 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Accelerometer.csv%16/05/23 23:35:23 INFO util.AlghoritmRunner: SVM
+
+Running: 65.84013050570962 %
+Walking: 34.159869494290376 %
+Total: 3065
+%16/05/23 23:35:24 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Accelerometer.csv%16/05/23 23:36:20 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 96.4110929853181 %
+Walking: 3.588907014681892 %
+Total: 3065
+%16/05/23 23:36:20 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Accelerometer.csv%16/05/23 23:36:21 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 93.3115823817292 %
+Walking: 6.688417618270799 %
+Total: 3065
+%16/05/23 23:36:21 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Testes1.1_Accelerometer.csv%16/05/23 23:36:44 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 94.71451876019576 %
+Walking: 5.285481239804241 %
+Total: 3065
+%16/05/23 23:36:44 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:36:44 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Accelerometer.csv%16/05/23 23:36:46 INFO util.AlghoritmRunner: J48
+
+Running: 92.74447949526814 %
+Walking: 7.255520504731862 %
+Total: 317
+%16/05/23 23:36:46 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Accelerometer.csv%16/05/23 23:39:17 INFO util.AlghoritmRunner: KNN
+
+Running: 94.00630914826499 %
+Walking: 5.993690851735016 %
+Total: 317
+%16/05/23 23:39:17 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Accelerometer.csv%16/05/23 23:39:23 INFO util.AlghoritmRunner: SVM
+
+Running: 51.419558359621455 %
+Walking: 48.580441640378545 %
+Total: 317
+%16/05/23 23:39:23 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Accelerometer.csv%16/05/23 23:40:09 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 95.58359621451105 %
+Walking: 4.416403785488959 %
+Total: 317
+%16/05/23 23:40:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Accelerometer.csv%16/05/23 23:40:10 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 93.05993690851734 %
+Walking: 6.940063091482649 %
+Total: 317
+%16/05/23 23:40:10 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste2.1_Accelerometer.csv%16/05/23 23:40:27 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 93.69085173501577 %
+Walking: 6.309148264984227 %
+Total: 317
+%16/05/23 23:40:27 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:40:27 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Accelerometer.csv%16/05/23 23:40:29 INFO util.AlghoritmRunner: J48
+
+Running: 81.73828125 %
+Walking: 18.26171875 %
+Total: 3072
+%16/05/23 23:40:29 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Accelerometer.csv%16/05/23 23:42:45 INFO util.AlghoritmRunner: KNN
+
+Running: 83.85416666666666 %
+Walking: 16.145833333333336 %
+Total: 3072
+%16/05/23 23:42:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Accelerometer.csv% q16/05/23 23:42:50 INFO util.AlghoritmRunner: SVM
+
+Running: 33.49609375 %
+Walking: 66.50390625 %
+Total: 3072
+%16/05/23 23:42:51 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Accelerometer.csv%16/05/23 23:43:40 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 73.47005208333334 %
+Walking: 26.529947916666668 %
+Total: 3072
+%16/05/23 23:43:40 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Accelerometer.csv%16/05/23 23:43:42 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 82.97526041666666 %
+Walking: 17.024739583333336 %
+Total: 3072
+%16/05/23 23:43:43 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/mobile/Experiment/Teste3.1_Accelerometer.csv%16/05/23 23:44:05 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 83.203125 %
+Walking: 16.796875 %
+Total: 3072
+%16/05/23 23:44:05 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:44:05 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Accelerometer.csv%16/05/23 23:44:07 INFO util.AlghoritmRunner: J48
+
+Running: 91.40127388535032 %
+Walking: 8.598726114649681 %
+Total: 314
+%16/05/23 23:44:07 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Accelerometer.csv%16/05/23 23:46:27 INFO util.AlghoritmRunner: KNN
+
+Running: 92.03821656050955 %
+Walking: 7.961783439490445 %
+Total: 314
+%16/05/23 23:46:28 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Accelerometer.csv%16/05/23 23:46:33 INFO util.AlghoritmRunner: SVM
+
+Running: 46.496815286624205 %
+Walking: 53.503184713375795 %
+Total: 314
+%16/05/23 23:46:33 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Accelerometer.csv%16/05/23 23:47:24 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 93.31210191082803 %
+Walking: 6.687898089171974 %
+Total: 314
+%16/05/23 23:47:25 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Accelerometer.csv%16/05/23 23:47:26 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 90.44585987261146 %
+Walking: 9.554140127388536 %
+Total: 314
+%16/05/23 23:47:26 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaPhone/Teste4.1_Accelerometer.csv%16/05/23 23:47:54 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 92.03821656050955 %
+Walking: 7.961783439490445 %
+Total: 314
+%16/05/23 23:47:54 INFO main.AccelerometerMainExecutorImpessoal: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ BLOCO SMARTWATCH...
+%16/05/23 23:47:54 INFO util.IOUtil: CONCATENANDO ARQUIVOS. Total: 8. Nome: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/concatenado_accelerometer_smartwatch.csv 
+%16/05/23 23:47:54 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/DatasetIgorWatch/teste 1_AccelerometerAndar.csv
+%16/05/23 23:47:54 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/DatasetIgorWatch/teste 1_AccelerometerCorrer.csv
+%16/05/23 23:47:54 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste2_AccelerometerAndar.csv
+%16/05/23 23:47:54 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste2_AccelerometerCorrer.csv
+%16/05/23 23:47:54 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste3_AccelerometerAndar.csv
+%16/05/23 23:47:54 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Dataset/teste3_AccelerometerCorrer.csv
+%16/05/23 23:47:54 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaWatch/teste 4_AccelerometerAndar.csv
+%16/05/23 23:47:54 INFO util.IOUtil: CONCATENANDO ARQUIVO: /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/DatasetPetalaWatch/teste 4_AccelerometerCorrer.csv
+%16/05/23 23:47:54 INFO main.AccelerometerMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE ANDAR...
+%16/05/23 23:47:54 INFO main.AccelerometerMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/23 23:47:54 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:47:54 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Accelerometer.csv%16/05/23 23:47:55 INFO util.AlghoritmRunner: J48
+
+Running: 4.243027888446215 %
+Walking: 95.75697211155378 %
+Total: 5020
+%16/05/23 23:47:55 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Accelerometer.csv%16/05/23 23:50:45 INFO util.AlghoritmRunner: KNN
+
+Running: 7.589641434262948 %
+Walking: 92.41035856573706 %
+Total: 5020
+%16/05/23 23:50:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Accelerometer.csv%16/05/23 23:50:46 INFO util.AlghoritmRunner: SVM
+
+Running: 3.5657370517928286 %
+Walking: 96.43426294820718 %
+Total: 5020
+%16/05/23 23:50:47 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Accelerometer.csv%16/05/23 23:51:45 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 2.9681274900398407 %
+Walking: 97.03187250996017 %
+Total: 5020
+%16/05/23 23:51:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Accelerometer.csv%16/05/23 23:51:46 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 7.111553784860558 %
+Walking: 92.88844621513944 %
+Total: 5020
+%16/05/23 23:51:46 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1_Accelerometer.csv%16/05/23 23:52:09 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 4.820717131474104 %
+Walking: 95.17928286852589 %
+Total: 5020
+%16/05/23 23:52:09 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:52:10 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Accelerometer.csv%16/05/23 23:52:11 INFO util.AlghoritmRunner: J48
+
+Running: 4.975863349424434 %
+Walking: 95.02413665057557 %
+Total: 5386
+%16/05/23 23:52:11 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Accelerometer.csv%16/05/23 23:54:39 INFO util.AlghoritmRunner: KNN
+
+Running: 6.368362421091719 %
+Walking: 93.63163757890828 %
+Total: 5386
+%16/05/23 23:54:40 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Accelerometer.csv%16/05/23 23:54:41 INFO util.AlghoritmRunner: SVM
+
+Running: 6.23839584106944 %
+Walking: 93.76160415893055 %
+Total: 5386
+%16/05/23 23:54:41 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Accelerometer.csv%16/05/23 23:55:39 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 1.5038989974006682 %
+Walking: 98.49610100259933 %
+Total: 5386
+%16/05/23 23:55:39 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Accelerometer.csv%16/05/23 23:55:40 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 7.222428518380989 %
+Walking: 92.77757148161902 %
+Total: 5386
+%16/05/23 23:55:40 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2_Accelerometer.csv%16/05/23 23:55:57 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 5.402896398069068 %
+Walking: 94.59710360193093 %
+Total: 5386
+%16/05/23 23:55:57 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:55:57 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Accelerometer.csv%16/05/23 23:55:59 INFO util.AlghoritmRunner: J48
+
+Running: 12.017887087758524 %
+Walking: 87.98211291224148 %
+Total: 3578
+%16/05/23 23:55:59 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Accelerometer.csv%16/05/23 23:58:38 INFO util.AlghoritmRunner: KNN
+
+Running: 13.499161542761321 %
+Walking: 86.50083845723869 %
+Total: 3578
+%16/05/23 23:58:38 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Accelerometer.csv%16/05/23 23:58:39 INFO util.AlghoritmRunner: SVM
+
+Running: 11.151481274455003 %
+Walking: 88.848518725545 %
+Total: 3578
+%16/05/23 23:58:39 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Accelerometer.csv%16/05/23 23:59:28 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 13.527110117384014 %
+Walking: 86.47288988261599 %
+Total: 3578
+%16/05/23 23:59:29 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Accelerometer.csv%16/05/23 23:59:29 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 18.334264952487423 %
+Walking: 81.66573504751258 %
+Total: 3578
+%16/05/23 23:59:29 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste3_Accelerometer.csv%16/05/23 23:59:46 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 11.179429849077698 %
+Walking: 88.82057015092231 %
+Total: 3578
+%16/05/23 23:59:46 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/23 23:59:46 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Accelerometer.csv%16/05/23 23:59:47 INFO util.AlghoritmRunner: J48
+
+Running: 4.985638079606073 %
+Walking: 95.01436192039392 %
+Total: 4874
+%16/05/23 23:59:47 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Accelerometer.csv%16/05/24 00:02:07 INFO util.AlghoritmRunner: KNN
+
+Running: 6.421830118998768 %
+Walking: 93.57816988100123 %
+Total: 4874
+%16/05/24 00:02:08 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Accelerometer.csv%16/05/24 00:02:09 INFO util.AlghoritmRunner: SVM
+
+Running: 0.5949938448912597 %
+Walking: 99.40500615510874 %
+Total: 4874
+%16/05/24 00:02:09 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Accelerometer.csv%16/05/24 00:03:00 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 1.5182601559294213 %
+Walking: 98.48173984407057 %
+Total: 4874
+%16/05/24 00:03:00 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Accelerometer.csv%16/05/24 00:03:01 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 0.6565449322938038 %
+Walking: 99.3434550677062 %
+Total: 4874
+%16/05/24 00:03:01 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4_Accelerometer.csv%16/05/24 00:03:19 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 5.867870332375872 %
+Walking: 94.13212966762413 %
+Total: 4874
+%16/05/24 00:03:19 INFO main.AccelerometerMainAb: ####################### INICIANDO RECONHECIMENTO ATIVIDADE CORRER...
+%16/05/24 00:03:19 INFO main.AccelerometerMainAb: ######################## 1 COMPARANDO ARQUIVOS.
+%16/05/24 00:03:19 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/24 00:03:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Accelerometer.csv%16/05/24 00:03:20 INFO util.AlghoritmRunner: J48
+
+Running: 92.60049220672683 %
+Walking: 7.399507793273175 %
+Total: 6095
+%16/05/24 00:03:20 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Accelerometer.csv%16/05/24 00:05:37 INFO util.AlghoritmRunner: KNN
+
+Running: 93.19114027891715 %
+Walking: 6.808859721082855 %
+Total: 6095
+%16/05/24 00:05:37 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Accelerometer.csv%16/05/24 00:05:38 INFO util.AlghoritmRunner: SVM
+
+Running: 87.66201804757998 %
+Walking: 12.337981952420016 %
+Total: 6095
+%16/05/24 00:05:38 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Accelerometer.csv%16/05/24 00:06:27 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 92.45283018867924 %
+Walking: 7.547169811320755 %
+Total: 6095
+%16/05/24 00:06:28 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Accelerometer.csv%16/05/24 00:06:29 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 80.85315832649714 %
+Walking: 19.14684167350287 %
+Total: 6095
+%16/05/24 00:06:29 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/ExperimentoIgorWatch/teste 1.1_Accelerometer.csv%16/05/24 00:06:45 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 93.30598851517638 %
+Walking: 6.694011484823625 %
+Total: 6095
+%16/05/24 00:06:45 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/24 00:06:45 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Accelerometer.csv%16/05/24 00:06:46 INFO util.AlghoritmRunner: J48
+
+Running: 98.71617618013036 %
+Walking: 1.2838238198696426 %
+Total: 5063
+%16/05/24 00:06:47 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Accelerometer.csv%16/05/24 00:08:56 INFO util.AlghoritmRunner: KNN
+
+Running: 98.49891368753704 %
+Walking: 1.5010863124629668 %
+Total: 5063
+%16/05/24 00:08:56 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Accelerometer.csv%16/05/24 00:08:57 INFO util.AlghoritmRunner: SVM
+
+Running: 90.65771281848707 %
+Walking: 9.342287181512937 %
+Total: 5063
+%16/05/24 00:08:58 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Accelerometer.csv%16/05/24 00:09:49 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 96.58305352557772 %
+Walking: 3.416946474422279 %
+Total: 5063
+%16/05/24 00:09:49 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Accelerometer.csv%16/05/24 00:09:50 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 90.04542761208769 %
+Walking: 9.954572387912306 %
+Total: 5063
+%16/05/24 00:09:50 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/teste2.1_Accelerometer.csv%16/05/24 00:10:07 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 99.07169662255579 %
+Walking: 0.9283033774442031 %
+Total: 5063
+%16/05/24 00:10:07 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/24 00:10:07 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/testes3.1_Accelerometer.csv%16/05/24 00:10:08 INFO util.AlghoritmRunner: J48
+
+Running: 89.50028074115666 %
+Walking: 10.499719258843346 %
+Total: 3562
+%16/05/24 00:10:08 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/testes3.1_Accelerometer.csv%16/05/24 00:12:40 INFO util.AlghoritmRunner: KNN
+
+Running: 89.94946659180236 %
+Walking: 10.05053340819764 %
+Total: 3562
+%16/05/24 00:12:40 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/testes3.1_Accelerometer.csv%16/05/24 00:12:41 INFO util.AlghoritmRunner: SVM
+
+Running: 78.91633913531723 %
+Walking: 21.083660864682763 %
+Total: 3562
+%16/05/24 00:12:41 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/testes3.1_Accelerometer.csv%16/05/24 00:13:30 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 84.33464345873105 %
+Walking: 15.665356541268949 %
+Total: 3562
+%16/05/24 00:13:30 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/testes3.1_Accelerometer.csv%16/05/24 00:13:31 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 77.73722627737226 %
+Walking: 22.26277372262774 %
+Total: 3562
+%16/05/24 00:13:31 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/wearable/Experimento/testes3.1_Accelerometer.csv%16/05/24 00:13:47 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 90.67939359910163 %
+Walking: 9.320606400898372 %
+Total: 3562
+%16/05/24 00:13:47 INFO main.AccelerometerMainAb: #### COMPARANDO ARQUIVOS. USUARIO: 
+%16/05/24 00:13:48 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Accelerometer.csv%16/05/24 00:13:49 INFO util.AlghoritmRunner: J48
+
+Running: 94.32926829268293 %
+Walking: 5.670731707317073 %
+Total: 4920
+%16/05/24 00:13:49 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Accelerometer.csv%16/05/24 00:16:27 INFO util.AlghoritmRunner: KNN
+
+Running: 95.14227642276423 %
+Walking: 4.857723577235772 %
+Total: 4920
+%16/05/24 00:16:27 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Accelerometer.csv%16/05/24 00:16:28 INFO util.AlghoritmRunner: SVM
+
+Running: 84.08536585365853 %
+Walking: 15.914634146341463 %
+Total: 4920
+%16/05/24 00:16:28 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Accelerometer.csv%16/05/24 00:17:19 INFO util.AlghoritmRunner: Multi-layer perceptron (MLP)
+
+Running: 93.98373983739837 %
+Walking: 6.016260162601626 %
+Total: 4920
+%16/05/24 00:17:19 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Accelerometer.csv%16/05/24 00:17:20 INFO util.AlghoritmRunner: Naive Bayes (NB)
+
+Running: 85.8130081300813 %
+Walking: 14.1869918699187 %
+Total: 4920
+%16/05/24 00:17:20 INFO util.AlghoritmRunner: INICIANDO CONVERSAO DO ARQUIVO DE RECONHECIMENTO -> /Users/antoniolazarocarvalhoborges/desenvolvimento/workspace/mestrado/experimento_1-20.05.2016/dados/Petala/ExperimentoPetalaWatch/teste 4.1_Accelerometer.csv%16/05/24 00:17:37 INFO util.AlghoritmRunner: Random Forrest
+
+Running: 95.38617886178862 %
+Walking: 4.613821138211382 %
+Total: 4920
+%

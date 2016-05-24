@@ -5,7 +5,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-import br.ufba.activityrecognition.business.parser.XlsxToArffParser;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsXlsxToArffParser;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.J48;
@@ -22,7 +22,7 @@ public class ClassifyingTest {
 	
 	public static void main(String[] args) throws Exception{
 	
-		XlsxToArffParser xlsxToArffParser = new XlsxToArffParser();
+		AllSensorsXlsxToArffParser xlsxToArffParser = new AllSensorsXlsxToArffParser();
 		Instances instanceTraining = xlsxToArffParser.parserToArff(fileName);
 		instanceTraining.setClassIndex(instanceTraining.numAttributes() - 1);
 		

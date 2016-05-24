@@ -1,6 +1,6 @@
-package br.ufba.activityrecognition.business.evaluator;
+package br.ufba.activityrecognition.business.evaluator.allsensors;
 
-import br.ufba.activityrecognition.business.classifier.RandomForrestClassifier;
+import br.ufba.activityrecognition.business.classifier.allsensors.RandomForrestClassifier;
 
 
 public class RandomForrestEvaluator extends EvaluatorAb {

@@ -1,6 +1,6 @@
-package br.ufba.activityrecognition.business.evaluator;
+package br.ufba.activityrecognition.business.evaluator.allsensors;
 
-import br.ufba.activityrecognition.business.classifier.KNNClassifier;
+import br.ufba.activityrecognition.business.classifier.allsensors.KNNClassifier;
 
 
 public class KNNEvaluator extends EvaluatorAb {

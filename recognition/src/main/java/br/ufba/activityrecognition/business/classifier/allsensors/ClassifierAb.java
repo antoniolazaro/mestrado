@@ -1,7 +1,7 @@
-package br.ufba.activityrecognition.business.classifier;
+package br.ufba.activityrecognition.business.classifier.allsensors;
 
-import br.ufba.activityrecognition.business.parser.ArffParserAb;
-import br.ufba.activityrecognition.business.parser.CSVToArffParser;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsArffParserAb;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsCSVToArffParser;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.core.Instances;
@@ -9,7 +9,7 @@ import weka.core.Instances;
 
 public abstract class ClassifierAb {
 
-	private ArffParserAb arffParser;
+	private AllSensorsArffParserAb arffParser;
 	private Classifier classifier;
 	private Evaluation evalutationTest;
 	private Instances learningInstances;
@@ -23,7 +23,7 @@ public abstract class ClassifierAb {
 	}
 
 	public ClassifierAb(Classifier classifier,String nameTrainingFile) throws Exception {
-		this.arffParser = new CSVToArffParser();
+		this.arffParser = new AllSensorsCSVToArffParser();
 		this.classifier = classifier;
 		this.learningInstances = arffParser.parserToArff(nameTrainingFile);
 	}

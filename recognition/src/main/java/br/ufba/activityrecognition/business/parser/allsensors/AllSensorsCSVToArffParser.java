@@ -1,4 +1,4 @@
-package br.ufba.activityrecognition.business.parser;
+package br.ufba.activityrecognition.business.parser.allsensors;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,7 +13,7 @@ import br.ufba.activityrecognition.business.exception.ApplicationException;
 import br.ufba.activityrecognition.business.exception.EnvironmentException;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 
-public class CSVToArffParser extends ArffParserAb {
+public class AllSensorsCSVToArffParser extends AllSensorsArffParserAb {
 	
 	public static final int BUFFER_SIZE = 8192;
 	

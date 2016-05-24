@@ -1,7 +1,7 @@
 package br.ufba.activityrecognition.business.codetest;
 
-import br.ufba.activityrecognition.business.parser.ArffParserAb;
-import br.ufba.activityrecognition.business.parser.CSVToArffParser;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsArffParserAb;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsCSVToArffParser;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.trees.J48;
@@ -16,7 +16,7 @@ public class DistributionCalculatorTest {
 	
 	public static void main(String[] args) throws Exception{
 	
-		ArffParserAb xlsxToArffParser = new CSVToArffParser();
+		AllSensorsArffParserAb xlsxToArffParser = new AllSensorsCSVToArffParser();
 		Instances instanceTraining = xlsxToArffParser.parserToArff(fileName);
 		instanceTraining.setClassIndex(instanceTraining.numAttributes() - 1);
 		
