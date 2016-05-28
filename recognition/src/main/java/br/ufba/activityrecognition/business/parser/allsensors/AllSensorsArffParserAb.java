@@ -9,12 +9,13 @@ import java.io.OutputStreamWriter;
 import java.util.List;
 
 import br.ufba.activityrecognition.business.exception.EnvironmentException;
+import br.ufba.activityrecognition.business.parser.ParserIf;
 import br.ufba.activityrecognition.core.enuns.ActivitiesEnum;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
-public abstract class AllSensorsArffParserAb {
+public abstract class AllSensorsArffParserAb implements ParserIf{
 	
 	public Instances parserToArff(String fileName) throws Exception{
 		return parserToArff(new File(fileName));

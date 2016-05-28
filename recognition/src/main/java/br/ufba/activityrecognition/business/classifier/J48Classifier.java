@@ -10,8 +10,11 @@ public class J48Classifier extends ClassifierAb {
 	}
 	
 	public J48Classifier(String fileName) throws Exception {
-		super(new J48(),fileName);
+		super(new J48(),fileName,true);
 	}
-
+	
+	public J48Classifier(String fileName,boolean hasAllSensors) throws Exception {
+		super(new J48(),fileName,hasAllSensors);
+	}
 
 }

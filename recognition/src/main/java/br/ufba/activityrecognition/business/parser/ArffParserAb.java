@@ -14,7 +14,7 @@ import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
-public abstract class ArffParserAb {
+public abstract class ArffParserAb implements ParserIf {
 	
 	public static final int BUFFER_SIZE = 8192;
 	

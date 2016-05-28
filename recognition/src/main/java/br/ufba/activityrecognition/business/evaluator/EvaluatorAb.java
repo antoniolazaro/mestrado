@@ -4,6 +4,7 @@ import java.util.List;
 
 import br.ufba.activityrecognition.business.classifier.ClassifierAb;
 import br.ufba.activityrecognition.business.parser.JsonToArffParser;
+import br.ufba.activityrecognition.business.parser.allsensors.AllSensorsJsonToArffParser;
 import br.ufba.activityrecognition.core.enuns.ActivitiesEnum;
 import br.ufba.activityrecognition.core.weka.DataActivityModel;
 import br.ufba.activityrecognition.core.weka.ResponseRecognitionModel;
@@ -13,15 +14,18 @@ import weka.core.Instances;
 public abstract class EvaluatorAb {
 	
 	private ClassifierAb classifier;
-	private JsonToArffParser jsonToArffParser;
 	
 	public EvaluatorAb(ClassifierAb classifier){
 		this.classifier = classifier;
-		this.jsonToArffParser = new JsonToArffParser();
 	}
 	
 	public ResponseRecognitionModel evaluate(List<DataActivityModel> listaActivities) throws Exception{
-		Instances testInstance = jsonToArffParser.parserToArff(listaActivities);
+		Instances testInstance = null;
+		if(classifier.isHasAllSensors()){
+			testInstance = new JsonToArffParser().parserToArff(listaActivities);
+		}else{
+			testInstance = new AllSensorsJsonToArffParser().parserToArff(listaActivities);
+		}
 		return evaluate(testInstance);
 	}
 	
@@ -58,5 +62,9 @@ public abstract class EvaluatorAb {
 	}
 	
 	public abstract String getAlgorithmName();
+	
+	public ClassifierAb getClassifier() {
+		return classifier;
+	}
 
 }

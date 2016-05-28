@@ -9,8 +9,10 @@ public class MultiLayerPerceptronMLPClassifier extends ClassifierAb {
 	}
 	
 	public MultiLayerPerceptronMLPClassifier(String fileName) throws Exception {
-		super(new MultilayerPerceptron(),fileName);
+		super(new MultilayerPerceptron(),fileName,true);
 	}
-
-
+	
+	public MultiLayerPerceptronMLPClassifier(String fileName,boolean hasAllSensors) throws Exception {
+		super(new MultilayerPerceptron(),fileName,hasAllSensors);
+	}
 }

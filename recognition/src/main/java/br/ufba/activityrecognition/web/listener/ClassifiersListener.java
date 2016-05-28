@@ -9,10 +9,10 @@ import javax.servlet.annotation.WebListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import br.ufba.activityrecognition.business.classifier.allsensors.ClassifierAb;
-import br.ufba.activityrecognition.business.classifier.allsensors.J48Classifier;
-import br.ufba.activityrecognition.business.classifier.allsensors.KNNClassifier;
-import br.ufba.activityrecognition.business.classifier.allsensors.SVMClassifier;
+import br.ufba.activityrecognition.business.classifier.ClassifierAb;
+import br.ufba.activityrecognition.business.classifier.J48Classifier;
+import br.ufba.activityrecognition.business.classifier.KNNClassifier;
+import br.ufba.activityrecognition.business.classifier.SVMClassifier;
 
 @WebListener
 public class ClassifiersListener implements ServletContextListener {

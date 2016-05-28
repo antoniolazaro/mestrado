@@ -9,8 +9,11 @@ public class NaiveBayesClassifier extends ClassifierAb {
 	}
 	
 	public NaiveBayesClassifier(String fileName) throws Exception {
-		super(new NaiveBayes(),fileName);
+		super(new NaiveBayes(),fileName,true);
 	}
-
+	
+	public NaiveBayesClassifier(String fileName,boolean hasAllSensors) throws Exception {
+		super(new NaiveBayes(),fileName,hasAllSensors);
+	}
 
 }

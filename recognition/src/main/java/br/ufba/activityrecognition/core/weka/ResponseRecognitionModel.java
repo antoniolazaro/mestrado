@@ -35,7 +35,15 @@ public class ResponseRecognitionModel implements Serializable{
 	private Integer quantidadeTotal;
 	@XmlElement
 	private String retornoFormatado;
-
+	@XmlElement
+	private String algoritimo;
+	@XmlElement
+	private String nomeUsuarioExperimento;
+	@XmlElement
+	private String atividade;
+	@XmlElement
+	private String equipamento;
+	
 	public ResponseRecognitionModel() {
 		this.codigoRetorno = 1;
 		this.mensagem = "OK.";
@@ -159,6 +167,9 @@ public class ResponseRecognitionModel implements Serializable{
 
 	public String getRetornoFormatado(){
 		StringBuilder builder = new StringBuilder("\n");
+		builder.append("Algoritimo: ").append(getAlgoritimo()).append("\n");
+		builder.append("Usuário Experimento: ").append(getNomeUsuarioExperimento()).append("\n");
+		builder.append("Atividade:").append(getAtividade()).append("\n");
 		if(getTotalDownstairs() > 0){
 			builder.append("Downstairs: ").append(getTotalDownstairs()).append(". (Percentual = ").append(getTotalDownstairsPercentual()).append(" %).\n");	
 		}
@@ -184,33 +195,6 @@ public class ResponseRecognitionModel implements Serializable{
 		return builder.toString();
 	}
 	
-	public String getRetornoCustomizadoParaExcel(){
-		StringBuilder builder = new StringBuilder("\n");
-		if(getTotalDownstairs() > 0){
-			builder.append("Downstairs: ").append(getTotalDownstairsPercentual()).append(" %\n");	
-		}
-		if(getTotalRunning() > 0){
-			builder.append("Running: ").append(getTotalRunningPercentual()).append(" %\n");	
-		}
-		if(getTotalSitting() > 0){
-			builder.append("Sitting: ").append(getTotalSittingPercentual()).append(" %\n");	
-		}
-		if(getTotalStanding() > 0){
-			builder.append("Standing ").append(getTotalStandingPercentual()).append(" %\n");	
-		}
-		if(getTotalUpstairs() > 0){
-			builder.append("Upstairs: ").append(getTotalUpstairsPercentual()).append(" %\n");	
-		}
-		if(getTotalWalking() > 0){
-			builder.append("Walking: ").append(getTotalWalkingPercentual()).append(" %\n");	
-		}
-		if(getTotalNaoReconhecido() > 0){
-			builder.append("Não reconhecido: ").append(getTotalNaoReconhecidoPercentual()).append(" %\n");	
-		}
-		builder.append("Total: ").append(getQuantidadeTotal()).append("\n");
-		return builder.toString();
-	}
-
 	public Integer getTotalDownstairs() {
 		return totalDownstairs;
 	}
@@ -241,5 +225,37 @@ public class ResponseRecognitionModel implements Serializable{
 	
 	public Integer getTotalNaoReconhecido() {
 		return totalNaoReconhecido;
+	}
+
+	public String getAlgoritimo() {
+		return algoritimo;
+	}
+
+	public void setAlgoritimo(String algoritimo) {
+		this.algoritimo = algoritimo;
+	}
+
+	public String getNomeUsuarioExperimento() {
+		return nomeUsuarioExperimento;
+	}
+
+	public void setNomeUsuarioExperimento(String nomeUsuarioExperimento) {
+		this.nomeUsuarioExperimento = nomeUsuarioExperimento;
+	}
+
+	public String getAtividade() {
+		return atividade;
+	}
+
+	public void setAtividade(String atividade) {
+		this.atividade = atividade;
+	}
+
+	public String getEquipamento() {
+		return equipamento;
+	}
+
+	public void setEquipamento(String equipamento) {
+		this.equipamento = equipamento;
 	}
 }
