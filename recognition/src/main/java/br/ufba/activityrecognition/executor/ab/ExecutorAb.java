@@ -36,15 +36,15 @@ public abstract class ExecutorAb implements ExecutorIf {
 	}
 	
 	protected String getPathBaseDados(){
-		return getPathBase()+"/dados/";
+		return getPathBase()+"dados/";
 	}
 	
 	protected String getPathBaseTarget(){
-		return getPathBase()+"/target/";
+		return getPathBase()+"target/";
 	}
 	
 	protected String getPathBaseResult(){
-		return getPathBase()+"/result/";
+		return getPathBase()+"result/";
 	}
 	
 	protected void addResponse(ResponseActivityModel responseActivity){
