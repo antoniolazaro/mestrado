@@ -31,26 +31,26 @@ public class ClassifiersListener implements ServletContextListener {
 	@Override
 	public void contextInitialized(ServletContextEvent servletContextEvent) {
 		try{
-			logger.info("VAI INICIAR CARGA DO CLASSIFICADOR J48."+new Date());
+			logger.info("\n VAI INICIAR CARGA DO CLASSIFICADOR J48."+new Date());
 			ClassifierAb classifierJ48 = new J48Classifier();
 			classifierJ48.classifierTrainingInstances();
-			logger.info("FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR J48."+new Date());
+			logger.info("\n FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR J48."+new Date());
 			servletContextEvent.getServletContext().setAttribute(CLASSIFIER_J48_ATTRIBUTE_NAME, classifierJ48);
-			logger.info("setAttribute do CLASSIFICADOR J48."+new Date());
+			logger.info("\n setAttribute do CLASSIFICADOR J48."+new Date());
 
-			logger.info("VAI INICIAR CARGA DO CLASSIFICADOR KNN."+new Date());
+			logger.info("\n VAI INICIAR CARGA DO CLASSIFICADOR KNN."+new Date());
 			ClassifierAb classifierKNN = new KNNClassifier();
 			classifierKNN.classifierTrainingInstances();
-			logger.info("FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR KNN."+new Date());
+			logger.info("\n FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR KNN."+new Date());
 			servletContextEvent.getServletContext().setAttribute(CLASSIFIER_KNN_ATTRIBUTE_NAME, classifierKNN);
-			logger.info("setAttribute do CLASSIFICADOR KNN."+new Date());
+			logger.info("\n setAttribute do CLASSIFICADOR KNN."+new Date());
 
-			logger.info("VAI INICIAR CARGA DO CLASSIFICADOR SVM."+new Date());
+			logger.info("\n VAI INICIAR CARGA DO CLASSIFICADOR SVM."+new Date());
 			ClassifierAb classifierSVM = new SVMClassifier();
 			classifierSVM.classifierTrainingInstances();
-			logger.info("FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR SVM."+new Date());
+			logger.info("\n FINALIZOU CARGA E CLASSIFICACAO DO CLASSIFICADOR SVM."+new Date());
 			servletContextEvent.getServletContext().setAttribute(CLASSIFIER_SVM_ATTRIBUTE_NAME, classifierSVM);
-			logger.info("setAttribute do CLASSIFICADOR SVM."+new Date());
+			logger.info("\n setAttribute do CLASSIFICADOR SVM."+new Date());
 		}catch(Exception ex){
 			ex.printStackTrace();
 		}

@@ -14,11 +14,11 @@ public abstract class ExecutorPessoalAb extends ExecutorAb{
 	public void runSmartphone(String[] dataSource) throws Exception{
 		
 		for(int indice=0;indice<getUserList().length;indice++){
-			logger.info("############################################# CAMINHADA USUARIO..."+getUserList()[indice]+"\n");
+			logger.info("\n ############################################# CAMINHADA USUARIO..."+getUserList()[indice]+"\n");
 			processActivityOnDeviceByUser(dataSource,
 					getDataTargeFileSmartphone()[indice],DevicesEnum.SMARTPHONE.getNome(),getUserList()[indice],ActivitiesEnum.WALKING.getNome(),
 					new String[]{getExperimentoSmartphoneAndar()[indice]});
-			logger.info("############################################# CORRIDA USUARIO..."+getUserList()[indice]+"\n");
+			logger.info("\n ############################################# CORRIDA USUARIO..."+getUserList()[indice]+"\n");
 			processActivityOnDeviceByUser(dataSource,
 					getDataTargeFileSmartphone()[indice],DevicesEnum.SMARTPHONE.getNome(),getUserList()[indice],ActivitiesEnum.RUNNING.getNome(),
 					new String[]{getExperimentoSmartphoneAndar()[indice]});
@@ -28,11 +28,11 @@ public abstract class ExecutorPessoalAb extends ExecutorAb{
 	public void runSmartwatch(String[] dataSource) throws Exception{
 		
 		for(int indice=0;indice<getUserList().length;indice++){
-			logger.info("############################################# CAMINHADA USUARIO..."+getUserList()[indice]+"\n");
+			logger.info("\n ############################################# CAMINHADA USUARIO..."+getUserList()[indice]+"\n");
 			processActivityOnDeviceByUser(dataSource,
 					getDataTargeFileSmartphone()[indice],DevicesEnum.SMARTWATCH.getNome(),getUserList()[indice],ActivitiesEnum.WALKING.getNome(),
 					new String[]{getExperimentoSmartphoneAndar()[indice]});
-			logger.info("############################################# CORRIDA USUARIO..."+getUserList()[indice]+"\n");
+			logger.info("\n ############################################# CORRIDA USUARIO..."+getUserList()[indice]+"\n");
 			processActivityOnDeviceByUser(dataSource,
 					getDataTargeFileSmartphone()[indice],DevicesEnum.SMARTWATCH.getNome(),getUserList()[indice],ActivitiesEnum.RUNNING.getNome(),
 					new String[]{getExperimentoSmartphoneAndar()[indice]});

@@ -18,10 +18,10 @@ public class MainExecutor{
 	private static final Logger logger = LoggerFactory.getLogger(MainExecutor.class);
 	
 	public static void main(String[] args) throws Exception{
-		logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ rodando processo pessoal para todos usuários. Quantidade = "+UsersEnum.values().length);
-		runPessoal();
-//		logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ rodando processo impessoal para todos usuários. Quantidade = "+UsersEnum.values().length);
-//		runImpessoal();
+//		logger.info("\n @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ rodando processo pessoal para todos usuários. Quantidade = "+UsersEnum.values().length);
+//		runPessoal();
+		logger.info("\n @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ rodando processo impessoal para todos usuários. Quantidade = "+UsersEnum.values().length);
+		runImpessoal();
 	}
 
 	private static void runImpessoal() throws Exception {

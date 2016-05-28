@@ -20,11 +20,11 @@ public class IOUtil {
 	private static final Logger logger = LoggerFactory.getLogger(IOUtil.class);
 	
 	public static void mergeFiles(String[] files,String target) throws IOException{
-		logger.info("CONCATENANDO ARQUIVOS. Total: "+files.length+". Nome: "+target+" \n");
+		logger.info("\n CONCATENANDO ARQUIVOS. Total: "+files.length+". Nome: "+target+" \n");
 		OutputStream out = new FileOutputStream(target);
 	    byte[] buf = new byte[1024];
 	    for (String file : files) {
-	    	logger.info("CONCATENANDO ARQUIVO: "+file+"\n");
+	    	logger.info("\n CONCATENANDO ARQUIVO: "+file+"\n");
 	        InputStream in = new FileInputStream(file);
 	        int b = 0;
 	        while ( (b = in.read(buf)) >= 0) {

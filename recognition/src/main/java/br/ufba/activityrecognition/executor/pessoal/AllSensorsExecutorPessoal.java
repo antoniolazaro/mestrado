@@ -40,7 +40,7 @@ public class AllSensorsExecutorPessoal extends AllSensorsExecutorAb{
 	}
 	
 	public void run() throws Exception{
-		logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando allsensors com dataset pessoal...\n");
+		logger.info("\n @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando allsensors com dataset pessoal...\n");
 		runPessoal();
 	}
 

@@ -35,7 +35,7 @@ public class GyroscopeExecutorImpessoal extends GyroscopeExecutorAb {
 	}
 	
 	public void run() throws Exception{
-		logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando giroscopio com dataset impessoal...\n");
+		logger.info("\n @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando giroscopio com dataset impessoal...\n");
 		runImpessoal();
 	}
 

@@ -34,7 +34,7 @@ public class AllSensorsExecutorImpessoal extends AllSensorsExecutorAb {
 	}
 	
 	public void run() throws Exception{
-		logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando allsensors com dataset impessoal...\n");
+		logger.info("\n @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando allsensors com dataset impessoal...\n");
 		runImpessoal();
 	}
 

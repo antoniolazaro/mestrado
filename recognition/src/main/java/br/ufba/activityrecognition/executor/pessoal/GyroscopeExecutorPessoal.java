@@ -40,7 +40,7 @@ public class GyroscopeExecutorPessoal extends GyroscopeExecutorAb{
 	}
 	
 	public void run() throws Exception{
-		logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando giroscopio com dataset pessoal...\n");
+		logger.info("\n @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando giroscopio com dataset pessoal...\n");
 		runPessoal();
 	}
 	

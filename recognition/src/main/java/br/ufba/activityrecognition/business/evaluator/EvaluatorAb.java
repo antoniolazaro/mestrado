@@ -38,7 +38,13 @@ public abstract class EvaluatorAb {
 		for (int i = 0; i < quantidadeTotalRegistros; i++) {
 			double clsLabel = classifier.getClassifier().classifyInstance(testInstance.instance(i));
 			unLabeled.instance(i).setClassValue(clsLabel);
-			String valor = unLabeled.instance(i).stringValue(3);
+			String valor = null;
+			if(classifier.isHasAllSensors()){
+				valor = unLabeled.instance(i).stringValue(9);
+			}else{
+				valor = unLabeled.instance(i).stringValue(3);
+			}
+			
 			if(ActivitiesEnum.DOWNSTAIRS.getNome().equals(valor)){
 				responseRecognitionModel.addTotalDownstairs();
 			}else if(ActivitiesEnum.RUNNING.getNome().equals(valor)){

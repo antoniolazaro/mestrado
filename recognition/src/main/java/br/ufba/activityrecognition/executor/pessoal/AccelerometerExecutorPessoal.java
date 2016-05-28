@@ -40,7 +40,7 @@ public class AccelerometerExecutorPessoal extends AccelerometerExecutorAb{
 	}
 	
 	public void run() throws Exception{
-		logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando acelerometero com dataset pessoal...\n");
+		logger.info("\n @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando acelerometero com dataset pessoal...\n");
 		runPessoal();	
 	}
 	

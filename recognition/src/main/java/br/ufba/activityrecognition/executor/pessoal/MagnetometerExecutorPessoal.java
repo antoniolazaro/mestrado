@@ -41,7 +41,7 @@ public class MagnetometerExecutorPessoal extends MagnetometerExecutorAb{
 	}
 	
 	public void run() throws Exception{
-		logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando magnetometro com dataset pessoal...\n");
+		logger.info("\n @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Processando magnetometro com dataset pessoal...\n");
 		runPessoal();
 	}
 	
